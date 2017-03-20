@@ -1,0 +1,13203 @@
+ccopy_reg
+_reconstructor
+p0
+(cpandas.core.frame
+DataFrame
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'_metadata'
+p6
+(lp7
+sS'_typ'
+p8
+S'dataframe'
+p9
+sS'_data'
+p10
+g0
+(cpandas.core.internals
+BlockManager
+p11
+g2
+Ntp12
+Rp13
+((lp14
+cpandas.indexes.base
+_new_Index
+p15
+(cpandas.indexes.base
+Index
+p16
+(dp17
+S'data'
+p18
+cnumpy.core.multiarray
+_reconstruct
+p19
+(cnumpy
+ndarray
+p20
+(I0
+tp21
+S'b'
+p22
+tp23
+Rp24
+(I1
+(I8
+tp25
+cnumpy
+dtype
+p26
+(S'O8'
+p27
+I0
+I1
+tp28
+Rp29
+(I3
+S'|'
+p30
+NNNI-1
+I-1
+I63
+tp31
+bI00
+(lp32
+S'budget'
+p33
+aS'distributor'
+p34
+aS'domestic_total_gross'
+p35
+aS'genre'
+p36
+aS'rating'
+p37
+aS'release_date'
+p38
+aS'runtime'
+p39
+aS'title'
+p40
+atp41
+bsS'name'
+p42
+Nstp43
+Rp44
+ag15
+(cpandas.indexes.range
+RangeIndex
+p45
+(dp46
+S'start'
+p47
+I0
+sS'step'
+p48
+I1
+sS'stop'
+p49
+I926
+sg42
+Nstp50
+Rp51
+a(lp52
+g19
+(g20
+(I0
+tp53
+g22
+tp54
+Rp55
+(I1
+(I1
+I926
+tp56
+g26
+(S'f8'
+p57
+I0
+I1
+tp58
+Rp59
+(I3
+S'<'
+p60
+NNNI-1
+I-1
+I0
+tp61
+bI00
+S'\x00\x00\x00\x00\x01\xaayA\x00\x00\x00\xc8vs\x89A\x00\x00\x00\xe0SS\x93A\x00\x00\x00\xc09hTA\x00\x00\x00\xc0\x1c~xA\x00\x00\x00\x00`h\xeb@\x00\x00\x00\xe0\x9c\xf5`A\x00\x00\x00\xb0\x8f\xbb\x96A\x00\x00\x00h\'\x0c\x8fA\x00\x00\x00\x006\xf7oA\x00\x00\x00\x10Ev{A\x00\x00\x00\xc0\xab\xd7\x9dA\x00\x00\x00  \xa4cA\x00\x00\x00@}\x80kA\x00\x00\x00p\x8f|uA\x00\x00\x00\x00\xd6\x8bdA\x00\x00\x00\x90)\x96\x83A\x00\x00\x00\xa0#_\x89A\x00\x00\x00\xc0\xa4\xe8_A\x00\x00\x00 /\xab\x81A\x00\x00\x00\x00|tcA\x00\x00\x00\xc0;\xcb_A\x00\x00\x00\x00\x98sIA\x00\x00\x00\x00\xd3\xadOA\x00\x00\x00\x00bY>A\x00\x00\x00\x00`\xa0\xe1@\x00\x00\x00\x80\xf2\xd7lA\x00\x00\x00\xc4\xc8\xb8\x90A\x00\x00\x000\xcf\x14\x8fA\x00\x00\x00\xa0\xcf\x93tA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x000\xc3\x05A\x00\x00\x000F\x9brA\x00\x00\x00\x00T\x96\x12A\x00\x00\x00\xe0\x0f\x13aA\x00\x00\x00\xa0)\x13jA\x00\x00\x00\x000\xc1]A\x00\x00\x00\xb0\xdbnpA\x00\x00\x00p\x8a\xc1yA\x00\x00\x00\x00/eWA\x00\x00\x00\x00\xf6\xdf>A\x00\x00\x00\x00d\xd5]A\x00\x00\x00\x00S\xe6AA\x00\x00\x00\x80\x12\xf1UA\x00\x00\x00\xc0\xbb[\x81A\x00\x00\x00V/p\xa1A\x00\x00\x00 \xff\x99nA\x00\x00\x00\x00\x00*\xbd@\x00\x00\x00\xb8\xfc[\x93A\x00\x00\x00\x10\xdc\x9b\x8aA\x00\x00\x00\xcc\xc7\xa1\x9cA\x00\x00\x00\xc0&\xcd\x8cA\x00\x00\x00`\x98kvA\x00\x00\x00\x805\xe1bA\x00\x00\x00@N.UA\x00\x00\x00\xc0&\x87~A\x00\x00\x00@\xb6\x82sA\x00\x00\x00\xb0p\xe6\xa1A\x00\x00\x00|U@\xa3A\x00\x00\x00\xb0\x870\x84A\x00\x00\x00 Z\xf5pA\x00\x00\x00\x90\xab\xab|A\x00\x00\x00\x80\xa9\x93mA\x00\x00\x00@%=VA\x00\x00\x00`q_rA\x00\x00\x00P\xa8\xe2\x84A\x00\x00\x00\x1c)t\x91A\x00\x00\x00\xc0\xb4yWA\x00\x00\x00\x00{\x14SA\x00\x00\x00`z\xdciA\x00\x00\x00\x00]nIA\x00\x00\x000\x06\x01\x95A\x00\x00\x00\xd8\xa9\xd2\xa6A\x00\x00\x00\x00\x00\xee\xc6@\x00\x00\x00\x00 L\xe2@\x00\x00\x00\x0c\x19\xee\x9aA\x00\x00\x000\xfd\xc4\x8bA\x00\x00\x00\xf0\xe9\xc2zA\x00\x00\x00 \xc2bkA\x00\x00\x00H\x04t\x81A\x00\x00\x00\x80\xdd\x95CA\x00\x00\x00t\xd1\xe7\x90A\x00\x00\x00n6\xa0\xa5A\x00\x00\x00\xbc\xa2\x13\x91A\x00\x00\x00\xd0\x87\xc4wA\x00\x00\x00 \x7f\xe8nA\x00\x00\x00\xa8\xa4\xd3\x9cA\x00\x00\x00\x00\xa0\x08\xeb@\x00\x00\x00 \xc1\xed\x7fA\x00\x00\x00,\xd8\x8f\xa8A\x00\x00\x00\xd6w\xe2\xadA\x00\x00\x00H\xf0g\x88A\x00\x00\x008\xaa\x05\x92A\x00\x00\x00\x00\x88\xf5\x0bA\x00\x00\x00\x18#i\x9bA\x00\x00\x00`\xe3:pA\x00\x00\x00\x00\xc0\xd2\xe6@\x00\x00\x00\x0c\xaa\x0e\x91A\x00\x00\x00 \xa2dnA\x00\x00\x00\xec\xeeB\x92A\x00\x00\x00\x00J/8A\x00\x00\x00\x80\xa4\xc0NA\x00\x00\x00\xc0Cl\x9aA\x00\x00\x00\xd8\x0f\x06\xa3A\x00\x00\x00\xec\xb7\x17\x93A\x00\x00\x00h)\xf6\x89A\x00\x00\x00\xd0\xab\xdb\x8bA\x00\x00\x00\x00\x18\xb9\x08A\x00\x00\x00\x00\x1c\x13\x1bA\x00\x00\x00\x00\xb8\x08\x06A\x00\x00\x008\xc2#\x93A\x00\x00\x00\x00\xf0\xb3zA\x00\x00\x00\x80pfQA\x00\x00\x00(\xb8\x8d\x94A\x00\x00\x00\x00$E\x18A\x00\x00\x00\x00\xc4\xe4jA\x00\x00\x00`\x89\x80\x95A\x00\x00\x00\xda\xf0S\xabA\x00\x00\x00`\xbb\xd1cA\x00\x00\x00\xc0\xfb{eA\x00\x00\x00\xb0\xb9\x1d\x87A\x00\x00\x00\x18r\xbb\x81A\x00\x00\x00\xf0htqA\x00\x00\x00\x07\x9b\x87\xb0A\x00\x00\x00 jLtA\x00\x00\x00\x80\x82(WA\x00\x00\x00\x88\x8c*\xafA\x00\x00\x00\x00\x00\x9c\xdc@\x00\x00\x00\xe0\x0b\xae\x89A\x00\x00\x00\xf09\xb7xA\x00\x00\x00`L\xe8mA\x00\x00\x00\xc8f7\x81A\x00\x00\x00h:7\x8eA\x00\x00\x00\x98\x98\xc7\x8cA\x00\x00\x00 \xec\xffjA\x00\x00\x00@n\xd6\x8cA\x00\x00\x00\x80@NUA\x00\x00\x00@\xf3A\x9bA\x00\x00\x00\xac\x12M\x9cA\x00\x00\x00 \x0e\x10fA\x00\x00\x00\x00\xb0\xbe A\x00\x00\x00@\xee\xbblA\x00\x00\x00\x00\x8f\xe82A\x00\x00\x00\xf0\xedVyA\x00\x00\x00$\x16"\x9bA\x00\x00\x00\x00\x0bk\x9bA\x00\x00\x008\x8d\xb9\x8cA\x00\x00\x00 \xd70kA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x94\xbe\xaf\x93A\x00\x00\x00\x80\xe6\x99NA\x00\x00\x00\xa071\x87A\x00\x00\x00,\xd6(\x93A\x00\x00\x00\x00\x17(kA\x00\x00\x00\x984a\x84A\x00\x00\x00hAg\x80A\x00\x00\x00\x00\xd0\x12cA\x00\x00\x00\x80y\\\\A\x00\x00\x008\xf42\x95A\x00\x00\x00\x10\xb6\xa4pA\x00\x00\x00\xb8\xe5\x99\x9eA\x00\x00\x00\x00\xf0\x11JA\x00\x00\x00\xec}8\x92A\x00\x00\x00\x14\x99\xd3\x95A\x00\x00\x000D\x9b\x8eA\x00\x00\x00\x00o;WA\x00\x00\x00\xd8\xbb\xa4\x93A\x00\x00\x000M\x9e\x8fA\x00\x00\x00\x00Z\xae`A\x00\x00\x008\x07P\x92A\x00\x00\x00\xd8\x9fp\x86A\x00\x00\x000\xb3\x98qA\x00\x00\x00\x88\x02\xd7\x81A\x00\x00\x00@y\x8eQA\x00\x00\x00\xe8\xe4\x98\x8eA\x00\x00\x00\x1e\x9a\x8b\xa3A\x00\x00\x00\xa0t\x14sA\x00\x00\x00\xd0\xfc3\x9eA\x00\x00\x00\x00\x83@LA\x00\x00\x00\x00>\x185A\x00\x00\x00\\\x17@\x9aA\x00\x00\x00X4\x8e\x84A\x00\x00\x00 N\xb4\xa0A\x00\x00\x00\xa4\xaf\x12\x91A\x00\x00\x00T@\x18\x9aA\x00\x00\x00\xc0\x9e\xaexA\x00\x00\x00\x803\xd6rA\x00\x00\x00\xb0zQtA\x00\x00\x00\x00 \x15\x19A\x00\x00\x00\x80\x0e\xc8GA\x00\x00\x00p\x98\xfa\x84A\x00\x00\x00\xa0\nBlA\x00\x00\x00\x80\xc4\x97\x89A\x00\x00\x00@\xf8\x7frA\x00\x00\x00\x14b\xa4\x9fA\x00\x00\x00\x00\x00$\xb3@\x00\x00\x00\x88\xd1\x00\x80A\x00\x00\x00\x02\x1d\xab\xa1A\x00\x00\x00\x00\xe86\x15A\x00\x00\x00\x00 \xa6\xf6@\x00\x00\x00\x0e\xdb@\xa1A\x00\x00\x00\x00\\\x08_A\x00\x00\x00\xe0\xbe&\x95A\x00\x00\x000\xf8\xc1\x86A\x00\x00\x00\xe2\xa3m\xa9A\x00\x00\x00,\xc5Q\x98A\x00\x00\x00x\xfe\x85\xa0A\x00\x00\x00`f\xeasA\x00\x00\x00\xc0~c\x83A\x00\x00\x00\x00\x00\x02\xb4@\x00\x00\x00\xb8\xda\x17\x8fA\x00\x00\x00\x90\xa9(~A\x00\x00\x00\xf6\xdc\xb7\xa2A\x00\x00\x00\xa4eW\x90A\x00\x00\x00\x80\xc8\xa0tA\x00\x00\x00\xd8\x1eV\x8bA\x00\x00\x00@\x16\xe1QA\x00\x00\x00\x00\xdb\xe0SA\x00\x00\x00\x00`\r\xef@\x00\x00\x00\x18\x8c\xae\x81A\x00\x00\x00\xb0\xb7\xf2pA\x00\x00\x00\xe0w=\x82A\x00\x00\x00\x00NsXA\x00\x00\x00\xc0F\x16PA\x00\x00\x00@\x03\\\x88A\x00\x00\x00\x00\xc0G\xf6@\x00\x00\x00 \x86,`A\x00\x00\x00\xd8\xb6\x87\x81A\x00\x00\x00\xc0\xf1+\x82A\x00\x00\x00\xc8"\x19\x8aA\x00\x00\x00\xc0\x90%mA\x00\x00\x00h\xbb\xf3\x97A\x00\x00\x00\xe0\x9a\x0bgA\x00\x00\x00\x00-\x8eDA\x00\x00\x00\x00y\xd6yA\x00\x00\x00p\xffg\x8eA\x00\x00\x00(\xe1*\x96A\x00\x00\x00\xb0\xb8\x96vA\x00\x00\x00\x00\x00\xa3\xcf@\x00\x00\x00\x18.x\x86A\x00\x00\x00h\x85\xfb\x86A\x00\x00\x00\x80 \xccjA\x00\x00\x00\x80[2PA\x00\x00\x00`:\xb4hA\x00\x00\x00\x009\x98VA\x00\x00\x00\x90gwtA\x00\x00\x00\x04\x90\xbe\x90A\x00\x00\x00@\xe89\x93A\x00\x00\x00\xc0\xeb\x01gA\x00\x00\x00\xc0\xb3}^A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00X\x82W\x9aA\x00\x00\x00\x18\x90S\x87A\x00\x00\x00`\xfd^\x84A\x00\x00\x00\xec\xb4\x19\x9fA\x00\x00\x00 \x872\x89A\x00\x00\x00\x00\xe0f\x11A\x00\x00\x00p\xee8\x80A\x00\x00\x00\x00 H\xe4@\x00\x00\x00\xc0\xcf\x17^A\x00\x00\x00lHW\xa5A\x00\x00\x00\x00\x00\xb2\xc2@\x00\x00\x00\x1c\xa7j\x90A\x00\x00\x00\x00\x1c\xc8\xacA\x00\x00\x00\xfe\xb7\x15\xaaA\x00\x00\x00\xc0U\x97\x84A\x00\x00\x00\xc0\xacGQA\x00\x00\x00`2\xf7kA\x00\x00\x00\x00P\x1diA\x00\x00\x00\xc0\xd98lA\x00\x00\x00\x00 \xce\xfd@\x00\x00\x00\xf0h\x1a\x88A\x00\x00\x00\x00-WsA\x00\x00\x00\xa8\x02\x87\xaaA\x00\x00\x00@\x0e\xed\x84A\x00\x00\x008\xb15\x85A\x00\x00\x00 .\x86\xa0A\x00\x00\x00p\xe8\xaezA\x00\x00\x00\x80\x0b\rSA\x00\x00\x00\x00\xc0*\xee@\x00\x00\x00H"\xd2\x9aA\x00\x00\x00\xf8\'\x9c\x85A\x00\x00\x00\x00t\xee\x10A\x00\x00\x00\xfcU\xdf\x93A\x00\x00\x00\x80\xf7cMA\x00\x00\x00\x00i\xb5oA\x00\x00\x00\x00\x00\x08\xa3@\x00\x00\x00P#\x83{A\x00\x00\x00X\x07z\x82A\x00\x00\x00\xc0\xcd*[A\x00\x00\x00\x00\xc0\xde\xd6@\x00\x00\x00X\xc6\xe0\x83A\x00\x00\x00\xb0\xcb[\x82A\x00\x00\x00\xa06\xe2~A\x00\x00\x00@\xd5JpA\x00\x00\x008\xdd\x07\x80A\x00\x00\x00\x10\xa5\xd6rA\x00\x00\x00\xc8\xa1\x8a\x81A\x00\x00\x00\xe0\x0b\xc8zA\x00\x00\x00@O\xd9RA\x00\x00\x00\x00\xd0\xf8\x00A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x00`(\xfe@\x00\x00\x00\x80\xfa!dA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x008\x8d\xad\x9bA\x00\x00\x00\x80\xd6\x17MA\x00\x00\x00@\x1d\xa5^A\x00\x00\x00\xf0G\x02\x8aA\x00\x00\x00\x00\x80OBA\x00\x00\x00\xc0\x04\xcauA\x00\x00\x00|\xfc\xf5\xaaA\x00\x00\x00\x80H\x01sA\x00\x00\x00@8\x07QA\x00\x00\x00R\xcf\xda\xa6A\x00\x00\x00J\xba(\xa4A\x00\x00\x00\xd0\x7fX\x7fA\x00\x00\x00`\x8c\xe4yA\x00\x00\x00\x00\xe6\xf9jA\x00\x00\x00@\t\x1d\x92A\x00\x00\x00\x80,\xc0OA\x00\x00\x00\x80X\xfdeA\x00\x00\x00\x90;qtA\x00\x00\x00\x00\xa8\xcdOA\x00\x00\x00\x00\x94\xbd.A\x00\x00\x00\x00T]\x10A\x00\x00\x00P\x88\xc8zA\x00\x00\x00X\xec\xef\x86A\x00\x00\x00x\x05N\x83A\x00\x00\x00\x80\x92\'cA\x00\x00\x00\x80JyZA\x00\x00\x00\xe0O]\x8bA\x00\x00\x00\xc8\x84\xc2\x96A\x00\x00\x00\xa8\xb4\x9a\x93A\x00\x00\x00\x1c\x91\x84\x94A\x00\x00\x00\x00p\x89\xfb@\x00\x00\x00\x18\x11U\x85A\x00\x00\x00\x80w\x02OA\x00\x00\x00\x88\x85\x0f\x9aA\x00\x00\x00\x00^\xb4SA\x00\x00\x00PH\x81\x7fA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xa0\x138\x89A\x00\x00\x00\x00\xe4B`A\x00\x00\x00\xa0\xf1\xf8\x8bA\x00\x00\x00\x90\x7f\x91sA\x00\x00\x00`\x08\x01xA\x00\x00\x00(wg\x83A\x00\x00\x00\xe0||bA\x00\x00\x00\xe0\xea\xa3gA\x00\x00\x00\x902\x13\x86A\x00\x00\x00\xb4\xd4\xc0\x92A\x00\x00\x00\xa8\xb5\xfa\x80A\x00\x00\x00\xe0\x95(pA\x00\x00\x00\x00\xa40\x16A\x00\x00\x00\x80 w\x8cA\x00\x00\x00\x00\xee\xe90A\x00\x00\x00\xe0\xd4\x86pA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x80\xe6\x81gA\x00\x00\x00\xd4yf\x96A\x00\x00\x00\x80\x15a\x8fA\x00\x00\x00\xc0\xbfdRA\x00\x00\x00\x00@\x80\xd2@\x00\x00\x00\xc0\t]\x7fA\x00\x00\x00@\xb3\xa6pA\x00\x00\x00\xc8\x9d\xbb\x83A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xfc\xfb\x05\x9cA\x00\x00\x00\x00p\x08\xfd@\x00\x00\x00 \xb5\xa1tA\x00\x00\x00\x8c\xae\xe3\x90A\x00\x00\x00\x00\x10\x8d\xf5@\x00\x00\x00\x00\xc0\xb4\xf8@\x00\x00\x00\xe0EI\x82A\x00\x00\x00xcL\x83A\x00\x00\x00(e`\x8cA\x00\x00\x00hi\x1d\x88A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x00\x92hsA\x00\x00\x00 cllA\x00\x00\x00\x00\xa6ljA\x00\x00\x00\x18\xbd\xbf\x95A\x00\x00\x00\xc0:&}A\x00\x00\x00\x00\x00\x8b\x0cA\x00\x00\x00\xf0\xecG\x9aA\x00\x00\x008\xa80\x8eA\x00\x00\x00\xe0D8kA\x00\x00\x00\xa0:\xdeiA\x00\x00\x00\x00Y\xea6A\x00\x00\x00\x10\x8d\xfbpA\x00\x00\x000\xab\x18\x82A\x00\x00\x00\xc0\xe1\xee}A\x00\x00\x00\x10\xd1\x8avA\x00\x00\x00\xa8\xa2\xb1\x89A\x00\x00\x00\x00\x9c\x8bSA\x00\x00\x00\xa0fUmA\x00\x00\x00  \xd1eA\x00\x00\x008\x8e\x88\x80A\x00\x00\x00\xe2\xfb\xf1\xa8A\x00\x00\x00@\xec\xa5\x8cA\x00\x00\x00\xa8\xac\x17\x8bA\x00\x00\x00\xb4l2\xa2A\x00\x00\x00@_"QA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00`eRcA\x00\x00\x00\x08=f\x9dA\x00\x00\x00b\xa2U\xaeA\x00\x00\x00\xc0X\x8faA\x00\x00\x00\xc0\xdd2aA\x00\x00\x00\x00\x00\x80\x8a@\x00\x00\x00@\xb8\xa3\x82A\x00\x00\x00\x9c_b\x9eA\x00\x00\x00@\x84\xcbUA\x00\x00\x00\x00\x00\x1c\xb1@\x00\x00\x00\xd0u\xc3\x8aA\x00\x00\x00\xe8/\xa5\xb0A\x00\x00\x00\x10\xe5\xd2\x94A\x00\x00\x00\x809\xcaoA\x00\x00\x00\xe0&\x85pA\x00\x00\x00@\x8dmlA\x00\x00\x00pi\xc2\x7fA\x00\x00\x00p\x83\x81sA\x00\x00\x00\x80^\xdb[A\x00\x00\x00\xe0rL~A\x00\x00\x00@.\xcatA\x00\x00\x00`\xb3gqA\x00\x00\x00@\xa0:\x82A\x00\x00\x00\xc0)\xe5vA\x00\x00\x00xP~\x9fA\x00\x00\x00\x80\xe7@IA\x00\x00\x00\x9c$\r\x91A\x00\x00\x000\xd7\xccxA\x00\x00\x00\x00\xb3\xcaVA\x00\x00\x00\xc0\xc4(\x82A\x00\x00\x00\x10#\x90wA\x00\x00\x00\x00\xc0\x02\xd1@\x00\x00\x00\x80\x7f\x04qA\x00\x00\x00\x84\xecl\x93A\x00\x00\x00\x80\x0c\x0eLA\x00\x00\x00\x00\x00\xe2\xdc@\x00\x00\x00\xd0k\xba\x80A\x00\x00\x00\x00\x10\xcb"A\x00\x00\x00d\xd3q\xa1A\x00\x00\x00\xe8\xa0\x0f\x84A\x00\x00\x00LF\xf8\xa5A\x00\x00\x00\xb0\xb6\xc2}A\x00\x00\x00\xd04\x9d\x90A\x00\x00\x00\x00\xe0<\xfe@\x00\x00\x00\x06\xc5e\xa5A\x00\x00\x00\x00P \x05A\x00\x00\x00p\xc0\xcd\x92A\x00\x00\x00\x00\xe0g\xeb@\x00\x00\x00\xe4\xc9_\x93A\x00\x00\x00 \x17\x8b{A\x00\x00\x00\xd0\xcf{\x89A\x00\x00\x00(\xb4\xfe\x8eA\x00\x00\x00\x00\xb0\xf0eA\x00\x00\x00f\x16\x81\xa0A\x00\x00\x00\xc00\x94\x95A\x00\x00\x00\xa0Tr`A\x00\x00\x00`\xfdvmA\x00\x00\x00\xe8\x9a\t\x95A\x00\x00\x00 U<dA\x00\x00\x00\x88\xe0%\x8eA\x00\x00\x00P(v|A\x00\x00\x00\xf4S\xd7\x99A\x00\x00\x00\xc8\xad\xbf\x85A\x00\x00\x00\xec\xc2\xb9\x96A\x00\x00\x00@\x8d\rVA\x00\x00\x00\x00\x10 FA\x00\x00\x00\x00\xb7EsA\x00\x00\x00\xb0\x04\x07\x92A\x00\x00\x00\xa0#\x86pA\x00\x00\x00\xa8M\x92\x81A\x00\x00\x00\xa0\x8e}\x83A\x00\x00\x00\x00\x10\x01\x0fA\x00\x00\x00\x00^A/A\x00\x00\x00\xca\x87&\xa2A\x00\x00\x00\xf0\x90epA\x00\x00\x00\x00\x0c3(A\x00\x00\x00\x00\xb79oA\x00\x00\x00\x007^IA\x00\x00\x00P\x97\xba\x90A\x00\x00\x00\x00\xfe\x87zA\x00\x00\x00Q+\xf0\xb5A\x00\x00\x00\xf0\xf5wqA\x00\x00\x00\x00|a\x1cA\x00\x00\x00\xe0\x85M\x90A\x00\x00\x00\xa0\x08\x01\x8bA\x00\x00\x00\xd0F\xf1wA\x00\x00\x00\xd0#\xb2xA\x00\x00\x00@\r\xb6]A\x00\x00\x00\x00\x9a\x15dA\x00\x00\x00\x80\xfd\xd3eA\x00\x00\x00\x00\xee\t\'A\x00\x00\x00@\xd9gPA\x00\x00\x00\x80\xaa\xa3JA\x00\x00\x00\xa8\x95\x9b\x92A\x00\x00\x00\xc0\x8f\x8c^A\x00\x00\x00\xe0V\x8f\x82A\x00\x00\x00\x00\x00\xe1\xb2@\x00\x00\x000\xe1\x81}A\x00\x00\x00\x18|Q\xa2A\x00\x00\x00\xe0\xf6\x07}A\x00\x00\x00p\xd9F\x9aA\x00\x00\x00x{\x1f\x8eA\x00\x00\x00\x00- 6A\x00\x00\x00\x80\xe6>fA\x00\x00\x00hq\xfb\x87A\x00\x00\x00\x00\x00\xc4\x9b@\x00\x00\x00\x80^\x11yA\x00\x00\x00@\xbb\xd4iA\x00\x00\x00\xb0Z\x88~A\x00\x00\x00 \x86PiA\x00\x00\x00\x14[\x00\x91A\x00\x00\x00\xb4(\x02\x93A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x80L\xaf_A\x00\x00\x00\x14Y\x05\x92A\x00\x00\x00\x9a\x8f\xf2\xacA\x00\x00\x00tc\x1c\x94A\x00\x00\x00\xf0!\xf3\x9bA\x00\x00\x00\x80\xe7\x0fjA\x00\x00\x00\xe0\xd7\xaefA\x00\x00\x00\x88A\xb7\x94A\x00\x00\x00\x00^\xab*A\x00\x00\x00 \xad\x0c|A\x00\x00\x00\xf0\xb8\x01\x86A\x00\x00\x00\x00\x87t>A\x00\x00\x00\x00\x00\xbb\xb7@\x00\x00\x00\x80)\xed@A\x00\x00\x00\xe2\xc2_\xa0A\x00\x00\x00\xb8L\xfa\x82A\x00\x00\x00\x18\xac\xb9\x8aA\x00\x00\x00\xb4\xcb\x8d\x9eA\x00\x00\x00\xa4\xe5\x1e\x93A\x00\x00\x00\x00\xb02.A\x00\x00\x00`\x92\x8ehA\x00\x00\x00\x00P\x1a\x01A\x00\x00\x00@\xcd\xfdTA\x00\x00\x00\xa0\xa1`iA\x00\x00\x00\x90\xc5\x04qA\x00\x00\x00\xa0\x14\xa7\x8cA\x00\x00\x00\xe0\xc0\xbe\x87A\x00\x00\x00\x80a$\x85A\x00\x00\x00@\xff\xbb}A\x00\x00\x00\x00\xe8\xa6\x04A\x00\x00\x00\x18"\x1e\x97A\x00\x00\x00\x18\xff\xdf\x85A\x00\x00\x00\xc4\xd5\x8d\xa1A\x00\x00\x00\x00\x00M\xd6@\x00\x00\x00\x92\x0c!\xa5A\x00\x00\x00\x00>tOA\x00\x00\x000\xe1\xd8\x90A\x00\x00\x00\x00\xea\x1a2A\x00\x00\x00 \xbb\xb1xA\x00\x00\x00\x88_%\x8dA\x00\x00\x00\xa0\x9d;}A\x00\x00\x00\xb8).\x92A\x00\x00\x000\xf3\x1c\x85A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00 o(hA\x00\x00\x00\x8c\xedA\x96A\x00\x00\x00,Z\x08\x91A\x00\x00\x00\xb0\xfc\x15\xa0A\x00\x00\x00\x00 \xaf\xff@\x00\x00\x00\x18E\x83\x82A\x00\x00\x00\x00\x92\x14fA\x00\x00\x00\xc0k\xdbRA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x00\x00\xef\xc4@\x00\x00\x0085\xf2\x8fA\x00\x00\x00\x00\x01\x96fA\x00\x00\x00\xc0\x13\xf1wA\x00\x00\x00\xa0\xea:lA\x00\x00\x00\xf0\x13\xb6yA\x00\x00\x00\x00\x00\xee\xc9@\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00D\xe5\xc6\x92A\x00\x00\x00\x18\x83_\x84A\x00\x00\x00\xb0\xd8H\x82A\x00\x00\x00\xc0)m|A\x00\x00\x00\x00\xe4\xd1\x1cA\x00\x00\x00H\x16\xe5\x80A\x00\x00\x00\xb0"\x11\x91A\x00\x00\x00\x000\x05\xf3@\x00\x00\x00d\x0e\x12\x92A\x00\x00\x00\x10R\xc3|A\x00\x00\x00\x10\xbc\xdewA\x00\x00\x000\xc5*\x9fA\x00\x00\x00\x00\x8d\x00lA\x00\x00\x00\xa0\xc9\\uA\x00\x00\x00\x18|J\x81A\x00\x00\x00\xc0N\x83fA\x00\x00\x00D\x10:\x9aA\x00\x00\x00\x00\x88e\x05A\x00\x00\x00 \x82\x8atA\x00\x00\x000\x14PpA\x00\x00\x00\xb0\xd3s\x98A\x00\x00\x00H\xb8\x02\x82A\x00\x00\x00`\x185}A\x00\x00\x00\xc0F\x8apA\x00\x00\x00\x00\xb4\xc3FA\x00\x00\x00\xa0\xfaF`A\x00\x00\x00\x00\x88\xc5`A\x00\x00\x00\xf8\xbe\xc7\x83A\x00\x00\x00\x80\xc5\x0fyA\x00\x00\x00\x00\xb1mZA\x00\x00\x00\x00|a"A\x00\x00\x00\x10\x01\x19\x80A\x00\x00\x00\xe0\xe2$oA\x00\x00\x00\x80\xf8\x03_A\x00\x00\x00@\x02\x0fUA\x00\x00\x00`\xae\xd4\xa0A\x00\x00\x00 \xdf\xf4vA\x00\x00\x00(\x0e\x8d\x97A\x00\x00\x00p\xa9\xb3\x90A\x00\x00\x00PW\xb3tA\x00\x00\x00\xd8o\x83\x83A\x00\x00\x00\xc0\xee\xcduA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xc0h\xdahA\x00\x00\x00\x80\xd8#ZA\x00\x00\x00@\xd6K^A\x00\x00\x00\x00\xb0\x93\xf4@\x00\x00\x00\x00\xe0\x84\xf9@\x00\x00\x00h\xf4\x89\x87A\x00\x00\x00p\xc8xwA\x00\x00\x00\xd8h\xb1\xa4A\x00\x00\x00@\x1e\xb8WA\x00\x00\x00\x10!!\x81A\x00\x00\x00\x00x\xc7_A\x00\x00\x00V\xe2\t\xa5A\x00\x00\x00\xf0\x19s|A\x00\x00\x00\x00 \x81\xf8@\x00\x00\x00\xe0\xc5)jA\x00\x00\x00\xf8O\x8e\x83A\x00\x00\x00P%\x89\x8cA\x00\x00\x00v0\xb3\xa1A\x00\x00\x00`\x05\xafcA\x00\x00\x00@\x95\xa3\x8cA\x00\x00\x00\xd8A-\x82A\x00\x00\x00v\xf8\xca\xa5A\x00\x00\x00\x00p\xd2\xfe@\x00\x00\x000d\xa4~A\x00\x00\x00h\xca\x16\x80A\x00\x00\x00 \xa7\xeb}A\x00\x00\x00\xc0\xe3\x80fA\x00\x00\x00\x08\xfdg\x83A\x00\x00\x00\xe0c\xe9\x97A\x00\x00\x00\xe0X.wA\x00\x00\x00\x18V@\x8fA\x00\x00\x00\x00\xe0\xdb\xfc@\x00\x00\x00<\xd2\xe0\x9aA\x00\x00\x00X,\x13\x8dA\x00\x00\x00(\'Z\x83A\x00\x00\x00 \xe0\x10\x82A\x00\x00\x00\x00\x90\x00\x14A\x00\x00\x00\xe05\xf0bA\x00\x00\x00\xa0\x0e\nyA\x00\x00\x00\xd80\xe5\x8bA\x00\x00\x00\xc0@-cA\x00\x00\x00\x00\x94\x0f\x1cA\x00\x00\x00\x80\x94\xc3]A\x00\x00\x00\x10\xf5\x92\x87A\x00\x00\x00\xf8\x86D\xa5A\x00\x00\x00P\xad\xbf\x85A\x00\x00\x00\xe8\x19U\x9eA\x00\x00\x00\xa8\x80q\x8aA\x00\x00\x00(R\xae\x87A\x00\x00\x00\x88\xc0P\x8fA\x00\x00\x00\x90\xd4\x88\x8fA\x00\x00\x00\xe0\x84viA\x00\x00\x00\xc0\x82\xebXA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xc0\x84\raA\x00\x00\x00\x00AtxA\x00\x00\x00\x00\xe8\xf5\x11A\x00\x00\x00\x1ct\xcf\x96A\x00\x00\x00\x0c/\xb6\x9eA\x00\x00\x00\x00\xd4\xa1\x15A\x00\x00\x00\x00`\xeb\xfd@\x00\x00\x00\xc8\xbcX\x83A\x00\x00\x00\x00\x05\xdfxA\x00\x00\x00\x80\x00quA\x00\x00\x00\x00<\x9aaA\x00\x00\x00`\n\xb2pA\x00\x00\x00\x00\x8e\xc6.A\x00\x00\x00@\x86\x07wA\x00\x00\x00\x00\x10\xf5\x11A\x00\x00\x00t\xcf!\x93A\x00\x00\x00H\x9d=\x9cA\x00\x00\x00\xa0*tqA\x00\x00\x00\xf8P\x0b\x90A\x00\x00\x00\xd0\x05JtA\x00\x00\x00\xd0oF\x9cA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xa0\x89\xbelA\x00\x00\x00\xb0\x1db|A\x00\x00\x00`\xc3\x07pA\x00\x00\x00@\x0e\x00\x83A\x00\x00\x00\x00\xff\x0e9A\x00\x00\x00\x90\xa0\xc9\x86A\x00\x00\x00xB\xee\x84A\x00\x00\x00\xa0\xacPmA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x00\x9b\xe8QA\x00\x00\x00X\x8e\xa5\x90A\x00\x00\x00*\x11\xbc\xa1A\x00\x00\x00\xc0c\xbfcA\x00\x00\x000\xc9\x8d\x7fA\x00\x00\x00Hl\xd9\xa2A\x00\x00\x008f\xc5\x87A\x00\x00\x00\x00\xf3\x1eLA\x00\x00\x00\xc83V\x86A\x00\x00\x00\xa0<\xddwA\x00\x00\x00d\xfdi\x96A\x00\x00\x00\xdc\xdf\x00\xb0A\x00\x00\x000\x0e\x81\x84A\x00\x00\x00\xac\xcf\xb9\x94A\x00\x00\x00\x80$\x00XA\x00\x00\x00\xa0\xc6\x06`A\x00\x00\x00\x00\x8frtA\x00\x00\x00\x00\xa0\'NA\x00\x00\x00 \xd2s\x8aA\x00\x00\x00\x80\xa9a|A\x00\x00\x00@\r*TA\x00\x00\x00\x00\xe2KrA\x00\x00\x00\x00\x80\xb8\xcd@\x00\x00\x00t\xcaN\x9eA\x00\x00\x000L\xf9\x8eA\x00\x00\x00@\x9fxqA\x00\x00\x00\x00\x1c\x83\x8aA\x00\x00\x00\x00!\xaa<A\x00\x00\x00\x00\x0c\x0c"A\x00\x00\x00\xb8\xaa\x1c\x8aA\x00\x00\x00(Tv\x8cA\x00\x00\x00\xd0\xaa6pA\x00\x00\x00\x90\xff\xc6zA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xf0l\x98qA\x00\x00\x00\xd0\xfc\xa9tA\x00\x00\x00`\xeeF\x8cA\x00\x00\x000W\x1c\x9eA\x00\x00\x00\xce\'\x99\xa0A\x00\x00\x00h\xb9\x0b\x84A\x00\x00\x00p\'\xec\x90A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00P-\xb0\x9aA\x00\x00\x00\x88\xe9\xea\x97A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\xe0\n\x05eA\x00\x00\x00`\x0fZ\x91A\x00\x00\x00\x00\xc7e\x89A\x00\x00\x00\x00\x00Ps@\x00\x00\x000\xff\xcctA\x00\x00\x00\x18LJ\x8bA\x00\x00\x00\xe0\xca\xa6mA\x00\x00\x00\xc0\xce\xaf\x80A\x00\x00\x00\x88\x05R\x81A\x00\x00\x00P\x03L\x95A\x00\x00\x00p9\x8brA\x00\x00\x00\xa8\x94i\x8eA\x00\x00\x00\xd65L\xa1A\x00\x00\x00\xb0\xc5a\x88A\x00\x00\x00\xa0\x039\x97A\x00\x00\x00\x00\x00\x04\xed@\x00\x00\x00\x00@_\x17A\x00\x00\x00\x80\x07\xe1MA\x00\x00\x00\xa0\r\x12\x9fA\x00\x00\x00H@#\x82A\x00\x00\x00p9kxA\x00\x00\x00\x00\x00\xbd\xdf@\x00\x00\x00@\xb59ZA\x00\x00\x00\x80\x96\xceZA\x00\x00\x00\xb8\xd3\xef\x90A\x00\x00\x00\xd0G\xe5zA\x00\x00\x00zO/\xa1A\x00\x00\x008\x14\xec\x86A\x00\x00\x00\x80\x14\x8faA\x00\x00\x00\x00\x07\xcdjA\x00\x00\x00`\x0e\xa7aA\x00\x00\x00\x00\x80\x8f\xe4@\x00\x00\x00\xb4\xa8\x9d\x90A\x00\x00\x00@GsRA\x00\x00\x00\xf0`&\x8bA\x00\x00\x00`\x03}gA\x00\x00\x00 \x98\xe8tA\x00\x00\x00\x88\x90L\x8eA\x00\x00\x00\xb0\x01\xb1|A\x00\x00\x00PQ,qA\x00\x00\x00\x004\xed%A\x00\x00\x00@Y\x94`A\x00\x00\x00\xc0\xe7inA\x00\x00\x00\x00C\xc3LA\x00\x00\x00\xa8g\xc3\x8bA\x00\x00\x00\x00\xd6TQA\x00\x00\x00\x00\x94\xc9rA\x00\x00\x00\x80\xc0\xd3kA\x00\x00\x00\xb0k4\x82A\x00\x00\x00\xe0 =\x85A\x00\x00\x00@\xf2\xc1\x95A\x00\x00\x00\x10\x10Y\x81A\x00\x00\x00\x80mAKA\x00\x00\x00\x16\xbe\xa9\xa1A\x00\x00\x00xO\xb9\x91A\x00\x00\x00\x00\x0c<FA\x00\x00\x00\x98\xe6\x17\x83A\x00\x00\x000O<\x8eA\x00\x00\x00(\x9cl\x9cA\x00\x00\x00\x00A+JA\x00\x00\x00\xe6\x1e\xb3\xa6A\x00\x00\x00\x00\x9ch\x84A\x00\x00\x00@\xe1\x7frA\x00\x00\x00\xe0\xce\x01iA\x00\x00\x00\x04-N\x9aA\x00\x00\x00\x80F-lA\x00\x00\x00\x00\x80;\xd1@\x00\x00\x00\x00\xf4\x1a\x1bA\x00\x00\x00`\xd4\xe0hA\x00\x00\x00\x005!\x89A\x00\x00\x00\x00\x88x\x01A\x00\x00\x00\xf0\x1fx\x89A\x00\x00\x00\x00\x8d\nHA\x00\x00\x000R]\x8cA\x00\x00\x00 r0kA\x00\x00\x00\xf0\xc9\xf0\x85A\x00\x00\x00\x00\xd0\xe1\x01A\x00\x00\x00\x00\xc0:\xde@\x00\x00\x00\x00p\x9f\xf4@\x00\x00\x00`\xf9\x18fA\x00\x00\x00\xd8\xb8\xc7\x84A\x00\x00\x00\x0c\xc0&\x99A\x00\x00\x00\x00\xdc\xbavA\x00\x00\x00p\x89\xa0\x95A\x00\x00\x00\xf4U:\x99A\x00\x00\x00\x88\'\x03\x97A\x00\x00\x00\x905\n\x87A\x00\x00\x00\x00\xd1\x94^A\x00\x00\x00`D\x19tA\x00\x00\x00@\x80\xf2aA\x00\x00\x00\x80\xe3\xc2\x80A\x00\x00\x00\x00\xf0R\x0bA\x00\x00\x00\xe8\xe5\x0f\x84A\x00\x00\x00\x80n\x1dpA\x00\x00\x00\x80\xc78{A\x00\x00\x00 \xd2\x9d\x8bA\x00\x00\x00hZ\x00\x87A\x00\x00\x000\xf8\xcc\x84A\x00\x00\x00\xc8\x00D\x88A\x00\x00\x00\xa0*\xaakA\x00\x00\x00\xb0?bxA\x00\x00\x004V\x90\x98A\x00\x00\x00\x00@T\xf2@\x00\x00\x00\x90\x05\x1fqA\x00\x00\x008\x18:\x80A\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x80.\x8dvA\x00\x00\x00 \x9e\xfa\x87A\x00\x00\x00@\xfd\xcetA\x00\x00\x00\xdaJ\xb1\xa1A\x00\x00\x00\x00z\x1a2A\x00\x00\x00\x80\xaa\xa3\x8eA\x00\x00\x00\xe8\x7f!\x96A\x00\x00\x00\x00v#KA\x00\x00\x00`\x9d\xee\x9dA\x00\x00\x00\x00\x00\xe1\xf0@\x00\x00\x00X\xedv\x93A\x00\x00\x00\xe8\x86\xf5\x9cA\x00\x00\x00\x80D\trA\x00\x00\x00\xe4[Q\x96A\x00\x00\x00 \x8b\xd1eA\x00\x00\x00\x00\x92mBA\x00\x00\x00\xdc.\x9d\x9bA\x00\x00\x00\x80\xa0\xcc\x8dA\x00\x00\x00\x00|\xdcPA\x00\x00\x00\x00\x08\x91*A\x00\x00\x00\xf5\x04\xa4\xb5A\x00\x00\x00\xc0\xfa\xb8[A\x00\x00\x00x\xccD\x93A\x00\x00\x000)Q\x82A\x00\x00\x00\x00H{\x81A\x00\x00\x00\xc0\xe2\xdcdA\x00\x00\x00 \xb5\xdfnA\x00\x00\x008m.\x83A\x00\x00\x00\x00\x91\xdbWA\x00\x00\x00\xd0\x1fu\x81A\x00\x00\x00\xc8\xf6e\x85A\x00\x00\x00\x00\x98\xfdhA\x00\x00\x00|.\n\x98A\x00\x00\x00\xc8~O\x82A\x00\x00\x00\xc0\x15\xd9\x8bA\x00\x00\x00\x00F\xd9DA\x00\x00\x00\xc0\xeb\x14oA\x00\x00\x00\x00\x86\x14EA\x00\x00\x00\xd85%\x8aA\x00\x00\x00\x90-\t\x7fA\x00\x00\x00\x88\xd6\xbc\x9dA\x00\x00\x00`\xb7\ttA\x00\x00\x00@\x96\xac^A\x00\x00\x00\xa0\xedTfA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00@\x8d\xdb\x80A\x00\x00\x00\xe8%\xee\x98A\x00\x00\x00\xb0\x9eKqA\x00\x00\x00\x00\xf8\x9d\rA\x00\x00\x00\xe0\xc2\x89rA\x00\x00\x00\x00\x89\x84PA\x00\x00\x00\x00\taKA\x00\x00\x00\xe0\x10\xf5pA\x00\x00\x00 ?\x1fqA\x00\x00\x00\x00\xc4\xec\x1aA\x00\x00\x00`d}`A\x00\x00\x00\xa0\xbf\x8b\x7fA\x00\x00\x00@<\x16`A\x00\x00\x00\x00\xf8S\x01A\x00\x00\x00\x00&\x0b?A\x00\x00\x00\x00 \xd5\x12A\x00\x00\x00\xb4z\xde\x9fA\x00\x00\x00\x00\x00\x00\xf8\x7f\x00\x00\x00\x80\xef1aA\x00\x00\x00\x10\xd5\x1cvA\x00\x00\x00\x80\xef\x9e\x8cA\x00\x00\x00\x00\xc0c\xf0@'
+p62
+tp63
+bag19
+(g20
+(I0
+tp64
+g22
+tp65
+Rp66
+(I1
+(I7
+I926
+tp67
+g29
+I00
+(lp68
+VN/A
+p69
+aV$38 million
+p70
+aV$17 million
+p71
+aVN/A
+p72
+aV$13 million
+p73
+aVN/A
+p74
+aV$28 million
+p75
+aV$100 million
+p76
+aV$30 million
+p77
+aVN/A
+p78
+aV$28 million
+p79
+aV$50 million
+p80
+aVN/A
+p81
+aVN/A
+p82
+aVN/A
+p83
+aVN/A
+p84
+aVN/A
+p85
+aVN/A
+p86
+aV$50 million
+p87
+aV$28 million
+p88
+aV$12 million
+p89
+aV$20 million
+p90
+aVN/A
+p91
+aV$25 million
+p92
+aVN/A
+p93
+aVN/A
+p94
+aVN/A
+p95
+aVN/A
+p96
+aV$24 million
+p97
+aVN/A
+p98
+aVN/A
+p99
+aV$12 million
+p100
+aVN/A
+p101
+aVN/A
+p102
+aV$13 million
+p103
+aVN/A
+p104
+aVN/A
+p105
+aV$20 million
+p106
+aVN/A
+p107
+aVN/A
+p108
+aV$900,000
+p109
+aV$13 million
+p110
+aVN/A
+p111
+aVN/A
+p112
+aVN/A
+p113
+aV$115 million
+p114
+aVN/A
+p115
+aVN/A
+p116
+aVN/A
+p117
+aV$35 million
+p118
+aVN/A
+p119
+aV$35 million
+p120
+aVN/A
+p121
+aV$30 million
+p122
+aVN/A
+p123
+aV$20 million
+p124
+aVN/A
+p125
+aV$18 million
+p126
+aV$23 million
+p127
+aV$18 million
+p128
+aV$26 million
+p129
+aVN/A
+p130
+aV$37 million
+p131
+aVN/A
+p132
+aVN/A
+p133
+aVN/A
+p134
+aV$20 million
+p135
+aVN/A
+p136
+aVN/A
+p137
+aV$11 million
+p138
+aVN/A
+p139
+aV$42 million
+p140
+aV$200 million
+p141
+aVN/A
+p142
+aVN/A
+p143
+aV$70 million
+p144
+aV$90 million
+p145
+aVN/A
+p146
+aVN/A
+p147
+aVN/A
+p148
+aVN/A
+p149
+aVN/A
+p150
+aVN/A
+p151
+aVN/A
+p152
+aVN/A
+p153
+aV$16 million
+p154
+aV$75 million
+p155
+aV$1.6 million
+p156
+aVN/A
+p157
+aV$33 million
+p158
+aV$90 million
+p159
+aV$50 million
+p160
+aV$23.6 million
+p161
+aVN/A
+p162
+aVN/A
+p163
+aV$84 million
+p164
+aVN/A
+p165
+aV$25 million
+p166
+aVN/A
+p167
+aVN/A
+p168
+aVN/A
+p169
+aVN/A
+p170
+aV$65 million
+p171
+aV$43 million
+p172
+aV$58 million
+p173
+aV$42 million
+p174
+aV$55 million
+p175
+aVN/A
+p176
+aVN/A
+p177
+aVN/A
+p178
+aV$35 million
+p179
+aVN/A
+p180
+aVN/A
+p181
+aV$40 million
+p182
+aVN/A
+p183
+aVN/A
+p184
+aV$45 million
+p185
+aV$30 million
+p186
+aVN/A
+p187
+aV$70 million
+p188
+aVN/A
+p189
+aVN/A
+p190
+aV$30 million
+p191
+aV$35 million
+p192
+aVN/A
+p193
+aVN/A
+p194
+aV$92 million
+p195
+aVN/A
+p196
+aVN/A
+p197
+aV$15 million
+p198
+aVN/A
+p199
+aV$25 million
+p200
+aV$10 million
+p201
+aV$37 million
+p202
+aVN/A
+p203
+aV$50 million
+p204
+aVN/A
+p205
+aV$20 million
+p206
+aV$52 million
+p207
+aVN/A
+p208
+aVN/A
+p209
+aVN/A
+p210
+aVN/A
+p211
+aV$25 million
+p212
+aV$170 million
+p213
+aVN/A
+p214
+aV$47 million
+p215
+aVN/A
+p216
+aVN/A
+p217
+aVN/A
+p218
+aVN/A
+p219
+aV$12.5 million
+p220
+aV$80 million
+p221
+aVN/A
+p222
+aV$21 million
+p223
+aV$20 million
+p224
+aVN/A
+p225
+aV$23 million
+p226
+aV$38 million
+p227
+aVN/A
+p228
+aV$144 million
+p229
+aVN/A
+p230
+aV$117 million
+p231
+aV$12 million
+p232
+aV$49 million
+p233
+aVN/A
+p234
+aV$17 million
+p235
+aVN/A
+p236
+aV$32 million
+p237
+aV$30 million
+p238
+aV$75 million
+p239
+aV$18.5 million
+p240
+aV$40 million
+p241
+aVN/A
+p242
+aVN/A
+p243
+aV$40 million
+p244
+aVN/A
+p245
+aV$21 million
+p246
+aV$15 million
+p247
+aVN/A
+p248
+aV$80 million
+p249
+aVN/A
+p250
+aV$140 million
+p251
+aVN/A
+p252
+aV$26 million
+p253
+aVN/A
+p254
+aVN/A
+p255
+aV$5 million
+p256
+aVN/A
+p257
+aV$3.5 million
+p258
+aVN/A
+p259
+aVN/A
+p260
+aV$58 million
+p261
+aV$45 million
+p262
+aV$33 million
+p263
+aVN/A
+p264
+aV$70 million
+p265
+aV$72.5 million
+p266
+aVN/A
+p267
+aVN/A
+p268
+aV$35 million
+p269
+aV$20 million
+p270
+aV$50 million
+p271
+aV$85 million
+p272
+aV$63 million
+p273
+aV$15 million
+p274
+aV$130 million
+p275
+aVN/A
+p276
+aV$30 million
+p277
+aVN/A
+p278
+aVN/A
+p279
+aVN/A
+p280
+aV$19 million
+p281
+aV$16 million
+p282
+aVN/A
+p283
+aV$11 million
+p284
+aVN/A
+p285
+aVN/A
+p286
+aVN/A
+p287
+aV$52 million
+p288
+aV$25 million
+p289
+aV$15 million
+p290
+aV$15 million
+p291
+aV$34 million
+p292
+aV$50 million
+p293
+aVN/A
+p294
+aV$40 million
+p295
+aV$60 million
+p296
+aV$12 million
+p297
+aVN/A
+p298
+aV$18 million
+p299
+aV$175 million
+p300
+aVN/A
+p301
+aVN/A
+p302
+aVN/A
+p303
+aVN/A
+p304
+aVN/A
+p305
+aVN/A
+p306
+aVN/A
+p307
+aVN/A
+p308
+aV$40 million
+p309
+aVN/A
+p310
+aVN/A
+p311
+aVN/A
+p312
+aVN/A
+p313
+aVN/A
+p314
+aV$70 million
+p315
+aVN/A
+p316
+aVN/A
+p317
+aVN/A
+p318
+aNaV$52 million
+p319
+aVN/A
+p320
+aVN/A
+p321
+aV$140 million
+p322
+aV$45 million
+p323
+aVN/A
+p324
+aV$33 million
+p325
+aVN/A
+p326
+aVN/A
+p327
+aV$225 million
+p328
+aVN/A
+p329
+aV$14 million
+p330
+aV$5 million
+p331
+aV$50 million
+p332
+aVN/A
+p333
+aVN/A
+p334
+aVN/A
+p335
+aVN/A
+p336
+aVN/A
+p337
+aVN/A
+p338
+aV$60 million
+p339
+aVN/A
+p340
+aV$165 million
+p341
+aVN/A
+p342
+aV$25 million
+p343
+aV$40 million
+p344
+aVN/A
+p345
+aVN/A
+p346
+aVN/A
+p347
+aVN/A
+p348
+aV$18 million
+p349
+aVN/A
+p350
+aV$132 million
+p351
+aVN/A
+p352
+aVN/A
+p353
+aVN/A
+p354
+aVN/A
+p355
+aVN/A
+p356
+aVN/A
+p357
+aVN/A
+p358
+aVN/A
+p359
+aVN/A
+p360
+aV$25 million
+p361
+aV$12 million
+p362
+aV$130 million
+p363
+aV$34 million
+p364
+aVN/A
+p365
+aV$40 million
+p366
+aVN/A
+p367
+aVN/A
+p368
+aVN/A
+p369
+aVN/A
+p370
+aV$20 million
+p371
+aVN/A
+p372
+aV$42 million
+p373
+aVN/A
+p374
+aVN/A
+p375
+aV$56 million
+p376
+aVN/A
+p377
+aVN/A
+p378
+aV$90 million
+p379
+aVN/A
+p380
+aVN/A
+p381
+aV$50 million
+p382
+aV$32.5 million
+p383
+aV$35 million
+p384
+aVN/A
+p385
+aVN/A
+p386
+aVN/A
+p387
+aVN/A
+p388
+aVN/A
+p389
+aVN/A
+p390
+aVN/A
+p391
+aVN/A
+p392
+aVN/A
+p393
+aVN/A
+p394
+aVN/A
+p395
+aVN/A
+p396
+aV$63 million
+p397
+aVN/A
+p398
+aVN/A
+p399
+aVN/A
+p400
+aV$80 million
+p401
+aV$17 million
+p402
+aVN/A
+p403
+aV$50 million
+p404
+aV$25 million
+p405
+aVN/A
+p406
+aVN/A
+p407
+aV$40 million
+p408
+aVN/A
+p409
+aV$75 million
+p410
+aV$10 million
+p411
+aVN/A
+p412
+aVN/A
+p413
+aV$35 million
+p414
+aVN/A
+p415
+aV$40 million
+p416
+aV$24 million
+p417
+aV$40 million
+p418
+aV$25 million
+p419
+aV$30 million
+p420
+aV$20 million
+p421
+aVN/A
+p422
+aV$40 million
+p423
+aVN/A
+p424
+aV$4 million
+p425
+aVN/A
+p426
+aVN/A
+p427
+aVN/A
+p428
+aV$19 million
+p429
+aVN/A
+p430
+aVN/A
+p431
+aVN/A
+p432
+aVN/A
+p433
+aVN/A
+p434
+aNaV$35 million
+p435
+aVN/A
+p436
+aVN/A
+p437
+aV$40 million
+p438
+aVN/A
+p439
+aVN/A
+p440
+aVN/A
+p441
+aVN/A
+p442
+aVN/A
+p443
+aVN/A
+p444
+aVN/A
+p445
+aVN/A
+p446
+aV$25 million
+p447
+aVN/A
+p448
+aV$40 million
+p449
+aVN/A
+p450
+aVN/A
+p451
+aV$20 million
+p452
+aV$85 million
+p453
+aV$39 million
+p454
+aV$40 million
+p455
+aVN/A
+p456
+aV$35 million
+p457
+aVN/A
+p458
+aVN/A
+p459
+aVN/A
+p460
+aV$16.5 million
+p461
+aV$6 million
+p462
+aVN/A
+p463
+aVN/A
+p464
+aVN/A
+p465
+aV$40 million
+p466
+aVN/A
+p467
+aV$17 million
+p468
+aV$65 million
+p469
+aVN/A
+p470
+aVN/A
+p471
+aV$8 million
+p472
+aV$84 million
+p473
+aV$80 million
+p474
+aVN/A
+p475
+aVN/A
+p476
+aVN/A
+p477
+aVN/A
+p478
+aV$50 million
+p479
+aVN/A
+p480
+aVN/A
+p481
+aV$18 million
+p482
+aV$80 million
+p483
+aV$27 million
+p484
+aVN/A
+p485
+aV$30 million
+p486
+aV$40 million
+p487
+aVN/A
+p488
+aVN/A
+p489
+aV$7 million
+p490
+aV$35 million
+p491
+aV$35 million
+p492
+aV$9 million
+p493
+aVN/A
+p494
+aV$18 million
+p495
+aV$21 million
+p496
+aVN/A
+p497
+aVN/A
+p498
+aV$20 million
+p499
+aVN/A
+p500
+aV$85 million
+p501
+aVN/A
+p502
+aVN/A
+p503
+aVN/A
+p504
+aV$68 million
+p505
+aVN/A
+p506
+aVN/A
+p507
+aVN/A
+p508
+aVN/A
+p509
+aV$26 million
+p510
+aV$30 million
+p511
+aV$29 million
+p512
+aVN/A
+p513
+aVN/A
+p514
+aVN/A
+p515
+aV$70 million
+p516
+aVN/A
+p517
+aVN/A
+p518
+aVN/A
+p519
+aV$35 million
+p520
+aVN/A
+p521
+aVN/A
+p522
+aV$17 million
+p523
+aVN/A
+p524
+aV$42 million
+p525
+aVN/A
+p526
+aVN/A
+p527
+aVN/A
+p528
+aV$60 million
+p529
+aVN/A
+p530
+aV$85 million
+p531
+aVN/A
+p532
+aVN/A
+p533
+aVN/A
+p534
+aVN/A
+p535
+aVN/A
+p536
+aVN/A
+p537
+aVN/A
+p538
+aV$61 million
+p539
+aVN/A
+p540
+aV$65 million
+p541
+aVN/A
+p542
+aVN/A
+p543
+aV$13 million
+p544
+aV$70 million
+p545
+aVN/A
+p546
+aVN/A
+p547
+aVN/A
+p548
+aVN/A
+p549
+aV$40 million
+p550
+aVN/A
+p551
+aV$76 million
+p552
+aV$35 million
+p553
+aV$1,000,000
+p554
+aV$11 million
+p555
+aVN/A
+p556
+aVN/A
+p557
+aVN/A
+p558
+aVN/A
+p559
+aVN/A
+p560
+aVN/A
+p561
+aVN/A
+p562
+aVN/A
+p563
+aV$1.5 million
+p564
+aV$75 million
+p565
+aVN/A
+p566
+aVN/A
+p567
+aVN/A
+p568
+aV$75 million
+p569
+aVN/A
+p570
+aV$25 million
+p571
+aV$35 million
+p572
+aV$30 million
+p573
+aVN/A
+p574
+aVN/A
+p575
+aVN/A
+p576
+aVN/A
+p577
+aVN/A
+p578
+aVN/A
+p579
+aV$20 million
+p580
+aVN/A
+p581
+aV$45 million
+p582
+aV$150 million
+p583
+aVN/A
+p584
+aV$45 million
+p585
+aV$24 million
+p586
+aV$81 million
+p587
+aV$50 million
+p588
+aV$20 million
+p589
+aVN/A
+p590
+aVN/A
+p591
+aVN/A
+p592
+aVN/A
+p593
+aVN/A
+p594
+aVN/A
+p595
+aVN/A
+p596
+aVN/A
+p597
+aVN/A
+p598
+aV$82.5 million
+p599
+aV$35 million
+p600
+aV$53 million
+p601
+aVN/A
+p602
+aV$35 million
+p603
+aVN/A
+p604
+aVN/A
+p605
+aVN/A
+p606
+aVN/A
+p607
+aV$27 million
+p608
+aV$8.5 million
+p609
+aVN/A
+p610
+aVN/A
+p611
+aV$30 million
+p612
+aV$20 million
+p613
+aVN/A
+p614
+aV$40 million
+p615
+aVN/A
+p616
+aVN/A
+p617
+aVN/A
+p618
+aV$150 million
+p619
+aVN/A
+p620
+aV$25 million
+p621
+aVN/A
+p622
+aVN/A
+p623
+aVN/A
+p624
+aV$10 million
+p625
+aVN/A
+p626
+aVN/A
+p627
+aVN/A
+p628
+aVN/A
+p629
+aV$60 million
+p630
+aVN/A
+p631
+aV$25 million
+p632
+aVN/A
+p633
+aV$12 million
+p634
+aV$22 million
+p635
+aVN/A
+p636
+aVN/A
+p637
+aVN/A
+p638
+aVN/A
+p639
+aV$6 million
+p640
+aVN/A
+p641
+aV$18 million
+p642
+aV$18 million
+p643
+aVN/A
+p644
+aVN/A
+p645
+aVN/A
+p646
+aV$15 million
+p647
+aV$80 million
+p648
+aV$40 million
+p649
+aVN/A
+p650
+aVN/A
+p651
+aV$45 million
+p652
+aVN/A
+p653
+aV$60 million
+p654
+aV$70 million
+p655
+aVN/A
+p656
+aVN/A
+p657
+aVN/A
+p658
+aV$22 million
+p659
+aVN/A
+p660
+aV$60 million
+p661
+aV$48 million
+p662
+aVN/A
+p663
+aVN/A
+p664
+aV$9 million
+p665
+aV$11 million
+p666
+aVN/A
+p667
+aVN/A
+p668
+aV$350,000
+p669
+aVN/A
+p670
+aVN/A
+p671
+aVN/A
+p672
+aVN/A
+p673
+aV$2.8 million
+p674
+aVN/A
+p675
+aVN/A
+p676
+aVN/A
+p677
+aV$40 million
+p678
+aVN/A
+p679
+aV$25 million
+p680
+aV$33 million
+p681
+aVN/A
+p682
+aV$120 million
+p683
+aV$42 million
+p684
+aVN/A
+p685
+aVN/A
+p686
+aV$13 million
+p687
+aVN/A
+p688
+aVN/A
+p689
+aV$6 million
+p690
+aVN/A
+p691
+aVN/A
+p692
+aVN/A
+p693
+aVN/A
+p694
+aV$7 million
+p695
+aVN/A
+p696
+aV$7 million
+p697
+aV$70 million
+p698
+aVN/A
+p699
+aV$23 million
+p700
+aVN/A
+p701
+aVN/A
+p702
+aV$20 million
+p703
+aV$18 million
+p704
+aV$33 million
+p705
+aV$50 million
+p706
+aVN/A
+p707
+aV$23 million
+p708
+aVN/A
+p709
+aV$70 million
+p710
+aVN/A
+p711
+aV$60 million
+p712
+aV$20 million
+p713
+aV$58 million
+p714
+aVN/A
+p715
+aVN/A
+p716
+aV$20 million
+p717
+aV$28 million
+p718
+aV$17 million
+p719
+aVN/A
+p720
+aV$85 million
+p721
+aV$40 million
+p722
+aV$60 million
+p723
+aV$48 million
+p724
+aV$2.5 million
+p725
+aVN/A
+p726
+aVN/A
+p727
+aVN/A
+p728
+aVN/A
+p729
+aVN/A
+p730
+aV$15 million
+p731
+aV$100 million
+p732
+aV$14 million
+p733
+aVN/A
+p734
+aV$30 million
+p735
+aVN/A
+p736
+aVN/A
+p737
+aVN/A
+p738
+aVN/A
+p739
+aVN/A
+p740
+aV$4 million
+p741
+aVN/A
+p742
+aV$5 million
+p743
+aVN/A
+p744
+aVN/A
+p745
+aV$60 million
+p746
+aV$54 million
+p747
+aV$15 million
+p748
+aVN/A
+p749
+aV$60 million
+p750
+aVN/A
+p751
+aVN/A
+p752
+aVN/A
+p753
+aV$7 million
+p754
+aVN/A
+p755
+aV$5 million
+p756
+aVN/A
+p757
+aV$18 million
+p758
+aV$40 million
+p759
+aVN/A
+p760
+aV$28 million
+p761
+aVN/A
+p762
+aV$61 million
+p763
+aVN/A
+p764
+aV$7 million
+p765
+aV$68 million
+p766
+aV$33.1 million
+p767
+aVN/A
+p768
+aVN/A
+p769
+aVN/A
+p770
+aV$30 million
+p771
+aVN/A
+p772
+aVN/A
+p773
+aV$7 million
+p774
+aVN/A
+p775
+aV$30 million
+p776
+aVN/A
+p777
+aVN/A
+p778
+aV$82 million
+p779
+aVN/A
+p780
+aVN/A
+p781
+aV$38 million
+p782
+aVN/A
+p783
+aV$55 million
+p784
+aVN/A
+p785
+aVN/A
+p786
+aV$23 million
+p787
+aV$60 million
+p788
+aV$19 million
+p789
+aV$12 million
+p790
+aVN/A
+p791
+aV$25 million
+p792
+aV$13 million
+p793
+aV$14 million
+p794
+aVN/A
+p795
+aVN/A
+p796
+aV$38 million
+p797
+aV$120 million
+p798
+aV$90 million
+p799
+aVN/A
+p800
+aVN/A
+p801
+aVN/A
+p802
+aV$65 million
+p803
+aVN/A
+p804
+aV$31 million
+p805
+aVN/A
+p806
+aV$9 million
+p807
+aV$40 million
+p808
+aVN/A
+p809
+aV$25 million
+p810
+aV$50 million
+p811
+aV$65 million
+p812
+aVN/A
+p813
+aVN/A
+p814
+aVN/A
+p815
+aV$15 million
+p816
+aV$25 million
+p817
+aVN/A
+p818
+aVN/A
+p819
+aVN/A
+p820
+aV$11.5 million
+p821
+aV$84 million
+p822
+aVN/A
+p823
+aVN/A
+p824
+aV$37 million
+p825
+aVN/A
+p826
+aVN/A
+p827
+aV$23 million
+p828
+aVN/A
+p829
+aVN/A
+p830
+aVN/A
+p831
+aV$30 million
+p832
+aV$30 million
+p833
+aV$90 million
+p834
+aVN/A
+p835
+aVN/A
+p836
+aVN/A
+p837
+aV$80 million
+p838
+aVN/A
+p839
+aVN/A
+p840
+aVN/A
+p841
+aVN/A
+p842
+aVN/A
+p843
+aV$30 million
+p844
+aVN/A
+p845
+aVN/A
+p846
+aV$30 million
+p847
+aVN/A
+p848
+aVN/A
+p849
+aVN/A
+p850
+aVN/A
+p851
+aV$65 million
+p852
+aVN/A
+p853
+aV$55 million
+p854
+aV$14 million
+p855
+aVN/A
+p856
+aV$6.2 million
+p857
+aV$22 million
+p858
+aV$13 million
+p859
+aVN/A
+p860
+aVN/A
+p861
+aVN/A
+p862
+aVN/A
+p863
+aV$100 million
+p864
+aVN/A
+p865
+aVN/A
+p866
+aVN/A
+p867
+aV$30 million
+p868
+aV$400,000
+p869
+aVN/A
+p870
+aVN/A
+p871
+aVN/A
+p872
+aVN/A
+p873
+aVN/A
+p874
+aVN/A
+p875
+aV$2.5 million
+p876
+aVN/A
+p877
+aV$100 million
+p878
+aVN/A
+p879
+aV$140 million
+p880
+aVN/A
+p881
+aVN/A
+p882
+aVN/A
+p883
+aV$100 million
+p884
+aVN/A
+p885
+aVN/A
+p886
+aVN/A
+p887
+aV$15 million
+p888
+aV$4.4 million
+p889
+aV$40,000
+p890
+aV$45 million
+p891
+aV$27,000
+p892
+aV$90 million
+p893
+aV$14 million
+p894
+aV$40 million
+p895
+aVN/A
+p896
+aVN/A
+p897
+aVN/A
+p898
+aVN/A
+p899
+aVN/A
+p900
+aVN/A
+p901
+aVN/A
+p902
+aV$45 million
+p903
+aVN/A
+p904
+aV$18 million
+p905
+aV$58 million
+p906
+aVN/A
+p907
+aVN/A
+p908
+aV$14 million
+p909
+aVN/A
+p910
+aVN/A
+p911
+aVN/A
+p912
+aVN/A
+p913
+aV$75 million
+p914
+aVN/A
+p915
+aV$25 million
+p916
+aVN/A
+p917
+aVN/A
+p918
+aVN/A
+p919
+aV$23 million
+p920
+aV$80 million
+p921
+aVN/A
+p922
+aVN/A
+p923
+aV$8.5 million
+p924
+aVN/A
+p925
+aVN/A
+p926
+aV$36 million
+p927
+aV$35 million
+p928
+aV$130 million
+p929
+aVN/A
+p930
+aV$5 million
+p931
+aVN/A
+p932
+aVN/A
+p933
+aV$110 million
+p934
+aVN/A
+p935
+aVN/A
+p936
+aV$20 million
+p937
+aVN/A
+p938
+aV$46 million
+p939
+aVN/A
+p940
+aVN/A
+p941
+aV$65 million
+p942
+aVN/A
+p943
+aV$100 million
+p944
+aV$3 million
+p945
+aV$58 million
+p946
+aV$40 million
+p947
+aVN/A
+p948
+aVN/A
+p949
+aV$20 million
+p950
+aV$28 million
+p951
+aVN/A
+p952
+aV$40 million
+p953
+aVN/A
+p954
+aV$25 million
+p955
+aV$30 million
+p956
+aVN/A
+p957
+aV$120 million
+p958
+aV$45 million
+p959
+aV$8 million
+p960
+aVN/A
+p961
+aV$37 million
+p962
+aVN/A
+p963
+aVN/A
+p964
+aVN/A
+p965
+aV$80 million
+p966
+aVN/A
+p967
+aVN/A
+p968
+aVN/A
+p969
+aVN/A
+p970
+aV$68 million
+p971
+aV$55 million
+p972
+aVN/A
+p973
+aVN/A
+p974
+aV$5 million
+p975
+aVN/A
+p976
+aVN/A
+p977
+aVN/A
+p978
+aVN/A
+p979
+aVN/A
+p980
+aVN/A
+p981
+aV$10 million
+p982
+aV$24 million
+p983
+aVN/A
+p984
+aVN/A
+p985
+aVN/A
+p986
+aV$80 million
+p987
+aVN/A
+p988
+aVN/A
+p989
+aV$20 million
+p990
+aV$48 million
+p991
+aVN/A
+p992
+aVBuena Vista
+p993
+aVWarner Bros.
+p994
+aVBuena Vista
+p995
+aVUniversal
+p996
+aVRelativity
+p997
+aVWeinstein / Dimension
+p998
+aVBuena Vista
+p999
+aVWarner Bros. (New Line)
+p1000
+aVMGM
+p1001
+aVUniversal
+p1002
+aVUniversal
+p1003
+aVParamount
+p1004
+aVWarner Bros.
+p1005
+aVAtlantic
+p1006
+aVFox
+p1007
+aVSony / Columbia
+p1008
+aVParamount
+p1009
+aVBuena Vista
+p1010
+aVWarner Bros.
+p1011
+aVSony / Columbia
+p1012
+aVBuena Vista
+p1013
+aVNew Line
+p1014
+aVBuena Vista
+p1015
+aVSony / Columbia
+p1016
+aVDEG
+p1017
+aVFirst Look
+p1018
+aVParamount
+p1019
+aVParamount
+p1020
+aVSony / Screen Gems
+p1021
+aVUniversal
+p1022
+aVAmplify
+p1023
+aVBuena Vista
+p1024
+aVWarner Bros.
+p1025
+aVRoadside Attractions
+p1026
+aVMiramax
+p1027
+aVWarner Bros.
+p1028
+aVNew World
+p1029
+aVSony / Screen Gems
+p1030
+aVSony / Columbia
+p1031
+aVFox
+p1032
+aVEmpire Pictures
+p1033
+aVSavoy
+p1034
+aVFox
+p1035
+aVFox
+p1036
+aVUniversal
+p1037
+aVFox
+p1038
+aVMiramax
+p1039
+aVOscilloscope Pictures
+p1040
+aVWarner Bros.
+p1041
+aVSony / Screen Gems
+p1042
+aVUniversal
+p1043
+aVSony / Columbia
+p1044
+aVBuena Vista
+p1045
+aVPolyGram
+p1046
+aVVestron
+p1047
+aVParamount
+p1048
+aVParamount
+p1049
+aVUniversal
+p1050
+aVBuena Vista
+p1051
+aVFox Searchlight
+p1052
+aVBroad Green Pictures
+p1053
+aVFox
+p1054
+aVDestination
+p1055
+aVCannon Films
+p1056
+aVParamount
+p1057
+aVWarner Bros.
+p1058
+aVLionsgate
+p1059
+aVFox
+p1060
+aVFox Searchlight
+p1061
+aVSony (Revolution)
+p1062
+aVNew World
+p1063
+aVUniversal
+p1064
+aVBuena Vista
+p1065
+aVSubmarine Deluxe
+p1066
+aVWell Go USA
+p1067
+aVFox
+p1068
+aVFox
+p1069
+aVWarner Bros.
+p1070
+aVWarner Bros.
+p1071
+aVUniversal
+p1072
+aVNew World
+p1073
+aVColumbia
+p1074
+aVUniversal
+p1075
+aVBuena Vista
+p1076
+aVColumbia
+p1077
+aVFox
+p1078
+aVSony / Columbia
+p1079
+aVZeitgeist
+p1080
+aVNew Line
+p1081
+aVNew Line
+p1082
+aVSony / Columbia
+p1083
+aVBuena Vista
+p1084
+aVSony / Columbia
+p1085
+aVCannon Films
+p1086
+aVFox
+p1087
+aVNew Line
+p1088
+aVIFC
+p1089
+aVMiramax
+p1090
+aVMGM
+p1091
+aVBuena Vista
+p1092
+aVOrion Pictures
+p1093
+aVBuena Vista
+p1094
+aVFox
+p1095
+aVFox
+p1096
+aVSony / Columbia
+p1097
+aVWarner Bros.
+p1098
+aVUniversal
+p1099
+aVNocturnal Features
+p1100
+aVInternational Film Circuit
+p1101
+aVNewmarket
+p1102
+aVFox
+p1103
+aVUniversal
+p1104
+aVCannon Films
+p1105
+aVUniversal
+p1106
+aVFull Circle Releasing
+p1107
+aVCrown
+p1108
+aVMGM
+p1109
+aVColumbia
+p1110
+aVParamount
+p1111
+aVWarner Bros.
+p1112
+aVWarner Bros.
+p1113
+aVUnited Artists
+p1114
+aVBuena Vista
+p1115
+aVWarner Bros.
+p1116
+aVSony / Columbia
+p1117
+aVMGM
+p1118
+aVBuena Vista
+p1119
+aVFox
+p1120
+aVWarner Bros.
+p1121
+aVNew Line
+p1122
+aVLionsgate
+p1123
+aVWarner Bros.
+p1124
+aVMiramax
+p1125
+aVFocus Features
+p1126
+aVColumbia
+p1127
+aVBuena Vista
+p1128
+aVTriStar
+p1129
+aVFox
+p1130
+aVUniversal
+p1131
+aVWarner Bros.
+p1132
+aVUniversal
+p1133
+aVParamount
+p1134
+aVVitagraph
+p1135
+aVBuena Vista
+p1136
+aVWarner Bros.
+p1137
+aVUniversal
+p1138
+aVSony / Columbia
+p1139
+aVMGM
+p1140
+aVOscilloscope Pictures
+p1141
+aVFox
+p1142
+aVFilmDistrict
+p1143
+aVSony / Screen Gems
+p1144
+aVSony / Columbia
+p1145
+aVOrion Pictures
+p1146
+aVSony / Screen Gems
+p1147
+aVFocus Features
+p1148
+aVSamuel Goldwyn
+p1149
+aVMGM
+p1150
+aVSony / Columbia
+p1151
+aVGramercy
+p1152
+aVSony / Columbia
+p1153
+aVCorsair
+p1154
+aVFox
+p1155
+aVSony / Screen Gems
+p1156
+aVParamount
+p1157
+aVFox
+p1158
+aVFox
+p1159
+aVBuena Vista
+p1160
+aVSony / Columbia
+p1161
+aVFox
+p1162
+aVLionsgate
+p1163
+aVWarner Bros.
+p1164
+aVUniversal
+p1165
+aVLions Gate
+p1166
+aVWarner Bros. (New Line)
+p1167
+aVBuena Vista
+p1168
+aVFox
+p1169
+aVTriStar
+p1170
+aVParamount
+p1171
+aVNew Line
+p1172
+aVBuena Vista
+p1173
+aVWarner Bros.
+p1174
+aVNew Line
+p1175
+aVBuena Vista
+p1176
+aVUniversal
+p1177
+aVMGM (Weinstein)
+p1178
+aVParamount
+p1179
+aVArtisan
+p1180
+aVCannon Films
+p1181
+aVSony / Columbia
+p1182
+aVColumbia
+p1183
+aVTriStar
+p1184
+aVParamount
+p1185
+aVUniversal
+p1186
+aVBuena Vista
+p1187
+aVStrand
+p1188
+aVSony / Columbia
+p1189
+aVSony / Columbia
+p1190
+aVRoadside Attractions
+p1191
+aVParamount Classics
+p1192
+aVWarner Bros.
+p1193
+aVNew Line
+p1194
+aVParamount
+p1195
+aVUniversal
+p1196
+aVNew Line
+p1197
+aVParamount
+p1198
+aVSony / Columbia
+p1199
+aVUniversal
+p1200
+aVSony / Columbia
+p1201
+aVAnchor Bay Films
+p1202
+aVWarner Bros.
+p1203
+aVBuena Vista
+p1204
+aVMiramax
+p1205
+aVDreamWorks
+p1206
+aVTriStar
+p1207
+aVNew Line
+p1208
+aVNew Line
+p1209
+aVSummit Entertainment
+p1210
+aVRadius-TWC
+p1211
+aVUniversal
+p1212
+aVDreamWorks
+p1213
+aVSony / Columbia
+p1214
+aVFox
+p1215
+aVNew Line
+p1216
+aVBuena Vista
+p1217
+aVFull Moon Pictures
+p1218
+aVWarner Bros.
+p1219
+aVUniversal
+p1220
+aVWarner Bros. (New Line)
+p1221
+aVWarner Bros.
+p1222
+aVWeinstein / Dimension
+p1223
+aVUniversal
+p1224
+aVMGM (Weinstein)
+p1225
+aVFox
+p1226
+aVUniversal
+p1227
+aVWarner Bros.
+p1228
+aVBuena Vista
+p1229
+aVUniversal
+p1230
+aVIRS Media
+p1231
+aVMiramax
+p1232
+aVParamount
+p1233
+aVUniversal
+p1234
+aVArtisan
+p1235
+aVTriStar
+p1236
+aVDEG
+p1237
+aVTriStar
+p1238
+aVWarner Bros.
+p1239
+aVMGM
+p1240
+aVOverture Films
+p1241
+aVGramercy
+p1242
+aNaVWarner Bros. (New Line)
+p1243
+aVParamount
+p1244
+aVFox
+p1245
+aVWarner Bros.
+p1246
+aVUniversal
+p1247
+aVMiramax
+p1248
+aVNew Line
+p1249
+aVRockstone Releasing
+p1250
+aVAtlantic
+p1251
+aVSony / Columbia
+p1252
+aVWeinstein Company
+p1253
+aVBuena Vista
+p1254
+aVIFC
+p1255
+aVUniversal
+p1256
+aVSony / Columbia
+p1257
+aVUniversal
+p1258
+aVUniversal
+p1259
+aVNew Line
+p1260
+aVParamount
+p1261
+aVEntertainment One
+p1262
+aVDreamWorks
+p1263
+aVUniversal
+p1264
+aVBuena Vista
+p1265
+aVAmerican International Pictures
+p1266
+aVBuena Vista
+p1267
+aVFox
+p1268
+aVNew Line
+p1269
+aVColumbia
+p1270
+aVIFC
+p1271
+aVColumbia
+p1272
+aVGramercy
+p1273
+aVPalisades Ent.
+p1274
+aVFox
+p1275
+aVOrion Pictures
+p1276
+aVFox
+p1277
+aVStrand
+p1278
+aVParamount
+p1279
+aVWarner Bros.
+p1280
+aVColumbia
+p1281
+aVRiot Studios
+p1282
+aVWarner Bros.
+p1283
+aVMGM
+p1284
+aVUniversal
+p1285
+aVRogue Pictures
+p1286
+aVUniversal
+p1287
+aVWarner Bros.
+p1288
+aVParamount (DreamWorks)
+p1289
+aVUniversal
+p1290
+aVNew World
+p1291
+aVAnchor Bay Films
+p1292
+aVFox
+p1293
+aVChina Lion
+p1294
+aVParamount
+p1295
+aVImage Entertainment
+p1296
+aVUniversal
+p1297
+aVNew Line
+p1298
+aVOrion Pictures
+p1299
+aVWarner Bros. (New Line)
+p1300
+aVNew Line
+p1301
+aVFox
+p1302
+aVNew Line
+p1303
+aVFox
+p1304
+aVParamount
+p1305
+aVSony / Columbia
+p1306
+aVUniversal
+p1307
+aVParamount
+p1308
+aVParamount
+p1309
+aVBuena Vista
+p1310
+aVFox
+p1311
+aVLionsgate
+p1312
+aVColumbia
+p1313
+aVFox
+p1314
+aVMagnolia
+p1315
+aVGramercy
+p1316
+aVStrand
+p1317
+aVBuena Vista
+p1318
+aVBuena Vista
+p1319
+aVOrion Pictures
+p1320
+aVParamount
+p1321
+aVParamount
+p1322
+aVUniversal
+p1323
+aVWarner Bros.
+p1324
+aVSony / Columbia
+p1325
+aVParamount
+p1326
+aVIndican
+p1327
+aVWarner Bros.
+p1328
+aVMGM
+p1329
+aVParamount
+p1330
+aVParamount
+p1331
+aVWarner Bros.
+p1332
+aVFreestyle Releasing
+p1333
+aVDreamWorks
+p1334
+aVUniversal
+p1335
+aVBuena Vista
+p1336
+aVFox
+p1337
+aVUSA Films
+p1338
+aVBuena Vista
+p1339
+aVMiramax
+p1340
+aVWarner Bros.
+p1341
+aVWarner Bros.
+p1342
+aVNew Line
+p1343
+aVUniversal
+p1344
+aVSony / Columbia
+p1345
+aVTroma
+p1346
+aVUniversal
+p1347
+aVNew World
+p1348
+aVOpen Road Films
+p1349
+aVSony Classics
+p1350
+aVMGM
+p1351
+aVWarner Bros. (New Line)
+p1352
+aVSony / Columbia
+p1353
+aVNew Line
+p1354
+aVUnknown
+p1355
+aVRogue Pictures
+p1356
+aVUniversal
+p1357
+aVTriStar
+p1358
+aNaVWarner Bros. (New Line)
+p1359
+aVIFC
+p1360
+aVWarner Bros.
+p1361
+aVFox
+p1362
+aVA24
+p1363
+aVWeinstein Company
+p1364
+aVWarner Bros.
+p1365
+aVParamount
+p1366
+aVWarner Bros.
+p1367
+aVWarner Bros.
+p1368
+aVPelican House
+p1369
+aVWarner Bros.
+p1370
+aVParamount
+p1371
+aVColumbia
+p1372
+aVUniversal
+p1373
+aVUniversal
+p1374
+aVIDP
+p1375
+aVBuena Vista
+p1376
+aVSony / Columbia
+p1377
+aVUniversal
+p1378
+aVDreamWorks
+p1379
+aVMGM
+p1380
+aVMGM (Weinstein)
+p1381
+aVMiramax
+p1382
+aVBuena Vista
+p1383
+aVRogue Pictures
+p1384
+aVNew Line
+p1385
+aVWarner Bros.
+p1386
+aVBuena Vista
+p1387
+aVSony / Columbia
+p1388
+aVWarner Bros.
+p1389
+aVNew Line
+p1390
+aVSony / Columbia
+p1391
+aVSony Classics
+p1392
+aVWarner Bros. (New Line)
+p1393
+aVEmbassy
+p1394
+aVPicturehouse
+p1395
+aVBuena Vista
+p1396
+aVUniversal
+p1397
+aVWarner Bros.
+p1398
+aVMillennium Ent.
+p1399
+aVOctober
+p1400
+aVAlliance
+p1401
+aVUniversal
+p1402
+aVWarner Bros. (New Line)
+p1403
+aVMGM (Weinstein)
+p1404
+aVMonterey Media, Inc.
+p1405
+aVFox
+p1406
+aVUniversal
+p1407
+aVSony / Columbia
+p1408
+aVUniversal
+p1409
+aVWarner Bros.
+p1410
+aVFox
+p1411
+aVUniversal
+p1412
+aVWarner Bros.
+p1413
+aVMiramax
+p1414
+aVFox
+p1415
+aVDimension Films
+p1416
+aVNew Line
+p1417
+aVDisney
+p1418
+aVWarner Bros.
+p1419
+aVWeinstein Company
+p1420
+aVLionsgate
+p1421
+aVWarner Bros.
+p1422
+aVFocus Features
+p1423
+aVLions Gate
+p1424
+aVWarner Bros.
+p1425
+aVUniversal
+p1426
+aVVariance Films
+p1427
+aVSony (Revolution)
+p1428
+aVUniversal
+p1429
+aVCinecom
+p1430
+aVCannon Films
+p1431
+aVBuena Vista
+p1432
+aVSony Classics
+p1433
+aVSony / Columbia
+p1434
+aVFox
+p1435
+aVUniversal
+p1436
+aVUniversal
+p1437
+aVFox
+p1438
+aVEntertainment One
+p1439
+aVSony / Columbia
+p1440
+aVImage Entertainment
+p1441
+aVParamount
+p1442
+aV120 Degree Films
+p1443
+aVParamount
+p1444
+aVBuena Vista
+p1445
+aVUniversal
+p1446
+aVUniversal
+p1447
+aVUniversal
+p1448
+aVSony / Columbia
+p1449
+aVLionsgate
+p1450
+aVOrion Pictures
+p1451
+aVBuena Vista
+p1452
+aVWarner Bros.
+p1453
+aVWarner Bros.
+p1454
+aVSony / Columbia
+p1455
+aVFox
+p1456
+aVWarner Bros.
+p1457
+aVBuena Vista
+p1458
+aVNew Line
+p1459
+aVUniversal
+p1460
+aVBuena Vista
+p1461
+aVBuena Vista
+p1462
+aVUniversal
+p1463
+aVFox
+p1464
+aVBuena Vista
+p1465
+aVFox
+p1466
+aVOctober
+p1467
+aVSony / Screen Gems
+p1468
+aVParamount
+p1469
+aVMGM
+p1470
+aVTroma
+p1471
+aVWarner Bros.
+p1472
+aVSamuel Goldwyn
+p1473
+aVFox
+p1474
+aVNew World
+p1475
+aVUniversal
+p1476
+aVSony / Columbia
+p1477
+aVHalestorm
+p1478
+aVUniversal
+p1479
+aVParamount
+p1480
+aVMGM
+p1481
+aVUniversal
+p1482
+aVWarner Bros.
+p1483
+aVTriStar
+p1484
+aVUniversal
+p1485
+aVFox
+p1486
+aVMGM
+p1487
+aVCBS Films
+p1488
+aVUniversal
+p1489
+aVFox
+p1490
+aVFox
+p1491
+aVIFC
+p1492
+aVSony (Revolution)
+p1493
+aVParamount
+p1494
+aVFox
+p1495
+aVUniversal
+p1496
+aVUniversal
+p1497
+aVEmshell Prod. Group
+p1498
+aVDreamWorks
+p1499
+aVMiramax
+p1500
+aVAnchor Bay Films
+p1501
+aVWarner Bros.
+p1502
+aVRogue Pictures
+p1503
+aVWeinstein / Dimension
+p1504
+aVWarner Bros.
+p1505
+aVMiramax
+p1506
+aVWarner Bros.
+p1507
+aVWeinstein Company
+p1508
+aVUniversal
+p1509
+aVDreamWorks
+p1510
+aVUniversal
+p1511
+aVWarner Bros.
+p1512
+aVParamount
+p1513
+aVColumbia
+p1514
+aVUniversal
+p1515
+aVFox
+p1516
+aVUnited Artists
+p1517
+aVUniversal
+p1518
+aVFox
+p1519
+aVWarner Bros.
+p1520
+aVA24
+p1521
+aVTroma
+p1522
+aVSony (Revolution)
+p1523
+aVBuena Vista
+p1524
+aVMGM
+p1525
+aVParamount
+p1526
+aVParamount
+p1527
+aVParamount
+p1528
+aVDimension Films
+p1529
+aVSony Classics
+p1530
+aVFox Searchlight
+p1531
+aVNew Line
+p1532
+aVFox
+p1533
+aVWarner Bros.
+p1534
+aVParamount
+p1535
+aVFox
+p1536
+aVUniversal
+p1537
+aVUTV Communications
+p1538
+aVSony / Columbia
+p1539
+aVUniversal
+p1540
+aVWarner Bros.
+p1541
+aVSamuel Goldwyn
+p1542
+aVFox
+p1543
+aVBuena Vista
+p1544
+aVParamount
+p1545
+aVOmni Lab/Freestyle Releasing
+p1546
+aVWarner Bros.
+p1547
+aVBuena Vista
+p1548
+aVLions Gate
+p1549
+aVFox
+p1550
+aVBuena Vista
+p1551
+aVColumbia
+p1552
+aVAlliance
+p1553
+aVWarner Bros.
+p1554
+aVParamount (DreamWorks)
+p1555
+aVUniversal
+p1556
+aVTaurus Ent.
+p1557
+aVUniversal
+p1558
+aVMiramax
+p1559
+aVWarner Bros.
+p1560
+aVFox Atomic
+p1561
+aVRegent Releasing
+p1562
+aVUniversal
+p1563
+aVMiramax
+p1564
+aVUniversal
+p1565
+aVFox
+p1566
+aVBuena Vista
+p1567
+aVRegent Releasing
+p1568
+aVTugg 
+p1569
+aVParamount
+p1570
+aVUniversal
+p1571
+aVDreamWorks
+p1572
+aVWarner Bros.
+p1573
+aVEcho Bridge Entertainment
+p1574
+aVSony / Columbia
+p1575
+aVDreamWorks
+p1576
+aVIFC
+p1577
+aVUniversal
+p1578
+aVBuena Vista
+p1579
+aVBuena Vista
+p1580
+aVBuena Vista
+p1581
+aVWarner Bros.
+p1582
+aVSony / Columbia
+p1583
+aVWarner Bros.
+p1584
+aVFox
+p1585
+aVDimension Films
+p1586
+aVAnchor Bay Films
+p1587
+aVWarner Bros.
+p1588
+aVBuena Vista
+p1589
+aVUniversal
+p1590
+aVWarner Bros.
+p1591
+aVWarner Bros.
+p1592
+aVAtlantic
+p1593
+aVNew Century
+p1594
+aVTriumph
+p1595
+aVMGM
+p1596
+aVWarner Bros.
+p1597
+aVJensen Farley
+p1598
+aVRelativity
+p1599
+aVOctober
+p1600
+aVFox
+p1601
+aVWarner Bros.
+p1602
+aVLionsgate
+p1603
+aVFox
+p1604
+aVNew Line
+p1605
+aVColumbia
+p1606
+aVSony / Columbia
+p1607
+aVParamount
+p1608
+aVNew Line
+p1609
+aVNew Line
+p1610
+aVUSA Films
+p1611
+aVCBS Films
+p1612
+aVFox
+p1613
+aVParamount
+p1614
+aVColumbia
+p1615
+aVIFC
+p1616
+aVRoadside Attractions
+p1617
+aVWarner Bros.
+p1618
+aVGramercy
+p1619
+aVFox
+p1620
+aVMGM
+p1621
+aVSony / Columbia
+p1622
+aVNew Line
+p1623
+aVFox
+p1624
+aVBuena Vista
+p1625
+aVMagnolia
+p1626
+aVWarner Bros.
+p1627
+aVFox
+p1628
+aVSony (Revolution)
+p1629
+aVSony / Columbia
+p1630
+aVSony / Columbia
+p1631
+aVDimension Films
+p1632
+aVMGM
+p1633
+aVParamount
+p1634
+aVWarner Bros.
+p1635
+aVWarner Bros.
+p1636
+aVParamount (DreamWorks)
+p1637
+aVUniversal
+p1638
+aVWarner Bros.
+p1639
+aVTriStar
+p1640
+aVSony / Columbia
+p1641
+aVLionsgate
+p1642
+aVBuena Vista
+p1643
+aVSamuel Goldwyn
+p1644
+aVUniversal
+p1645
+aVUniversal
+p1646
+aVNew Line
+p1647
+aVFox
+p1648
+aVIFC
+p1649
+aVUniversal
+p1650
+aVParamount
+p1651
+aVUniversal
+p1652
+aVFox
+p1653
+aVSony / Columbia
+p1654
+aVUniversal
+p1655
+aVUniversal
+p1656
+aVBuena Vista
+p1657
+aVBuena Vista
+p1658
+aVBuena Vista
+p1659
+aVUniversal
+p1660
+aVSony (Revolution)
+p1661
+aVBuena Vista
+p1662
+aVUniversal
+p1663
+aVFox Atomic
+p1664
+aVLions Gate
+p1665
+aVVertical Entertainment
+p1666
+aVUnited Artists
+p1667
+aVDisney
+p1668
+aVHemdale
+p1669
+aVParamount (DreamWorks)
+p1670
+aVUniversal
+p1671
+aVMiramax
+p1672
+aVMagnolia
+p1673
+aVUniversal
+p1674
+aVParamount
+p1675
+aVFox
+p1676
+aVFocus Features
+p1677
+aVOpen Road Films
+p1678
+aVSony Classics
+p1679
+aVMGM (Weinstein)
+p1680
+aVFox Searchlight
+p1681
+aVNew Line
+p1682
+aVUniversal
+p1683
+aVBuena Vista
+p1684
+aVUniversal
+p1685
+aVParamount
+p1686
+aVParamount (DreamWorks)
+p1687
+aVIndican
+p1688
+aVLions Gate
+p1689
+aVUniversal
+p1690
+aVFox
+p1691
+aVWarner Bros.
+p1692
+aVFox
+p1693
+aVTriStar
+p1694
+aVWarner Bros.
+p1695
+aVBuena Vista
+p1696
+aVSpanish Moss
+p1697
+aVMGM
+p1698
+aVBuena Vista
+p1699
+aVUniversal
+p1700
+aVWarner Bros.
+p1701
+aVAtlantic
+p1702
+aVParamount
+p1703
+aVUniversal
+p1704
+aVUniversal
+p1705
+aVWarner Bros. (New Line)
+p1706
+aVMGM
+p1707
+aVSony (Revolution)
+p1708
+aVBuena Vista
+p1709
+aVWarner Bros.
+p1710
+aVParamount
+p1711
+aVSony / Columbia
+p1712
+aVSummit Entertainment
+p1713
+aVParamount
+p1714
+aVJensen Farley
+p1715
+aVFox
+p1716
+aVSony (Revolution)
+p1717
+aVSony / Columbia
+p1718
+aVWarner Bros.
+p1719
+aVHannover House
+p1720
+aVSony / Columbia
+p1721
+aVSony / Columbia
+p1722
+aVUniversal
+p1723
+aVWarner Bros.
+p1724
+aVColumbia
+p1725
+aVTriStar
+p1726
+aVFox
+p1727
+aVUniversal
+p1728
+aVUniversal
+p1729
+aVWarner Bros.
+p1730
+aVUniversal
+p1731
+aVParamount (DreamWorks)
+p1732
+aVOrion Pictures
+p1733
+aVFox Searchlight
+p1734
+aVSony / Columbia
+p1735
+aVBuena Vista
+p1736
+aVOrion Pictures
+p1737
+aVUniversal
+p1738
+aVClarius Entertainment
+p1739
+aVUniversal
+p1740
+aVMiramax
+p1741
+aVSony / Columbia
+p1742
+aVLions Gate
+p1743
+aVUniversal
+p1744
+aVParamount
+p1745
+aVLionsgate/Summit
+p1746
+aVWarner Bros.
+p1747
+aVBuena Vista
+p1748
+aVSony (Revolution)
+p1749
+aVWarner Bros.
+p1750
+aVTriStar
+p1751
+aVUniversal
+p1752
+aVBuena Vista
+p1753
+aVNew World
+p1754
+aVFox
+p1755
+aVUniversal
+p1756
+aVParamount
+p1757
+aVBuena Vista
+p1758
+aVDrafthouse
+p1759
+aVTrimark
+p1760
+aVVestron
+p1761
+aVWarner Bros.
+p1762
+aVOrion Pictures
+p1763
+aVSony / Columbia
+p1764
+aVFox Searchlight
+p1765
+aVSony / Columbia
+p1766
+aVUniversal
+p1767
+aVSony / Columbia
+p1768
+aVBuena Vista
+p1769
+aVFox
+p1770
+aVLionsgate
+p1771
+aVLorimar
+p1772
+aVUniversal
+p1773
+aVBuena Vista
+p1774
+aVTLA Releasing
+p1775
+aVBuena Vista
+p1776
+aVMGM
+p1777
+aVBuena Vista
+p1778
+aVParamount
+p1779
+aVWarner Bros.
+p1780
+aVWarner Bros.
+p1781
+aVMiramax
+p1782
+aVFocus Features
+p1783
+aVTrimark
+p1784
+aVFox
+p1785
+aVColumbia
+p1786
+aVTriStar
+p1787
+aVBuena Vista
+p1788
+aVFox Searchlight
+p1789
+aVEuropaCorp
+p1790
+aVFox
+p1791
+aVBuena Vista
+p1792
+aVFox Searchlight
+p1793
+aVOrion Pictures
+p1794
+aVSony / Columbia
+p1795
+aVWarner Bros.
+p1796
+aVWarner Bros.
+p1797
+aVBuena Vista
+p1798
+aVJensen Farley
+p1799
+aVOpen Road Films
+p1800
+aVWarner Bros.
+p1801
+aVSony / Columbia
+p1802
+aVEntertainment One
+p1803
+aVSony / Columbia
+p1804
+aVWarner Bros.
+p1805
+aVWarner Bros.
+p1806
+aVParamount
+p1807
+aVSony / Columbia
+p1808
+aVBuena Vista
+p1809
+aVVariance Films
+p1810
+aVFox
+p1811
+aVFox Searchlight
+p1812
+aVGramercy
+p1813
+aVSony Repertory
+p1814
+aVParamount
+p1815
+aVMiramax
+p1816
+aVParamount
+p1817
+aVFox
+p1818
+aVSony / Columbia
+p1819
+aVFreestyle Releasing
+p1820
+aVRoadside Attractions
+p1821
+aVColumbia
+p1822
+aVTriStar
+p1823
+aVWarner Bros.
+p1824
+aVFox
+p1825
+aVUniversal
+p1826
+aVWeinstein / Dimension
+p1827
+aVParamount
+p1828
+aVMGM
+p1829
+aVDreamWorks
+p1830
+aVMGM
+p1831
+aVSony / Columbia
+p1832
+aVParamount
+p1833
+aVUniversal
+p1834
+aVMagnolia
+p1835
+aVLionsgate
+p1836
+aVEmbassy
+p1837
+aVParamount
+p1838
+aVOrion Pictures
+p1839
+aVSony / Columbia
+p1840
+aVColumbia
+p1841
+aVOrion Pictures
+p1842
+aVWarner Bros.
+p1843
+aVWarner Bros.
+p1844
+aVSony / Columbia
+p1845
+aVLions Gate
+p1846
+aVBuena Vista
+p1847
+aVLionsgate
+p1848
+aVVertical Entertainment
+p1849
+aVFox
+p1850
+aVMGM
+p1851
+aVLionsgate
+p1852
+aVParamount (DreamWorks)
+p1853
+aVAmplify
+p1854
+aVParamount
+p1855
+aVColumbia
+p1856
+aVLions Gate
+p1857
+aVWarner Bros.
+p1858
+aVAnchor Bay Films
+p1859
+aVParamount
+p1860
+aVSony / Columbia
+p1861
+aVParamount
+p1862
+aVSony (Revolution)
+p1863
+aVBuena Vista
+p1864
+aVSamuel Goldwyn
+p1865
+aVWarner Bros.
+p1866
+aVMGM
+p1867
+aVWarner Bros.
+p1868
+aVVestron
+p1869
+aVFox
+p1870
+aVBuena Vista
+p1871
+aVParamount
+p1872
+aVUniversal
+p1873
+aVFox
+p1874
+aVSony / Screen Gems
+p1875
+aVTriStar
+p1876
+aVUniversal
+p1877
+aVFox
+p1878
+aVFox
+p1879
+aVWarner Bros.
+p1880
+aVFilmDistrict
+p1881
+aVSony / Columbia
+p1882
+aVParamount
+p1883
+aVSony / Screen Gems
+p1884
+aVCardinal Entertainment
+p1885
+aVUniversal
+p1886
+aVSavoy
+p1887
+aVWarner Bros.
+p1888
+aVFox Searchlight
+p1889
+aVSony / Columbia
+p1890
+aVMiramax
+p1891
+aVBuena Vista
+p1892
+aVOrion Pictures
+p1893
+aVMonterey Media, Inc.
+p1894
+aVFox
+p1895
+aVUniversal
+p1896
+aVMGM
+p1897
+aVTrimark
+p1898
+aVNew Line
+p1899
+aVFox
+p1900
+aVNew World
+p1901
+aVWarner Bros.
+p1902
+aVUniversal
+p1903
+aVUniversal
+p1904
+aVFox
+p1905
+aVFox Searchlight
+p1906
+aVBuena Vista
+p1907
+aVMagnolia
+p1908
+aVWarner Bros.
+p1909
+aVMGM
+p1910
+aVSony / Columbia
+p1911
+aVUniversal
+p1912
+aVUniversal
+p1913
+aVFox
+p1914
+aVFox
+p1915
+aVEpic Pictures
+p1916
+aVSports Comedy
+p1917
+aVComedy
+p1918
+aVRomantic Comedy
+p1919
+aVRomantic Comedy
+p1920
+aVComedy
+p1921
+aVHorror
+p1922
+aVSports Comedy
+p1923
+aVRomantic Comedy
+p1924
+aVComedy
+p1925
+aVHorror Comedy
+p1926
+aVAction Comedy
+p1927
+aVComedy
+p1928
+aVUnknown
+p1929
+aVHorror Comedy
+p1930
+aVFantasy Comedy
+p1931
+aVHorror Comedy
+p1932
+aVComedy
+p1933
+aVHorror Comedy
+p1934
+aVComedy Thriller
+p1935
+aVAction Comedy
+p1936
+aVComedy
+p1937
+aVComedy
+p1938
+aVHorror Comedy
+p1939
+aVHorror Comedy
+p1940
+aVRomantic Comedy
+p1941
+aVComedy
+p1942
+aVFamily Comedy
+p1943
+aVComedy
+p1944
+aVComedy
+p1945
+aVAction Comedy
+p1946
+aVComedy Thriller
+p1947
+aVUnknown
+p1948
+aVComedy
+p1949
+aVHorror Comedy
+p1950
+aVComedy Thriller
+p1951
+aVSports Comedy
+p1952
+aVUnknown
+p1953
+aVComedy
+p1954
+aVAction Comedy
+p1955
+aVComedy
+p1956
+aVHorror Comedy
+p1957
+aVComedy Thriller
+p1958
+aVAction Comedy
+p1959
+aVComedy
+p1960
+aVFantasy Comedy
+p1961
+aVAction Comedy
+p1962
+aVComedy
+p1963
+aVComedy
+p1964
+aVComedy
+p1965
+aVComedy
+p1966
+aVComedy
+p1967
+aVRomantic Comedy
+p1968
+aVFamily Comedy
+p1969
+aVComedy Thriller
+p1970
+aVComedy
+p1971
+aVRomantic Comedy
+p1972
+aVComedy
+p1973
+aVComedy
+p1974
+aVSports Comedy
+p1975
+aVComedy / Drama
+p1976
+aVComedy
+p1977
+aVComedy
+p1978
+aVComedy
+p1979
+aVComedy
+p1980
+aVComedy
+p1981
+aVRomantic Comedy
+p1982
+aVHorror Comedy
+p1983
+aVComedy Thriller
+p1984
+aVHorror Comedy
+p1985
+aVComedy
+p1986
+aVComedy
+p1987
+aVRomantic Comedy
+p1988
+aVAnimation
+p1989
+aVComedy
+p1990
+aVHorror Comedy
+p1991
+aVFamily Comedy
+p1992
+aVComedy
+p1993
+aVComedy
+p1994
+aVSci-Fi Comedy
+p1995
+aVComedy
+p1996
+aVFantasy Comedy
+p1997
+aVFantasy Comedy
+p1998
+aVFantasy Comedy
+p1999
+aVComedy
+p2000
+aVHorror Comedy
+p2001
+aVHorror Comedy
+p2002
+aVRomantic Comedy
+p2003
+aVHorror
+p2004
+aVSports Comedy
+p2005
+aVComedy
+p2006
+aVSci-Fi Comedy
+p2007
+aVFamily Comedy
+p2008
+aVHorror Comedy
+p2009
+aVAction Comedy
+p2010
+aVFantasy Comedy
+p2011
+aVFamily Comedy
+p2012
+aVForeign
+p2013
+aVRomantic Comedy
+p2014
+aVComedy
+p2015
+aVComedy
+p2016
+aVUnknown
+p2017
+aVComedy
+p2018
+aVComedy
+p2019
+aVComedy
+p2020
+aVHorror Comedy
+p2021
+aVComedy
+p2022
+aVHorror Comedy
+p2023
+aVHorror Comedy
+p2024
+aVSports Comedy
+p2025
+aVFantasy Comedy
+p2026
+aVComedy
+p2027
+aVSports Comedy
+p2028
+aVComedy
+p2029
+aVComedy
+p2030
+aVHorror Comedy
+p2031
+aVComedy
+p2032
+aVComedy
+p2033
+aVHorror Comedy
+p2034
+aVComedy
+p2035
+aVAction Comedy
+p2036
+aVAction Comedy
+p2037
+aVSports Comedy
+p2038
+aVHorror
+p2039
+aVComedy
+p2040
+aVCrime Comedy
+p2041
+aVComedy
+p2042
+aVAnimation
+p2043
+aVSci-Fi Comedy
+p2044
+aVSports Comedy
+p2045
+aVAction Comedy
+p2046
+aVComedy
+p2047
+aVFamily Comedy
+p2048
+aVRomantic Comedy
+p2049
+aVComedy
+p2050
+aVComedy
+p2051
+aVWestern Comedy
+p2052
+aVAction Comedy
+p2053
+aVSports Comedy
+p2054
+aVRomantic Comedy
+p2055
+aVComedy
+p2056
+aVUnknown
+p2057
+aVComedy
+p2058
+aVHorror Comedy
+p2059
+aVHorror Comedy
+p2060
+aVWestern Comedy
+p2061
+aVPeriod Comedy
+p2062
+aVComedy
+p2063
+aVSci-Fi Comedy
+p2064
+aVHorror Comedy
+p2065
+aVFamily Comedy
+p2066
+aVSci-Fi Comedy
+p2067
+aVRomantic Comedy
+p2068
+aVComedy
+p2069
+aVHorror Comedy
+p2070
+aVComedy
+p2071
+aVSci-Fi Comedy
+p2072
+aVHorror Comedy
+p2073
+aVAction Comedy
+p2074
+aVRomantic Comedy
+p2075
+aVCrime Comedy
+p2076
+aVHorror Comedy
+p2077
+aVComedy Thriller
+p2078
+aVComedy
+p2079
+aVComedy
+p2080
+aVRomantic Comedy
+p2081
+aVComedy
+p2082
+aVAction Comedy
+p2083
+aVFamily Comedy
+p2084
+aVRomantic Comedy
+p2085
+aVRomantic Comedy
+p2086
+aVAction Comedy
+p2087
+aVFantasy Comedy
+p2088
+aVSci-Fi Comedy
+p2089
+aVSports Comedy
+p2090
+aVFantasy Comedy
+p2091
+aVRomantic Comedy
+p2092
+aVFantasy Comedy
+p2093
+aVRomantic Comedy
+p2094
+aVHorror Comedy
+p2095
+aVHorror Comedy
+p2096
+aVFamily Adventure
+p2097
+aVRomantic Comedy
+p2098
+aVAction Comedy
+p2099
+aVFamily Comedy
+p2100
+aVComedy
+p2101
+aVComedy
+p2102
+aVHorror Comedy
+p2103
+aVComedy
+p2104
+aVAction Comedy
+p2105
+aVComedy
+p2106
+aVRomantic Comedy
+p2107
+aVRomantic Comedy
+p2108
+aVRomantic Comedy
+p2109
+aVMusical
+p2110
+aVComedy
+p2111
+aVComedy
+p2112
+aVAction Comedy
+p2113
+aVSports Comedy
+p2114
+aVHorror Comedy
+p2115
+aVSports Comedy
+p2116
+aVAction Comedy
+p2117
+aVAction Comedy
+p2118
+aVRomantic Comedy
+p2119
+aVAction Comedy
+p2120
+aVComedy
+p2121
+aVComedy
+p2122
+aVAction Comedy
+p2123
+aVSports Comedy
+p2124
+aVFantasy Comedy
+p2125
+aVHorror Comedy
+p2126
+aVAction Comedy
+p2127
+aVRomantic Comedy
+p2128
+aVHorror Comedy
+p2129
+aVComedy
+p2130
+aVSci-Fi Comedy
+p2131
+aVComedy
+p2132
+aVComedy
+p2133
+aVComedy
+p2134
+aVComedy
+p2135
+aVComedy
+p2136
+aVComedy
+p2137
+aVComedy
+p2138
+aVComedy
+p2139
+aVComedy
+p2140
+aVSci-Fi Comedy
+p2141
+aVSci-Fi Comedy
+p2142
+aVComedy
+p2143
+aVSci-Fi Comedy
+p2144
+aVComedy
+p2145
+aVComedy
+p2146
+aVComedy
+p2147
+aVFantasy Comedy
+p2148
+aVComedy
+p2149
+aVSports Comedy
+p2150
+aVComedy
+p2151
+aVHorror Comedy
+p2152
+aVFamily Comedy
+p2153
+aVComedy
+p2154
+aVUnknown
+p2155
+aVRomantic Comedy
+p2156
+aVComedy
+p2157
+aVComedy
+p2158
+aVSports Comedy
+p2159
+aVComedy
+p2160
+aVHorror Comedy
+p2161
+aVComedy
+p2162
+aVRomantic Adventure
+p2163
+aVRomantic Comedy
+p2164
+aVComedy
+p2165
+aVComedy
+p2166
+aNaVRomantic Comedy
+p2167
+aVHorror Comedy
+p2168
+aVRomantic Comedy
+p2169
+aVAction Comedy
+p2170
+aVSports Comedy
+p2171
+aVUnknown
+p2172
+aVHorror Thriller
+p2173
+aVHorror Comedy
+p2174
+aVHorror Comedy
+p2175
+aVSci-Fi Comedy
+p2176
+aVForeign
+p2177
+aVSports Comedy
+p2178
+aVRomantic Comedy
+p2179
+aVComedy
+p2180
+aVPeriod Comedy
+p2181
+aVComedy
+p2182
+aVComedy
+p2183
+aVHorror Comedy
+p2184
+aVSports Comedy
+p2185
+aVSci-Fi Comedy
+p2186
+aVAction Comedy
+p2187
+aVAction Comedy
+p2188
+aVAnimation
+p2189
+aVHorror Comedy
+p2190
+aVAction Comedy
+p2191
+aVFamily Comedy
+p2192
+aVAction Comedy
+p2193
+aVRomantic Comedy
+p2194
+aVThriller
+p2195
+aVHorror Comedy
+p2196
+aVComedy
+p2197
+aVFantasy Comedy
+p2198
+aVAnimation
+p2199
+aVRomantic Comedy
+p2200
+aVHorror Comedy
+p2201
+aVFantasy Comedy
+p2202
+aVComedy
+p2203
+aVMusical
+p2204
+aVComedy
+p2205
+aVComedy
+p2206
+aVFantasy Comedy
+p2207
+aVAction Comedy
+p2208
+aVHorror Comedy
+p2209
+aVHorror Comedy
+p2210
+aVAction / Adventure
+p2211
+aVSports Comedy
+p2212
+aVRomantic Comedy
+p2213
+aVComedy
+p2214
+aVUnknown
+p2215
+aVComedy
+p2216
+aVSci-Fi Comedy
+p2217
+aVForeign
+p2218
+aVUnknown
+p2219
+aVSports Comedy
+p2220
+aVRomantic Comedy
+p2221
+aVHorror Comedy
+p2222
+aVUnknown
+p2223
+aVRomantic Comedy
+p2224
+aVHorror Comedy
+p2225
+aVCrime Comedy
+p2226
+aVAction Comedy
+p2227
+aVRomantic Comedy
+p2228
+aVComedy
+p2229
+aVAction Comedy
+p2230
+aVComedy
+p2231
+aVSports Comedy
+p2232
+aVSci-Fi Comedy
+p2233
+aVComedy
+p2234
+aVAdventure
+p2235
+aVAction Comedy
+p2236
+aVComedy
+p2237
+aVComedy
+p2238
+aVSports Comedy
+p2239
+aVSci-Fi Comedy
+p2240
+aVHorror Comedy
+p2241
+aVCrime Comedy
+p2242
+aVComedy
+p2243
+aVSci-Fi Comedy
+p2244
+aVCrime Comedy
+p2245
+aVComedy
+p2246
+aVAction Comedy
+p2247
+aVRomantic Comedy
+p2248
+aVComedy
+p2249
+aVComedy
+p2250
+aVHorror Comedy
+p2251
+aVSports Comedy
+p2252
+aVSci-Fi Comedy
+p2253
+aVAdventure Comedy
+p2254
+aVComedy
+p2255
+aVComedy
+p2256
+aVComedy
+p2257
+aVRomantic Comedy
+p2258
+aVComedy
+p2259
+aVFamily Comedy
+p2260
+aVComedy
+p2261
+aVComedy
+p2262
+aVComedy
+p2263
+aVComedy
+p2264
+aVSports Comedy
+p2265
+aVRomantic Comedy
+p2266
+aVFamily Adventure
+p2267
+aVRomantic Comedy
+p2268
+aVComedy
+p2269
+aVUnknown
+p2270
+aVRomantic Comedy
+p2271
+aVComedy
+p2272
+aVHorror Comedy
+p2273
+aVFantasy Comedy
+p2274
+aVAction Comedy
+p2275
+aVRomantic Comedy
+p2276
+aVAction Comedy
+p2277
+aVComedy
+p2278
+aVComedy
+p2279
+aVSports Comedy
+p2280
+aVComedy
+p2281
+aVFantasy Comedy
+p2282
+aNaVComedy
+p2283
+aVSci-Fi Comedy
+p2284
+aVAction Comedy
+p2285
+aVFantasy Comedy
+p2286
+aVComedy
+p2287
+aVMusical
+p2288
+aVAction Comedy
+p2289
+aVRomantic Comedy
+p2290
+aVAction Comedy
+p2291
+aVRomantic Comedy
+p2292
+aVComedy
+p2293
+aVAction Comedy
+p2294
+aVComedy
+p2295
+aVSci-Fi Comedy
+p2296
+aVAction Comedy
+p2297
+aVHorror Comedy
+p2298
+aVUnknown
+p2299
+aVFantasy Comedy
+p2300
+aVRomantic Comedy
+p2301
+aVComedy
+p2302
+aVComedy
+p2303
+aVAction Comedy
+p2304
+aVComedy
+p2305
+aVRomantic Comedy
+p2306
+aVSports Comedy
+p2307
+aVComedy
+p2308
+aVComedy
+p2309
+aVSports Comedy
+p2310
+aVFantasy Comedy
+p2311
+aVAction Comedy
+p2312
+aVRomantic Comedy
+p2313
+aVComedy
+p2314
+aVRomantic Comedy
+p2315
+aVRomantic Comedy
+p2316
+aVRomantic Comedy
+p2317
+aVUnknown
+p2318
+aVSci-Fi Comedy
+p2319
+aVComedy / Drama
+p2320
+aVComedy
+p2321
+aVComedy
+p2322
+aVComedy / Drama
+p2323
+aVComedy
+p2324
+aVFantasy Comedy
+p2325
+aVComedy
+p2326
+aVComedy
+p2327
+aVSports Comedy
+p2328
+aVComedy / Drama
+p2329
+aVRomantic Comedy
+p2330
+aVComedy
+p2331
+aVAction Comedy
+p2332
+aVHorror Comedy
+p2333
+aVHorror Comedy
+p2334
+aVComedy
+p2335
+aVComedy
+p2336
+aVAction Comedy
+p2337
+aVComedy
+p2338
+aVHorror Comedy
+p2339
+aVRomantic Comedy
+p2340
+aVComedy
+p2341
+aVFamily
+p2342
+aVComedy
+p2343
+aVComedy
+p2344
+aVAction Comedy
+p2345
+aVComedy
+p2346
+aVComedy
+p2347
+aVSports Comedy
+p2348
+aVAction Comedy
+p2349
+aVFantasy Comedy
+p2350
+aVComedy
+p2351
+aVRomantic Comedy
+p2352
+aVComedy
+p2353
+aVUnknown
+p2354
+aVSci-Fi Comedy
+p2355
+aVFantasy Comedy
+p2356
+aVComedy
+p2357
+aVComedy
+p2358
+aVRomantic Comedy
+p2359
+aVComedy
+p2360
+aVFamily Comedy
+p2361
+aVRomantic Comedy
+p2362
+aVComedy
+p2363
+aVRomantic Comedy
+p2364
+aVHorror Comedy
+p2365
+aVAction Comedy
+p2366
+aVUnknown
+p2367
+aVComedy
+p2368
+aVAction Comedy
+p2369
+aVFamily Comedy
+p2370
+aVComedy
+p2371
+aVHorror Comedy
+p2372
+aVAction Comedy
+p2373
+aVComedy
+p2374
+aVRomantic Comedy
+p2375
+aVSci-Fi Comedy
+p2376
+aVAction Comedy
+p2377
+aVUnknown
+p2378
+aVRomantic Comedy
+p2379
+aVComedy Thriller
+p2380
+aVComedy
+p2381
+aVComedy
+p2382
+aVComedy
+p2383
+aVHorror Comedy
+p2384
+aVComedy
+p2385
+aVAction Comedy
+p2386
+aVAction Comedy
+p2387
+aVRomantic Comedy
+p2388
+aVSci-Fi Comedy
+p2389
+aVComedy
+p2390
+aVUnknown
+p2391
+aVSci-Fi Comedy
+p2392
+aVRomantic Comedy
+p2393
+aVAction Comedy
+p2394
+aVUnknown
+p2395
+aVComedy
+p2396
+aVSci-Fi Comedy
+p2397
+aVAction Comedy
+p2398
+aVComedy
+p2399
+aVAnimation
+p2400
+aVComedy
+p2401
+aVComedy
+p2402
+aVSports Comedy
+p2403
+aVComedy
+p2404
+aVSports Comedy
+p2405
+aVAction Comedy
+p2406
+aVAction Comedy
+p2407
+aVComedy
+p2408
+aVUnknown
+p2409
+aVFantasy Comedy
+p2410
+aVComedy
+p2411
+aVComedy
+p2412
+aVComedy
+p2413
+aVSports Comedy
+p2414
+aVComedy
+p2415
+aVComedy
+p2416
+aVAction Comedy
+p2417
+aVAction Comedy
+p2418
+aVComedy
+p2419
+aVComedy
+p2420
+aVComedy
+p2421
+aVComedy
+p2422
+aVComedy
+p2423
+aVRomantic Comedy
+p2424
+aVHorror Comedy
+p2425
+aVSports Comedy
+p2426
+aVHorror Comedy
+p2427
+aVComedy
+p2428
+aVComedy
+p2429
+aVHorror Comedy
+p2430
+aVHorror Comedy
+p2431
+aVAction Comedy
+p2432
+aVAction Comedy
+p2433
+aVComedy
+p2434
+aVFantasy Comedy
+p2435
+aVComedy
+p2436
+aVComedy
+p2437
+aVFantasy Comedy
+p2438
+aVComedy
+p2439
+aVComedy Thriller
+p2440
+aVAction Comedy
+p2441
+aVComedy
+p2442
+aVRomantic Comedy
+p2443
+aVFantasy Drama
+p2444
+aVAction / Adventure
+p2445
+aVHorror Comedy
+p2446
+aVFantasy Comedy
+p2447
+aVCrime Comedy
+p2448
+aVCrime Comedy
+p2449
+aVRomantic Comedy
+p2450
+aVSports Comedy
+p2451
+aVComedy
+p2452
+aVComedy
+p2453
+aVHorror Comedy
+p2454
+aVComedy
+p2455
+aVCrime Comedy
+p2456
+aVRomantic Comedy
+p2457
+aVAction Comedy
+p2458
+aVSports Comedy
+p2459
+aVComedy
+p2460
+aVComedy
+p2461
+aVForeign
+p2462
+aVComedy / Drama
+p2463
+aVComedy / Drama
+p2464
+aVAction Comedy
+p2465
+aVComedy / Drama
+p2466
+aVFamily Adventure
+p2467
+aVUnknown
+p2468
+aVComedy
+p2469
+aVHorror Comedy
+p2470
+aVSci-Fi Comedy
+p2471
+aVFamily Comedy
+p2472
+aVFantasy Comedy
+p2473
+aVSports Comedy
+p2474
+aVRomantic Comedy
+p2475
+aVComedy
+p2476
+aVAction Comedy
+p2477
+aVRomantic Comedy
+p2478
+aVComedy
+p2479
+aVComedy
+p2480
+aVUnknown
+p2481
+aVSports Comedy
+p2482
+aVRomantic Comedy
+p2483
+aVHorror Comedy
+p2484
+aVComedy
+p2485
+aVComedy
+p2486
+aVRomantic Comedy
+p2487
+aVFantasy Comedy
+p2488
+aVFamily Comedy
+p2489
+aVComedy
+p2490
+aVComedy
+p2491
+aVUnknown
+p2492
+aVHorror Comedy
+p2493
+aVComedy
+p2494
+aVHorror Comedy
+p2495
+aVSci-Fi Comedy
+p2496
+aVSports Comedy
+p2497
+aVSports Comedy
+p2498
+aVAction Comedy
+p2499
+aVComedy
+p2500
+aVSports Comedy
+p2501
+aVFantasy Comedy
+p2502
+aVAction Comedy
+p2503
+aVComedy
+p2504
+aVFamily Adventure
+p2505
+aVRomantic Comedy
+p2506
+aVComedy
+p2507
+aVComedy Thriller
+p2508
+aVSci-Fi Comedy
+p2509
+aVHorror Comedy
+p2510
+aVHorror Comedy
+p2511
+aVFantasy Comedy
+p2512
+aVComedy
+p2513
+aVComedy
+p2514
+aVSci-Fi Comedy
+p2515
+aVSports Comedy
+p2516
+aVRomantic Comedy
+p2517
+aVUnknown
+p2518
+aVSports Comedy
+p2519
+aVComedy
+p2520
+aVHorror Comedy
+p2521
+aVComedy
+p2522
+aVComedy
+p2523
+aVComedy
+p2524
+aVComedy
+p2525
+aVCrime Comedy
+p2526
+aVComedy
+p2527
+aVRomantic Comedy
+p2528
+aVAction Comedy
+p2529
+aVComedy
+p2530
+aVAction / Adventure
+p2531
+aVRomantic Comedy
+p2532
+aVComedy
+p2533
+aVAction Comedy
+p2534
+aVFantasy Comedy
+p2535
+aVRomantic Comedy
+p2536
+aVComedy
+p2537
+aVComedy
+p2538
+aVFantasy Comedy
+p2539
+aVHorror Comedy
+p2540
+aVSci-Fi Comedy
+p2541
+aVComedy
+p2542
+aVCrime Comedy
+p2543
+aVFamily Comedy
+p2544
+aVComedy
+p2545
+aVAction Comedy
+p2546
+aVAction Comedy
+p2547
+aVRomantic Comedy
+p2548
+aVAction Comedy
+p2549
+aVHorror Comedy
+p2550
+aVComedy Thriller
+p2551
+aVComedy
+p2552
+aVSports Comedy
+p2553
+aVRomantic Comedy
+p2554
+aVAction Comedy
+p2555
+aVCrime Comedy
+p2556
+aVSci-Fi Comedy
+p2557
+aVFantasy Comedy
+p2558
+aVComedy
+p2559
+aVCrime Comedy
+p2560
+aVComedy
+p2561
+aVSports Comedy
+p2562
+aVSports Comedy
+p2563
+aVSci-Fi Comedy
+p2564
+aVComedy
+p2565
+aVAction Comedy
+p2566
+aVComedy
+p2567
+aVUnknown
+p2568
+aVRomantic Comedy
+p2569
+aVComedy
+p2570
+aVFantasy Drama
+p2571
+aVFantasy Comedy
+p2572
+aVComedy
+p2573
+aVUnknown
+p2574
+aVSports Comedy
+p2575
+aVRomantic Comedy
+p2576
+aVHorror Comedy
+p2577
+aVUnknown
+p2578
+aVSci-Fi Horror
+p2579
+aVAdventure Comedy
+p2580
+aVRomantic Comedy
+p2581
+aVFamily Comedy
+p2582
+aVRomantic Comedy
+p2583
+aVComedy
+p2584
+aVFamily Comedy
+p2585
+aVAction Comedy
+p2586
+aVAction Comedy
+p2587
+aVSports Comedy
+p2588
+aVComedy
+p2589
+aVComedy
+p2590
+aVComedy
+p2591
+aVFantasy Comedy
+p2592
+aVUnknown
+p2593
+aVRomantic Comedy
+p2594
+aVComedy
+p2595
+aVUnknown
+p2596
+aVComedy
+p2597
+aVThriller
+p2598
+aVSports Comedy
+p2599
+aVComedy
+p2600
+aVComedy
+p2601
+aVComedy / Drama
+p2602
+aVComedy
+p2603
+aVComedy
+p2604
+aVRomantic Comedy
+p2605
+aVRomantic Comedy
+p2606
+aVSci-Fi Adventure
+p2607
+aVFamily Comedy
+p2608
+aVComedy
+p2609
+aVSci-Fi Comedy
+p2610
+aVSports Comedy
+p2611
+aVComedy
+p2612
+aVThriller
+p2613
+aVFantasy Comedy
+p2614
+aVComedy
+p2615
+aVSports Comedy
+p2616
+aVComedy
+p2617
+aVComedy
+p2618
+aVRomantic Comedy
+p2619
+aVSci-Fi Comedy
+p2620
+aVUnknown
+p2621
+aVComedy
+p2622
+aVRomantic Comedy
+p2623
+aVRomantic Comedy
+p2624
+aVSci-Fi Comedy
+p2625
+aVHorror Comedy
+p2626
+aVSports Comedy
+p2627
+aVRomantic Comedy
+p2628
+aVUnknown
+p2629
+aVRomantic Comedy
+p2630
+aVSports Comedy
+p2631
+aVRomantic Comedy
+p2632
+aVAnimation
+p2633
+aVRomantic Comedy
+p2634
+aVComedy
+p2635
+aVSci-Fi Comedy
+p2636
+aVComedy
+p2637
+aVComedy
+p2638
+aVComedy
+p2639
+aVRomantic Comedy
+p2640
+aVComedy
+p2641
+aVComedy
+p2642
+aVComedy
+p2643
+aVUnknown
+p2644
+aVRomantic Comedy
+p2645
+aVFamily Adventure
+p2646
+aVFamily Adventure
+p2647
+aVComedy
+p2648
+aVRomantic Comedy
+p2649
+aVHorror Comedy
+p2650
+aVAction
+p2651
+aVComedy
+p2652
+aVRomantic Comedy
+p2653
+aVComedy
+p2654
+aVHorror Thriller
+p2655
+aVComedy / Drama
+p2656
+aVComedy
+p2657
+aVComedy
+p2658
+aVComedy
+p2659
+aVFamily Comedy
+p2660
+aVComedy
+p2661
+aVRomantic Comedy
+p2662
+aVComedy
+p2663
+aVComedy
+p2664
+aVPeriod Comedy
+p2665
+aVHorror Comedy
+p2666
+aVUnknown
+p2667
+aVComedy
+p2668
+aVComedy
+p2669
+aVAction Comedy
+p2670
+aVComedy
+p2671
+aVSports Comedy
+p2672
+aVFantasy Comedy
+p2673
+aVFantasy Comedy
+p2674
+aVAction Comedy
+p2675
+aVComedy
+p2676
+aVComedy
+p2677
+aVHorror Comedy
+p2678
+aVRomantic Comedy
+p2679
+aVComedy
+p2680
+aVComedy
+p2681
+aVFamily Adventure
+p2682
+aVComedy Thriller
+p2683
+aVUnknown
+p2684
+aVUnknown
+p2685
+aVAction Comedy
+p2686
+aVComedy
+p2687
+aVComedy
+p2688
+aVUnknown
+p2689
+aVComedy
+p2690
+aVSports Comedy
+p2691
+aVComedy
+p2692
+aVFamily Comedy
+p2693
+aVFamily Comedy
+p2694
+aVAction Comedy
+p2695
+aVUnknown
+p2696
+aVComedy
+p2697
+aVSports Comedy
+p2698
+aVComedy
+p2699
+aVFantasy Comedy
+p2700
+aVSports Comedy
+p2701
+aVWestern Comedy
+p2702
+aVComedy
+p2703
+aVRomantic Comedy
+p2704
+aVComedy
+p2705
+aVComedy
+p2706
+aVComedy / Drama
+p2707
+aVComedy
+p2708
+aVComedy
+p2709
+aVAction Comedy
+p2710
+aVUnknown
+p2711
+aVSci-Fi
+p2712
+aVComedy
+p2713
+aVComedy
+p2714
+aVComedy
+p2715
+aVRomantic Comedy
+p2716
+aVComedy
+p2717
+aVComedy
+p2718
+aVAction Comedy
+p2719
+aVSports Comedy
+p2720
+aVHorror Comedy
+p2721
+aVRomantic Comedy
+p2722
+aVComedy
+p2723
+aVComedy
+p2724
+aVAction Comedy
+p2725
+aVAction Comedy
+p2726
+aVComedy
+p2727
+aVSci-Fi Comedy
+p2728
+aVSports Comedy
+p2729
+aVComedy
+p2730
+aVComedy
+p2731
+aVCrime Comedy
+p2732
+aVSports Comedy
+p2733
+aVComedy
+p2734
+aVSci-Fi Comedy
+p2735
+aVComedy
+p2736
+aVRomantic Comedy
+p2737
+aVUnknown
+p2738
+aVFamily Comedy
+p2739
+aVComedy
+p2740
+aVSci-Fi Comedy
+p2741
+aVComedy
+p2742
+aVComedy
+p2743
+aVComedy
+p2744
+aVComedy
+p2745
+aVUnknown
+p2746
+aVRomantic Comedy
+p2747
+aVComedy
+p2748
+aVComedy
+p2749
+aVSci-Fi Comedy
+p2750
+aVHorror Comedy
+p2751
+aVRomantic Comedy
+p2752
+aVComedy
+p2753
+aVRomantic Comedy
+p2754
+aVFantasy Comedy
+p2755
+aVSci-Fi Comedy
+p2756
+aVComedy
+p2757
+aVComedy
+p2758
+aVHorror Comedy
+p2759
+aVHorror Comedy
+p2760
+aVSci-Fi Comedy
+p2761
+aVComedy
+p2762
+aVCrime Comedy
+p2763
+aVComedy
+p2764
+aVComedy
+p2765
+aVSports Comedy
+p2766
+aVFantasy Comedy
+p2767
+aVComedy / Drama
+p2768
+aVRomantic Comedy
+p2769
+aVComedy
+p2770
+aVRomantic Comedy
+p2771
+aVComedy
+p2772
+aVComedy
+p2773
+aVRomantic Comedy
+p2774
+aVComedy
+p2775
+aVRomantic Comedy
+p2776
+aVAnimation
+p2777
+aVSci-Fi Comedy
+p2778
+aVComedy
+p2779
+aVRomantic Comedy
+p2780
+aVSports Comedy
+p2781
+aVCrime Comedy
+p2782
+aVHorror Comedy
+p2783
+aVFantasy Comedy
+p2784
+aVComedy
+p2785
+aVComedy
+p2786
+aVRomantic Comedy
+p2787
+aVCrime Comedy
+p2788
+aVComedy / Drama
+p2789
+aVRomantic Comedy
+p2790
+aVCrime Comedy
+p2791
+aVSci-Fi Comedy
+p2792
+aVHorror Comedy
+p2793
+aVAction
+p2794
+aVComedy
+p2795
+aVAction Comedy
+p2796
+aVAction Comedy
+p2797
+aVHorror Comedy
+p2798
+aVComedy
+p2799
+aVCrime Comedy
+p2800
+aVRomantic Comedy
+p2801
+aVUnknown
+p2802
+aVAction Comedy
+p2803
+aVComedy
+p2804
+aVRomantic Comedy
+p2805
+aVAction Comedy
+p2806
+aVComedy / Drama
+p2807
+aVRomantic Comedy
+p2808
+aVComedy
+p2809
+aVSci-Fi Comedy
+p2810
+aVHorror Comedy
+p2811
+aVRomantic Comedy
+p2812
+aVSports Comedy
+p2813
+aVRomantic Comedy
+p2814
+aVSports Comedy
+p2815
+aVSports Comedy
+p2816
+aVComedy
+p2817
+aVComedy
+p2818
+aVComedy
+p2819
+aVComedy
+p2820
+aVRomantic Comedy
+p2821
+aVUnknown
+p2822
+aVComedy
+p2823
+aVComedy
+p2824
+aVAction Comedy
+p2825
+aVComedy
+p2826
+aVComedy
+p2827
+aVUnknown
+p2828
+aVUnknown
+p2829
+aVComedy / Drama
+p2830
+aVSports Comedy
+p2831
+aVFantasy Comedy
+p2832
+aVFamily Adventure
+p2833
+aVComedy
+p2834
+aVComedy
+p2835
+aVComedy
+p2836
+aVAction Comedy
+p2837
+aVRomantic Comedy
+p2838
+aVFantasy Comedy
+p2839
+aVAction
+p2840
+aVPG-13
+p2841
+aVPG-13
+p2842
+aVPG
+p2843
+aVR
+p2844
+aVR
+p2845
+aVR
+p2846
+aVR
+p2847
+aVR
+p2848
+aVPG-13
+p2849
+aVR
+p2850
+aVR
+p2851
+aVPG-13
+p2852
+aVPG
+p2853
+aVPG-13
+p2854
+aVPG-13
+p2855
+aVPG-13
+p2856
+aVPG-13
+p2857
+aVPG-13
+p2858
+aVR
+p2859
+aVR
+p2860
+aVR
+p2861
+aVR
+p2862
+aVPG-13
+p2863
+aVR
+p2864
+aVPG
+p2865
+aVR
+p2866
+aVPG
+p2867
+aVPG-13
+p2868
+aVPG-13
+p2869
+aVR
+p2870
+aVUnrated
+p2871
+aVR
+p2872
+aVPG
+p2873
+aVR
+p2874
+aVPG-13
+p2875
+aVPG-13
+p2876
+aVPG-13
+p2877
+aVPG-13
+p2878
+aVR
+p2879
+aVPG-13
+p2880
+aVR
+p2881
+aVR
+p2882
+aVR
+p2883
+aVPG-13
+p2884
+aVPG
+p2885
+aVR
+p2886
+aVR
+p2887
+aVUnrated
+p2888
+aVR
+p2889
+aVR
+p2890
+aVR
+p2891
+aVPG-13
+p2892
+aVPG
+p2893
+aVR
+p2894
+aVPG-13
+p2895
+aVR
+p2896
+aVPG
+p2897
+aVR
+p2898
+aVPG-13
+p2899
+aVR
+p2900
+aVR
+p2901
+aVPG-13
+p2902
+aVPG-13
+p2903
+aVR
+p2904
+aVR
+p2905
+aVPG-13
+p2906
+aVPG-13
+p2907
+aVR
+p2908
+aVR
+p2909
+aVR
+p2910
+aVR
+p2911
+aVPG-13
+p2912
+aVG
+p2913
+aVUnrated
+p2914
+aVR
+p2915
+aVPG
+p2916
+aVPG
+p2917
+aVPG
+p2918
+aVPG-13
+p2919
+aVPG
+p2920
+aVPG
+p2921
+aVPG
+p2922
+aVPG-13
+p2923
+aVR
+p2924
+aVR
+p2925
+aVR
+p2926
+aVPG-13
+p2927
+aVUnrated
+p2928
+aVR
+p2929
+aVPG-13
+p2930
+aVPG-13
+p2931
+aVPG
+p2932
+aVR
+p2933
+aVR
+p2934
+aVPG
+p2935
+aVPG
+p2936
+aVUnrated
+p2937
+aVR
+p2938
+aVPG
+p2939
+aVPG
+p2940
+aVPG-13
+p2941
+aVPG-13
+p2942
+aVR
+p2943
+aVR
+p2944
+aVPG
+p2945
+aVR
+p2946
+aVPG-13
+p2947
+aVUnrated
+p2948
+aVR
+p2949
+aVR
+p2950
+aVPG-13
+p2951
+aVR
+p2952
+aVR
+p2953
+aVPG-13
+p2954
+aVR
+p2955
+aVR
+p2956
+aVPG-13
+p2957
+aVPG
+p2958
+aVPG-13
+p2959
+aVR
+p2960
+aVPG-13
+p2961
+aVR
+p2962
+aVR
+p2963
+aVR
+p2964
+aVR
+p2965
+aVR
+p2966
+aVPG
+p2967
+aVPG-13
+p2968
+aVR
+p2969
+aVR
+p2970
+aVPG-13
+p2971
+aVPG
+p2972
+aVPG-13
+p2973
+aVR
+p2974
+aVPG
+p2975
+aVPG-13
+p2976
+aVR
+p2977
+aVPG-13
+p2978
+aVPG-13
+p2979
+aVPG
+p2980
+aVR
+p2981
+aVR
+p2982
+aVR
+p2983
+aVR
+p2984
+aVPG-13
+p2985
+aVPG
+p2986
+aVPG-13
+p2987
+aVPG
+p2988
+aVUnrated
+p2989
+aVPG
+p2990
+aVR
+p2991
+aVR
+p2992
+aVPG
+p2993
+aVR
+p2994
+aVR
+p2995
+aVR
+p2996
+aVPG-13
+p2997
+aVR
+p2998
+aVR
+p2999
+aVR
+p3000
+aVPG-13
+p3001
+aVR
+p3002
+aVPG-13
+p3003
+aVPG-13
+p3004
+aVPG-13
+p3005
+aVR
+p3006
+aVR
+p3007
+aVPG
+p3008
+aVPG-13
+p3009
+aVPG-13
+p3010
+aVPG-13
+p3011
+aVPG-13
+p3012
+aVR
+p3013
+aVUnrated
+p3014
+aVPG-13
+p3015
+aVPG-13
+p3016
+aVPG-13
+p3017
+aVPG
+p3018
+aVR
+p3019
+aVPG-13
+p3020
+aVPG
+p3021
+aVPG
+p3022
+aVPG-13
+p3023
+aVPG
+p3024
+aVR
+p3025
+aVPG-13
+p3026
+aVR
+p3027
+aVR
+p3028
+aVR
+p3029
+aVR
+p3030
+aVPG
+p3031
+aVR
+p3032
+aVPG
+p3033
+aVPG-13
+p3034
+aVPG-13
+p3035
+aVUnrated
+p3036
+aVPG-13
+p3037
+aVPG-13
+p3038
+aVR
+p3039
+aVR
+p3040
+aVR
+p3041
+aVPG-13
+p3042
+aVPG-13
+p3043
+aVPG-13
+p3044
+aVPG-13
+p3045
+aVR
+p3046
+aVR
+p3047
+aVPG-13
+p3048
+aVPG-13
+p3049
+aVUnrated
+p3050
+aVR
+p3051
+aVPG-13
+p3052
+aVR
+p3053
+aVR
+p3054
+aVPG
+p3055
+aVR
+p3056
+aVR
+p3057
+aVPG
+p3058
+aVR
+p3059
+aVR
+p3060
+aVR
+p3061
+aVR
+p3062
+aVPG-13
+p3063
+aVR
+p3064
+aVPG
+p3065
+aVUnrated
+p3066
+aVPG-13
+p3067
+aVPG-13
+p3068
+aVR
+p3069
+aVR
+p3070
+aVR
+p3071
+aVPG
+p3072
+aVR
+p3073
+aVPG-13
+p3074
+aVR
+p3075
+aVR
+p3076
+aVPG
+p3077
+aVPG
+p3078
+aVR
+p3079
+aVPG-13
+p3080
+aVPG-13
+p3081
+aVR
+p3082
+aVR
+p3083
+aVPG
+p3084
+aVR
+p3085
+aVPG
+p3086
+aVPG-13
+p3087
+aVPG
+p3088
+aVR
+p3089
+aVR
+p3090
+aNaVPG-13
+p3091
+aVPG-13
+p3092
+aVR
+p3093
+aVR
+p3094
+aVPG
+p3095
+aVR
+p3096
+aVR
+p3097
+aVR
+p3098
+aVPG
+p3099
+aVPG-13
+p3100
+aVR
+p3101
+aVPG
+p3102
+aVPG
+p3103
+aVR
+p3104
+aVPG
+p3105
+aVPG
+p3106
+aVPG
+p3107
+aVPG-13
+p3108
+aVPG-13
+p3109
+aVR
+p3110
+aVPG-13
+p3111
+aVPG-13
+p3112
+aVPG
+p3113
+aVPG
+p3114
+aVR
+p3115
+aVPG
+p3116
+aVPG-13
+p3117
+aVR
+p3118
+aVUnrated
+p3119
+aVPG
+p3120
+aVPG-13
+p3121
+aVPG-13
+p3122
+aVPG
+p3123
+aVPG-13
+p3124
+aVPG-13
+p3125
+aVUnrated
+p3126
+aVPG-13
+p3127
+aVPG-13
+p3128
+aVR
+p3129
+aVPG-13
+p3130
+aVPG
+p3131
+aVR
+p3132
+aVR
+p3133
+aVR
+p3134
+aVPG-13
+p3135
+aVPG-13
+p3136
+aVR
+p3137
+aVPG
+p3138
+aVR
+p3139
+aVR
+p3140
+aVNot Yet Rated
+p3141
+aVUnrated
+p3142
+aVPG-13
+p3143
+aVUnrated
+p3144
+aVPG-13
+p3145
+aVPG-13
+p3146
+aVPG
+p3147
+aVPG-13
+p3148
+aVUnrated
+p3149
+aVPG-13
+p3150
+aVPG-13
+p3151
+aVPG
+p3152
+aVR
+p3153
+aVR
+p3154
+aVR
+p3155
+aVPG-13
+p3156
+aVPG
+p3157
+aVPG
+p3158
+aVPG
+p3159
+aVPG-13
+p3160
+aVPG-13
+p3161
+aVPG
+p3162
+aVR
+p3163
+aVPG-13
+p3164
+aVUnrated
+p3165
+aVR
+p3166
+aVPG
+p3167
+aVPG
+p3168
+aVR
+p3169
+aVPG
+p3170
+aVPG-13
+p3171
+aVPG
+p3172
+aVPG
+p3173
+aVPG-13
+p3174
+aVPG-13
+p3175
+aVPG-13
+p3176
+aVR
+p3177
+aVPG
+p3178
+aVR
+p3179
+aVPG-13
+p3180
+aVUnrated
+p3181
+aVPG-13
+p3182
+aVR
+p3183
+aVPG
+p3184
+aVR
+p3185
+aVR
+p3186
+aVPG
+p3187
+aVPG-13
+p3188
+aVPG-13
+p3189
+aVPG-13
+p3190
+aVPG
+p3191
+aVPG-13
+p3192
+aVR
+p3193
+aVR
+p3194
+aVR
+p3195
+aVR
+p3196
+aVR
+p3197
+aVR
+p3198
+aVPG-13
+p3199
+aVPG-13
+p3200
+aVR
+p3201
+aVPG-13
+p3202
+aVUnrated
+p3203
+aVPG-13
+p3204
+aVR
+p3205
+aVPG-13
+p3206
+aNaVR
+p3207
+aVUnrated
+p3208
+aVR
+p3209
+aVPG-13
+p3210
+aVR
+p3211
+aVPG-13
+p3212
+aVPG
+p3213
+aVPG-13
+p3214
+aVR
+p3215
+aVPG-13
+p3216
+aVPG-13
+p3217
+aVR
+p3218
+aVR
+p3219
+aVPG-13
+p3220
+aVPG-13
+p3221
+aVR
+p3222
+aVR
+p3223
+aVPG
+p3224
+aVPG-13
+p3225
+aVPG-13
+p3226
+aVPG-13
+p3227
+aVPG-13
+p3228
+aVPG-13
+p3229
+aVR
+p3230
+aVPG-13
+p3231
+aVR
+p3232
+aVPG-13
+p3233
+aVPG-13
+p3234
+aVPG-13
+p3235
+aVR
+p3236
+aVR
+p3237
+aVR
+p3238
+aVPG-13
+p3239
+aVPG-13
+p3240
+aVR
+p3241
+aVR
+p3242
+aVNot Yet Rated
+p3243
+aVPG
+p3244
+aVPG-13
+p3245
+aVR
+p3246
+aVPG-13
+p3247
+aVR
+p3248
+aVPG-13
+p3249
+aVPG-13
+p3250
+aVPG-13
+p3251
+aVPG-13
+p3252
+aVR
+p3253
+aVPG-13
+p3254
+aVPG-13
+p3255
+aVR
+p3256
+aVPG-13
+p3257
+aVPG-13
+p3258
+aVPG-13
+p3259
+aVG
+p3260
+aVPG-13
+p3261
+aVR
+p3262
+aVR
+p3263
+aVPG-13
+p3264
+aVR
+p3265
+aVG
+p3266
+aVR
+p3267
+aVR
+p3268
+aVR
+p3269
+aVPG-13
+p3270
+aVR
+p3271
+aVUnrated
+p3272
+aVPG-13
+p3273
+aVPG
+p3274
+aVPG-13
+p3275
+aVR
+p3276
+aVR
+p3277
+aVPG-13
+p3278
+aVPG
+p3279
+aVPG-13
+p3280
+aVR
+p3281
+aVPG
+p3282
+aVPG-13
+p3283
+aVPG-13
+p3284
+aVG
+p3285
+aVPG-13
+p3286
+aVR
+p3287
+aVPG-13
+p3288
+aVR
+p3289
+aVR
+p3290
+aVR
+p3291
+aVPG-13
+p3292
+aVPG
+p3293
+aVPG
+p3294
+aVPG-13
+p3295
+aVR
+p3296
+aVR
+p3297
+aVPG-13
+p3298
+aVR
+p3299
+aVPG
+p3300
+aVPG-13
+p3301
+aVR
+p3302
+aVPG-13
+p3303
+aVR
+p3304
+aVPG-13
+p3305
+aVG
+p3306
+aVPG
+p3307
+aVR
+p3308
+aVPG
+p3309
+aVPG-13
+p3310
+aVR
+p3311
+aVPG-13
+p3312
+aVPG
+p3313
+aVR
+p3314
+aVR
+p3315
+aVR
+p3316
+aVPG
+p3317
+aVR
+p3318
+aVR
+p3319
+aVPG
+p3320
+aVPG-13
+p3321
+aVPG-13
+p3322
+aVPG-13
+p3323
+aVPG
+p3324
+aVR
+p3325
+aVPG
+p3326
+aVPG-13
+p3327
+aVPG-13
+p3328
+aVPG
+p3329
+aVR
+p3330
+aVPG-13
+p3331
+aVR
+p3332
+aVPG-13
+p3333
+aVPG-13
+p3334
+aVR
+p3335
+aVR
+p3336
+aVPG-13
+p3337
+aVR
+p3338
+aVPG-13
+p3339
+aVR
+p3340
+aVPG-13
+p3341
+aVR
+p3342
+aVR
+p3343
+aVR
+p3344
+aVR
+p3345
+aVPG
+p3346
+aVPG-13
+p3347
+aVPG-13
+p3348
+aVUnrated
+p3349
+aVR
+p3350
+aVR
+p3351
+aVPG-13
+p3352
+aVPG-13
+p3353
+aVR
+p3354
+aVPG-13
+p3355
+aVPG-13
+p3356
+aVPG
+p3357
+aVR
+p3358
+aVPG-13
+p3359
+aVPG-13
+p3360
+aVR
+p3361
+aVPG
+p3362
+aVPG-13
+p3363
+aVR
+p3364
+aVPG-13
+p3365
+aVPG-13
+p3366
+aVPG
+p3367
+aVR
+p3368
+aVPG-13
+p3369
+aVR
+p3370
+aVPG-13
+p3371
+aVR
+p3372
+aVPG-13
+p3373
+aVR
+p3374
+aVPG
+p3375
+aVPG
+p3376
+aVR
+p3377
+aVR
+p3378
+aVR
+p3379
+aVPG-13
+p3380
+aVPG-13
+p3381
+aVPG
+p3382
+aVR
+p3383
+aVPG
+p3384
+aVR
+p3385
+aVUnrated
+p3386
+aVPG-13
+p3387
+aVR
+p3388
+aVR
+p3389
+aVPG-13
+p3390
+aVPG
+p3391
+aVPG
+p3392
+aVR
+p3393
+aVPG-13
+p3394
+aVPG
+p3395
+aVPG
+p3396
+aVR
+p3397
+aVR
+p3398
+aVPG
+p3399
+aVPG
+p3400
+aVR
+p3401
+aVPG-13
+p3402
+aVR
+p3403
+aVPG-13
+p3404
+aVPG-13
+p3405
+aVPG-13
+p3406
+aVPG-13
+p3407
+aVR
+p3408
+aVNot Yet Rated
+p3409
+aVR
+p3410
+aVPG-13
+p3411
+aVPG-13
+p3412
+aVPG-13
+p3413
+aVPG-13
+p3414
+aVPG-13
+p3415
+aVR
+p3416
+aVUnrated
+p3417
+aVPG-13
+p3418
+aVPG-13
+p3419
+aVPG-13
+p3420
+aVPG-13
+p3421
+aVR
+p3422
+aVR
+p3423
+aVPG
+p3424
+aVPG-13
+p3425
+aVPG-13
+p3426
+aVPG-13
+p3427
+aVPG
+p3428
+aVPG
+p3429
+aVPG
+p3430
+aVR
+p3431
+aVR
+p3432
+aVPG
+p3433
+aVPG-13
+p3434
+aVR
+p3435
+aVPG
+p3436
+aVR
+p3437
+aVR
+p3438
+aVPG-13
+p3439
+aVPG
+p3440
+aVR
+p3441
+aVR
+p3442
+aVPG
+p3443
+aVPG-13
+p3444
+aVPG-13
+p3445
+aVR
+p3446
+aVR
+p3447
+aVNC-17
+p3448
+aVR
+p3449
+aVPG-13
+p3450
+aVPG-13
+p3451
+aVR
+p3452
+aVPG-13
+p3453
+aVR
+p3454
+aVPG-13
+p3455
+aVR
+p3456
+aVR
+p3457
+aVR
+p3458
+aVR
+p3459
+aVPG-13
+p3460
+aVPG
+p3461
+aVR
+p3462
+aVPG-13
+p3463
+aVUnrated
+p3464
+aVPG
+p3465
+aVPG-13
+p3466
+aVR
+p3467
+aVPG
+p3468
+aVR
+p3469
+aVPG
+p3470
+aVPG-13
+p3471
+aVR
+p3472
+aVPG-13
+p3473
+aVR
+p3474
+aVPG
+p3475
+aVPG-13
+p3476
+aVPG-13
+p3477
+aVPG-13
+p3478
+aVR
+p3479
+aVR
+p3480
+aVPG
+p3481
+aVPG-13
+p3482
+aVPG
+p3483
+aVR
+p3484
+aVPG-13
+p3485
+aVPG-13
+p3486
+aVPG
+p3487
+aVPG
+p3488
+aVR
+p3489
+aVPG
+p3490
+aVR
+p3491
+aVR
+p3492
+aVR
+p3493
+aVR
+p3494
+aVPG-13
+p3495
+aVPG-13
+p3496
+aVR
+p3497
+aVR
+p3498
+aVPG-13
+p3499
+aVPG
+p3500
+aVR
+p3501
+aVR
+p3502
+aVR
+p3503
+aVPG-13
+p3504
+aVR
+p3505
+aVPG
+p3506
+aVPG-13
+p3507
+aVR
+p3508
+aVPG
+p3509
+aVR
+p3510
+aVPG
+p3511
+aVPG-13
+p3512
+aVR
+p3513
+aVR
+p3514
+aVPG-13
+p3515
+aVG
+p3516
+aVR
+p3517
+aVPG-13
+p3518
+aVPG-13
+p3519
+aVR
+p3520
+aVR
+p3521
+aVPG-13
+p3522
+aVR
+p3523
+aVPG
+p3524
+aVR
+p3525
+aVR
+p3526
+aVPG-13
+p3527
+aVR
+p3528
+aVR
+p3529
+aVPG-13
+p3530
+aVPG
+p3531
+aVPG
+p3532
+aVR
+p3533
+aVPG
+p3534
+aVPG-13
+p3535
+aVUnrated
+p3536
+aVR
+p3537
+aVPG
+p3538
+aVPG
+p3539
+aVR
+p3540
+aVPG-13
+p3541
+aVPG-13
+p3542
+aVPG-13
+p3543
+aVPG
+p3544
+aVUnrated
+p3545
+aVR
+p3546
+aVPG
+p3547
+aVR
+p3548
+aVR
+p3549
+aVPG
+p3550
+aVPG-13
+p3551
+aVPG
+p3552
+aVPG-13
+p3553
+aVR
+p3554
+aVPG-13
+p3555
+aVPG-13
+p3556
+aVG
+p3557
+aVPG-13
+p3558
+aVPG-13
+p3559
+aVR
+p3560
+aVR
+p3561
+aVPG-13
+p3562
+aVR
+p3563
+aVPG-13
+p3564
+aVPG-13
+p3565
+aVR
+p3566
+aVR
+p3567
+aVR
+p3568
+aVPG-13
+p3569
+aVPG
+p3570
+aVG
+p3571
+aVPG-13
+p3572
+aVPG-13
+p3573
+aVR
+p3574
+aVPG-13
+p3575
+aVPG-13
+p3576
+aVPG-13
+p3577
+aVPG
+p3578
+aVPG-13
+p3579
+aVPG-13
+p3580
+aVR
+p3581
+aVR
+p3582
+aVPG-13
+p3583
+aVG
+p3584
+aVPG
+p3585
+aVPG-13
+p3586
+aVPG-13
+p3587
+aVPG
+p3588
+aVR
+p3589
+aVNot Yet Rated
+p3590
+aVR
+p3591
+aVR
+p3592
+aVR
+p3593
+aVPG-13
+p3594
+aVPG-13
+p3595
+aVPG-13
+p3596
+aVPG-13
+p3597
+aVR
+p3598
+aVR
+p3599
+aVPG-13
+p3600
+aVPG
+p3601
+aVR
+p3602
+aVR
+p3603
+aVR
+p3604
+aVPG-13
+p3605
+aVPG
+p3606
+aVUnrated
+p3607
+aVR
+p3608
+aVPG
+p3609
+aVPG-13
+p3610
+aVPG
+p3611
+aVPG-13
+p3612
+aVR
+p3613
+aVR
+p3614
+aVR
+p3615
+aVPG
+p3616
+aVPG
+p3617
+aVPG-13
+p3618
+aVR
+p3619
+aVR
+p3620
+aVPG-13
+p3621
+aVPG-13
+p3622
+aVR
+p3623
+aVPG
+p3624
+aVR
+p3625
+aVPG-13
+p3626
+aVR
+p3627
+aVPG-13
+p3628
+aVR
+p3629
+aVR
+p3630
+aVPG-13
+p3631
+aVR
+p3632
+aVR
+p3633
+aVPG-13
+p3634
+aVPG-13
+p3635
+aVPG
+p3636
+aVR
+p3637
+aVPG
+p3638
+aVR
+p3639
+aVPG-13
+p3640
+aVPG
+p3641
+aVPG-13
+p3642
+aVPG-13
+p3643
+aVPG-13
+p3644
+aVPG
+p3645
+aVPG-13
+p3646
+aVR
+p3647
+aVR
+p3648
+aVR
+p3649
+aVPG-13
+p3650
+aVPG-13
+p3651
+aVPG-13
+p3652
+aVPG
+p3653
+aVR
+p3654
+aVPG
+p3655
+aVPG-13
+p3656
+aVPG-13
+p3657
+aVUnrated
+p3658
+aVR
+p3659
+aVPG-13
+p3660
+aVR
+p3661
+aVPG
+p3662
+aVPG
+p3663
+aVR
+p3664
+aVPG-13
+p3665
+aVR
+p3666
+aVPG-13
+p3667
+aVPG-13
+p3668
+aVPG
+p3669
+aVR
+p3670
+aVPG-13
+p3671
+aVPG
+p3672
+aVR
+p3673
+aVPG-13
+p3674
+aVPG-13
+p3675
+aVPG-13
+p3676
+aVPG-13
+p3677
+aVPG-13
+p3678
+aVPG
+p3679
+aVPG-13
+p3680
+aVPG-13
+p3681
+aVPG
+p3682
+aVR
+p3683
+aVR
+p3684
+aVR
+p3685
+aVPG-13
+p3686
+aVPG-13
+p3687
+aVPG-13
+p3688
+aVPG-13
+p3689
+aVR
+p3690
+aVPG
+p3691
+aVR
+p3692
+aVPG-13
+p3693
+aVR
+p3694
+aVPG
+p3695
+aVPG-13
+p3696
+aVR
+p3697
+aVPG
+p3698
+aVR
+p3699
+aVR
+p3700
+aVPG
+p3701
+aVPG-13
+p3702
+aVR
+p3703
+aVR
+p3704
+aVUnrated
+p3705
+aVPG-13
+p3706
+aVR
+p3707
+aVPG
+p3708
+aVR
+p3709
+aVPG-13
+p3710
+aVPG-13
+p3711
+aVR
+p3712
+aVR
+p3713
+aVPG
+p3714
+aVR
+p3715
+aVPG-13
+p3716
+aVR
+p3717
+aVR
+p3718
+aVPG-13
+p3719
+aVR
+p3720
+aVR
+p3721
+aVPG-13
+p3722
+aVPG-13
+p3723
+aVR
+p3724
+aVR
+p3725
+aVPG
+p3726
+aVPG-13
+p3727
+aVR
+p3728
+aVPG-13
+p3729
+aVPG-13
+p3730
+aVPG-13
+p3731
+aVPG-13
+p3732
+aVR
+p3733
+aVPG
+p3734
+aVPG-13
+p3735
+aVPG-13
+p3736
+aVPG-13
+p3737
+aVPG-13
+p3738
+aVPG
+p3739
+aVPG-13
+p3740
+aVR
+p3741
+aVPG-13
+p3742
+aVR
+p3743
+aVR
+p3744
+aVPG-13
+p3745
+aVR
+p3746
+aVR
+p3747
+aVPG-13
+p3748
+aVR
+p3749
+aVPG-13
+p3750
+aVR
+p3751
+aVPG-13
+p3752
+aVPG
+p3753
+aVPG
+p3754
+aVR
+p3755
+aVR
+p3756
+aVPG
+p3757
+aVR
+p3758
+aVPG-13
+p3759
+aVUnknown
+p3760
+aVR
+p3761
+aVPG
+p3762
+aVPG
+p3763
+aVUnrated
+p3764
+aVApril 28, 2006
+p3765
+aVOctober 8, 2010
+p3766
+aVApril 21, 1995
+p3767
+aVSeptember 20, 1985
+p3768
+aVMarch 1, 2013
+p3769
+aVSeptember 22, 2006
+p3770
+aVOctober 1, 1999
+p3771
+aVMay 27, 2010
+p3772
+aVFebruary 6, 2004
+p3773
+aVJuly 19, 1996
+p3774
+aVAugust 16, 2013
+p3775
+aVDecember 18, 2013
+p3776
+aVAugust 23, 1985
+p3777
+aVNovember 16, 1984
+p3778
+aVJuly 21, 2006
+p3779
+aVDecember 22, 1995
+p3780
+aVJanuary 11, 2002
+p3781
+aVJuly 20, 1990
+p3782
+aVMarch 29, 2002
+p3783
+aVAugust 12, 2011
+p3784
+aVMarch 22, 2002
+p3785
+aVNovember 22, 2006
+p3786
+aVAugust 6, 1993
+p3787
+aVApril 30, 1999
+p3788
+aVNovember 20, 1987
+p3789
+aVSeptember 23, 2005
+p3790
+aVJuly 22, 1988
+p3791
+aVJune 11, 1986
+p3792
+aVJune 20, 2014
+p3793
+aVSeptember 6, 1996
+p3794
+aVMarch 25, 2016
+p3795
+aVSeptember 17, 1999
+p3796
+aVMarch 18, 1988
+p3797
+aVJune 15, 2007
+p3798
+aVAugust 20, 1999
+p3799
+aVJune 21, 2002
+p3800
+aVAugust 28, 1987
+p3801
+aVFebruary 20, 2009
+p3802
+aVApril 24, 1998
+p3803
+aVMay 1, 1992
+p3804
+aVOctober 18, 1985
+p3805
+aVApril 13, 1994
+p3806
+aVJanuary 12, 1990
+p3807
+aVAugust 5, 1994
+p3808
+aVSeptember 21, 1984
+p3809
+aVJuly 15, 1994
+p3810
+aVApril 3, 2009
+p3811
+aVSeptember 21, 2012
+p3812
+aVMarch 23, 1984
+p3813
+aVJuly 22, 2011
+p3814
+aVJuly 28, 1978
+p3815
+aVJanuary 26, 2001
+p3816
+aVMay 22, 1987
+p3817
+aVNovember 27, 1998
+p3818
+aVMarch 3, 1989
+p3819
+aVMarch 12, 2010
+p3820
+aVJune 22, 1984
+p3821
+aVMay 9, 2014
+p3822
+aVNovember 6, 1998
+p3823
+aVOctober 17, 2014
+p3824
+aVNovember 23, 2016
+p3825
+aVJuly 10, 1987
+p3826
+aVMarch 3, 2000
+p3827
+aVAugust 6, 1982
+p3828
+aVJuly 20, 1984
+p3829
+aVJuly 3, 2007
+p3830
+aVOctober 21, 2016
+p3831
+aVAugust 23, 1991
+p3832
+aVFebruary 27, 2004
+p3833
+aVMarch 30, 2001
+p3834
+aVApril 12, 1985
+p3835
+aVJanuary 16, 2004
+p3836
+aVJune 24, 2011
+p3837
+aVNovember 18, 2011
+p3838
+aVOctober 10, 2014
+p3839
+aVJune 22, 2001
+p3840
+aVDecember 25, 2013
+p3841
+aVApril 3, 1987
+p3842
+aVFebruary 28, 1992
+p3843
+aVFebruary 17, 1989
+p3844
+aVApril 8, 1988
+p3845
+aVFebruary 12, 1993
+p3846
+aVMarch 21, 1997
+p3847
+aVJune 27, 1986
+p3848
+aVAugust 2, 1985
+p3849
+aVSeptember 18, 2009
+p3850
+aVFebruary 13, 2004
+p3851
+aVMay 14, 2003
+p3852
+aVFebruary 29, 2008
+p3853
+aVJune 11, 1999
+p3854
+aVJuly 2, 1997
+p3855
+aVMarch 21, 2014
+p3856
+aVOctober 2, 2009
+p3857
+aVMarch 26, 1993
+p3858
+aVJune 3, 1988
+p3859
+aVFebruary 18, 2005
+p3860
+aVJune 19, 2009
+p3861
+aVApril 13, 2001
+p3862
+aVFebruary 8, 1980
+p3863
+aVDecember 8, 1995
+p3864
+aVApril 10, 1987
+p3865
+aVApril 24, 1992
+p3866
+aVJune 5, 2015
+p3867
+aVJune 28, 2013
+p3868
+aVOctober 16, 2015
+p3869
+aVNovember 26, 2014
+p3870
+aVJuly 31, 1992
+p3871
+aVSeptember 30, 2011
+p3872
+aVMarch 21, 2008
+p3873
+aVOctober 15, 2004
+p3874
+aVMay 9, 2008
+p3875
+aVFebruary 25, 1977
+p3876
+aVMay 18, 1984
+p3877
+aVNovember 14, 2014
+p3878
+aVDecember 4, 2009
+p3879
+aVJanuary 25, 1985
+p3880
+aVJuly 2, 2003
+p3881
+aVJune 8, 1984
+p3882
+aVJanuary 30, 2004
+p3883
+aVSeptember 3, 1999
+p3884
+aVMarch 24, 2005
+p3885
+aVNovember 11, 1977
+p3886
+aVAugust 19, 2011
+p3887
+aVJune 5, 2009
+p3888
+aVSeptember 29, 1995
+p3889
+aVFebruary 8, 1985
+p3890
+aVNovember 5, 2004
+p3891
+aVOctober 1, 1993
+p3892
+aVAugust 16, 1996
+p3893
+aVMarch 8, 2002
+p3894
+aVMarch 24, 2006
+p3895
+aVApril 4, 2003
+p3896
+aVJanuary 29, 1999
+p3897
+aVSeptember 12, 2008
+p3898
+aVJune 13, 1980
+p3899
+aVFebruary 7, 2003
+p3900
+aVFebruary 9, 1990
+p3901
+aVJune 18, 2004
+p3902
+aVJune 2, 2006
+p3903
+aVMarch 10, 1989
+p3904
+aVSeptember 18, 1987
+p3905
+aVAugust 21, 1998
+p3906
+aVSeptember 19, 2003
+p3907
+aVDecember 25, 1997
+p3908
+aVJune 30, 1999
+p3909
+aVAugust 1, 1973
+p3910
+aVJune 14, 1996
+p3911
+aVMarch 16, 1984
+p3912
+aVNovember 11, 2016
+p3913
+aVDecember 21, 2005
+p3914
+aVJune 8, 2012
+p3915
+aVFebruary 14, 2014
+p3916
+aVJuly 8, 2011
+p3917
+aVAugust 16, 1985
+p3918
+aVApril 16, 2010
+p3919
+aVMarch 19, 2004
+p3920
+aVNovember 15, 1985
+p3921
+aVAugust 23, 1991
+p3922
+aVJuly 24, 2009
+p3923
+aVMarch 6, 1998
+p3924
+aVJuly 15, 2016
+p3925
+aVMarch 23, 1990
+p3926
+aVJune 23, 2010
+p3927
+aVApril 20, 2012
+p3928
+aVFebruary 16, 2001
+p3929
+aVJanuary 6, 2006
+p3930
+aVAugust 13, 2014
+p3931
+aVJuly 31, 1998
+p3932
+aVMarch 24, 2000
+p3933
+aVJanuary 18, 2008
+p3934
+aVJune 4, 2010
+p3935
+aVOctober 2, 2009
+p3936
+aVMarch 18, 2011
+p3937
+aVDecember 12, 1997
+p3938
+aVApril 17, 2009
+p3939
+aVJune 19, 2009
+p3940
+aVJuly 10, 1992
+p3941
+aVJune 25, 1993
+p3942
+aVOctober 30, 2015
+p3943
+aVSeptember 14, 1990
+p3944
+aVDecember 25, 2008
+p3945
+aVJuly 27, 2007
+p3946
+aVAugust 10, 2007
+p3947
+aVNovember 21, 1990
+p3948
+aVAugust 19, 2005
+p3949
+aVMarch 28, 2008
+p3950
+aVOctober 27, 1995
+p3951
+aVApril 5, 2002
+p3952
+aVFebruary 27, 1987
+p3953
+aVFebruary 19, 1999
+p3954
+aVDecember 19, 1980
+p3955
+aVApril 8, 1994
+p3956
+aVDecember 15, 1995
+p3957
+aVDecember 16, 2005
+p3958
+aVMarch 7, 2003
+p3959
+aVAugust 21, 2015
+p3960
+aVNovember 1, 2002
+p3961
+aVAugust 4, 2006
+p3962
+aVJanuary 18, 2008
+p3963
+aVFebruary 22, 2002
+p3964
+aVMay 15, 1992
+p3965
+aVJanuary 5, 2007
+p3966
+aVMarch 10, 2006
+p3967
+aVSeptember 26, 2003
+p3968
+aVJuly 26, 2002
+p3969
+aVOctober 25, 2013
+p3970
+aVJuly 18, 2003
+p3971
+aVOctober 2, 1992
+p3972
+aVNovember 10, 2006
+p3973
+aVJanuary 10, 2014
+p3974
+aVMarch 6, 1987
+p3975
+aVAugust 14, 1987
+p3976
+aVJuly 7, 2000
+p3977
+aVMay 19, 2000
+p3978
+aVJuly 8, 1988
+p3979
+aVJanuary 12, 2000
+p3980
+aVSeptember 8, 1995
+p3981
+aVAugust 14, 2009
+p3982
+aVNovember 2, 2012
+p3983
+aVAugust 5, 2011
+p3984
+aVFebruary 20, 2004
+p3985
+aVDecember 14, 2001
+p3986
+aVAugust 20, 2008
+p3987
+aVAugust 13, 1999
+p3988
+aVApril 29, 2005
+p3989
+aVApril 8, 2011
+p3990
+aVFebruary 15, 1991
+p3991
+aVNovember 23, 1994
+p3992
+aVApril 25, 2008
+p3993
+aVMarch 2, 2012
+p3994
+aVJanuary 8, 2010
+p3995
+aVJune 22, 2007
+p3996
+aVNovember 7, 2008
+p3997
+aVSeptember 30, 1994
+p3998
+aVAugust 13, 1982
+p3999
+aVJune 12, 1987
+p4000
+aVNovember 26, 1997
+p4001
+aVMay 4, 1984
+p4002
+aVSeptember 15, 1995
+p4003
+aVDecember 25, 2001
+p4004
+aVDecember 10, 1993
+p4005
+aVJuly 29, 1983
+p4006
+aVMarch 8, 2002
+p4007
+aVAugust 9, 1985
+p4008
+aVMarch 13, 1987
+p4009
+aVJuly 20, 1990
+p4010
+aVFebruary 8, 2008
+p4011
+aVDecember 18, 1987
+p4012
+aVMarch 13, 2009
+p4013
+aVSeptember 24, 1993
+p4014
+aNaVFebruary 12, 2010
+p4015
+aVNovember 19, 1993
+p4016
+aVFebruary 13, 1987
+p4017
+aVJuly 10, 1998
+p4018
+aVMay 13, 2005
+p4019
+aVDecember 13, 1996
+p4020
+aVAugust 18, 2006
+p4021
+aVApril 19, 2013
+p4022
+aVNovember 20, 1987
+p4023
+aVMay 25, 2012
+p4024
+aVApril 4, 2014
+p4025
+aVOctober 1, 1993
+p4026
+aVApril 19, 2002
+p4027
+aVJune 29, 2012
+p4028
+aVDecember 15, 1995
+p4029
+aVApril 18, 1997
+p4030
+aVMay 9, 1980
+p4031
+aVApril 11, 1986
+p4032
+aVMarch 27, 1992
+p4033
+aVJuly 25, 2012
+p4034
+aVSeptember 27, 2002
+p4035
+aVJune 3, 1994
+p4036
+aVNovember 7, 2014
+p4037
+aVApril 1979
+p4038
+aVJuly 18, 1997
+p4039
+aVDecember 25, 2003
+p4040
+aVFebruary 5, 1993
+p4041
+aVNovember 9, 1984
+p4042
+aVMay 10, 2013
+p4043
+aVJune 16, 1989
+p4044
+aVOctober 17, 1997
+p4045
+aVNovember 14, 1986
+p4046
+aVNovember 26, 2014
+p4047
+aVJuly 26, 1985
+p4048
+aVJuly 31, 1992
+p4049
+aVOctober 26, 2012
+p4050
+aVFebruary 12, 2016
+p4051
+aVDecember 19, 1986
+p4052
+aVMay 4, 1984
+p4053
+aVSeptember 26, 2014
+p4054
+aVOctober 7, 1977
+p4055
+aVJune 27, 1986
+p4056
+aVOctober 16, 1998
+p4057
+aVNovember 12, 2004
+p4058
+aVJuly 19, 2013
+p4059
+aVAugust 24, 2001
+p4060
+aVOctober 5, 2007
+p4061
+aVJuly 18, 2003
+p4062
+aVJuly 18, 1986
+p4063
+aVJune 1, 2012
+p4064
+aVTBD
+p4065
+aVFebruary 3, 2011
+p4066
+aVDecember 15, 1989
+p4067
+aVJuly 27, 2012
+p4068
+aVMay 28, 1999
+p4069
+aVApril 29, 1988
+p4070
+aVJuly 25, 1986
+p4071
+aVDecember 9, 2011
+p4072
+aVJanuary 1, 1983
+p4073
+aVMarch 13, 1987
+p4074
+aVAugust 3, 2001
+p4075
+aVFebruary 10, 1984
+p4076
+aVAugust 3, 1984
+p4077
+aVJune 13, 2014
+p4078
+aVMay 13, 2011
+p4079
+aVJuly 22, 2005
+p4080
+aVDecember 10, 1982
+p4081
+aVOctober 11, 1991
+p4082
+aVDecember 13, 1985
+p4083
+aVFebruary 22, 2008
+p4084
+aVApril 26, 1985
+p4085
+aVJune 22, 1984
+p4086
+aVFebruary 24, 2012
+p4087
+aVApril 19, 1996
+p4088
+aVAugust 4, 2000
+p4089
+aVApril 11, 1997
+p4090
+aVDecember 13, 1996
+p4091
+aVFebruary 17, 1989
+p4092
+aVOctober 27, 2000
+p4093
+aVDecember 22, 1990
+p4094
+aVJune 26, 1987
+p4095
+aVJuly 17, 1981
+p4096
+aVFebruary 10, 2006
+p4097
+aVApril 30, 2004
+p4098
+aVApril 10, 2009
+p4099
+aVAugust 11, 2000
+p4100
+aVMarch 31, 1995
+p4101
+aVMay 25, 1988
+p4102
+aVAugust 7, 1981
+p4103
+aVApril 8, 2011
+p4104
+aVN/A
+p4105
+aVMarch 19, 1999
+p4106
+aVMay 21, 2010
+p4107
+aVJuly 17, 1992
+p4108
+aVMarch 22, 1985
+p4109
+aVSeptember 8, 2000
+p4110
+aVMay 22, 1992
+p4111
+aVSeptember 26, 2003
+p4112
+aVApril 7, 2000
+p4113
+aVMay 23, 2014
+p4114
+aVMarch 22, 1991
+p4115
+aVJuly 1, 2011
+p4116
+aVApril 9, 1999
+p4117
+aVNovember 10, 1989
+p4118
+aVNovember 7, 2003
+p4119
+aVMarch 31, 1989
+p4120
+aVApril 18, 2014
+p4121
+aVApril 7, 2000
+p4122
+aVSeptember 10, 1993
+p4123
+aVFebruary 6, 2009
+p4124
+aVApril 7, 1995
+p4125
+aVSeptember 15, 1995
+p4126
+aVJanuary 13, 2012
+p4127
+aVAugust 29, 2007
+p4128
+aVJanuary 16, 1998
+p4129
+aVOctober 10, 1986
+p4130
+aNaVJuly 8, 2011
+p4131
+aVJanuary 28, 2011
+p4132
+aVDecember 7, 1990
+p4133
+aVNovember 9, 2001
+p4134
+aVAugust 15, 2014
+p4135
+aVOctober 10, 2014
+p4136
+aVDecember 7, 1984
+p4137
+aVFebruary 28, 1986
+p4138
+aVDecember 13, 1991
+p4139
+aVFebruary 14, 2007
+p4140
+aVAugust 24, 2012
+p4141
+aVOctober 4, 1996
+p4142
+aVApril 23, 1999
+p4143
+aVDecember 9, 1988
+p4144
+aVJanuary 15, 2016
+p4145
+aVAugust 21, 1981
+p4146
+aVJune 3, 1994
+p4147
+aVAugust 6, 2003
+p4148
+aVJune 24, 2005
+p4149
+aVApril 11, 2001
+p4150
+aVApril 30, 2004
+p4151
+aVSeptember 6, 1991
+p4152
+aVSeptember 29, 2006
+p4153
+aVMarch 1, 2002
+p4154
+aVMay 31, 1996
+p4155
+aVApril 20, 2007
+p4156
+aVMay 2, 1997
+p4157
+aVAugust 15, 2003
+p4158
+aVOctober 12, 1990
+p4159
+aVApril 4, 1997
+p4160
+aVMay 23, 1997
+p4161
+aVJuly 15, 2005
+p4162
+aVNovember 17, 1995
+p4163
+aVMay 20, 2011
+p4164
+aVMay 30, 2008
+p4165
+aVMarch 2, 1984
+p4166
+aVN/A
+p4167
+aVApril 29, 2011
+p4168
+aVJuly 28, 2000
+p4169
+aVMay 26, 2011
+p4170
+aVApril 27, 2012
+p4171
+aVMay 14, 1999
+p4172
+aVDecember 7, 2007
+p4173
+aVMay 31, 2002
+p4174
+aVJune 17, 2016
+p4175
+aVJuly 27, 2007
+p4176
+aVJune 14, 2013
+p4177
+aVJanuary 10, 2003
+p4178
+aVDecember 22, 2004
+p4179
+aVAugust 6, 2008
+p4180
+aVJanuary 19, 1990
+p4181
+aVJuly 17, 2002
+p4182
+aVOctober 21, 2016
+p4183
+aVAugust 24, 2007
+p4184
+aVMay 23, 2003
+p4185
+aVSeptember 1, 1999
+p4186
+aVJuly 16, 1999
+p4187
+aVJune 16, 2000
+p4188
+aVJuly 30, 2004
+p4189
+aVJune 6, 1974
+p4190
+aVApril 10, 2009
+p4191
+aVNovember 16, 2012
+p4192
+aVFebruary 1, 2013
+p4193
+aVDecember 22, 1995
+p4194
+aVAugust 23, 2013
+p4195
+aVDecember 11, 1998
+p4196
+aVMarch 15, 2002
+p4197
+aVJune 29, 1990
+p4198
+aVOctober 9, 2009
+p4199
+aVOctober 11, 2002
+p4200
+aVJune 26, 2015
+p4201
+aVSeptember 7, 1984
+p4202
+aVSeptember 16, 1988
+p4203
+aVDecember 13, 2002
+p4204
+aVMarch 18, 2016
+p4205
+aVJanuary 16, 2009
+p4206
+aVApril 8, 2005
+p4207
+aVMay 15, 2015
+p4208
+aVJune 26, 1981
+p4209
+aVJuly 14, 1995
+p4210
+aVJanuary 21, 2014
+p4211
+aVFebruary 11, 2005
+p4212
+aVOctober 31, 2008
+p4213
+aVDecember 10, 1982
+p4214
+aVSeptember 24, 2003
+p4215
+aVOctober 3, 2003
+p4216
+aVAugust 12, 1994
+p4217
+aVDecember 17, 1993
+p4218
+aVSeptember 28, 2012
+p4219
+aVFebruary 19, 1993
+p4220
+aVMarch 16, 2012
+p4221
+aVFebruary 20, 2009
+p4222
+aVJune 14, 1985
+p4223
+aVOctober 10, 1997
+p4224
+aVMarch 5, 2004
+p4225
+aVSeptember 13, 1985
+p4226
+aVDecember 8, 2006
+p4227
+aVOctober 10, 1986
+p4228
+aVNovember 10, 1995
+p4229
+aVMarch 7, 2008
+p4230
+aVDecember 25, 1996
+p4231
+aVAugust 16, 1996
+p4232
+aVFebruary 8, 1980
+p4233
+aVJuly 23, 1993
+p4234
+aVAugust 2, 2013
+p4235
+aVMay 12, 2006
+p4236
+aVFebruary 12, 1999
+p4237
+aVJuly 20, 1984
+p4238
+aVApril 26, 1996
+p4239
+aVJuly 29, 2011
+p4240
+aVJuly 30, 1999
+p4241
+aVJuly 19, 1996
+p4242
+aVFebruary 24, 1989
+p4243
+aVMarch 22, 1991
+p4244
+aVAugust 17, 2012
+p4245
+aVJanuary 27, 2006
+p4246
+aVOctober 24, 1986
+p4247
+aVJuly 3, 2013
+p4248
+aVDecember 21, 2007
+p4249
+aVMarch 17, 2006
+p4250
+aVAugust 25, 2000
+p4251
+aVJuly 21, 1995
+p4252
+aVMarch 27, 1992
+p4253
+aVMarch 8, 1991
+p4254
+aVMarch 15, 1991
+p4255
+aVApril 6, 1984
+p4256
+aVSeptember 9, 1988
+p4257
+aVNovember 13, 1992
+p4258
+aVDecember 1, 2006
+p4259
+aVJuly 26, 2013
+p4260
+aVNovember 4, 2011
+p4261
+aVMay 3, 1996
+p4262
+aVMay 21, 1993
+p4263
+aVSeptember 9, 2011
+p4264
+aVJune 13, 2003
+p4265
+aVMay 20, 1987
+p4266
+aVDecember 9, 2011
+p4267
+aVJuly 17, 2015
+p4268
+aVApril 18, 2008
+p4269
+aVNovember 12, 1993
+p4270
+aVOctober 22, 2004
+p4271
+aVOctober 5, 2001
+p4272
+aVJune 28, 2013
+p4273
+aVFebruary 14, 1986
+p4274
+aVSeptember 24, 2004
+p4275
+aVApril 12, 2013
+p4276
+aVJune 5, 1992
+p4277
+aVJuly 4, 2001
+p4278
+aVMay 11, 2012
+p4279
+aVTBD
+p4280
+aVOctober 21, 2011
+p4281
+aVFebruary 21, 2003
+p4282
+aVMay 23, 2003
+p4283
+aVJuly 29, 2011
+p4284
+aVOctober 15, 2010
+p4285
+aVMarch 11, 1988
+p4286
+aVSeptember 21, 2007
+p4287
+aVDecember 8, 1989
+p4288
+aVSeptember 25, 1987
+p4289
+aVMarch 24, 1995
+p4290
+aVDecember 20, 1996
+p4291
+aVApril 3, 1998
+p4292
+aVApril 30, 2015
+p4293
+aVMay 11, 1990
+p4294
+aVJune 23, 2006
+p4295
+aVMarch 26, 2004
+p4296
+aVMarch 4, 2005
+p4297
+aVJune 29, 1988
+p4298
+aVJune 16, 2006
+p4299
+aVApril 10, 1987
+p4300
+aVFebruary 20, 1998
+p4301
+aVJune 13, 2008
+p4302
+aVAugust 14, 1998
+p4303
+aVJanuary 26, 2001
+p4304
+aVOctober 1, 1999
+p4305
+aVDecember 6, 1985
+p4306
+aVApril 7, 1989
+p4307
+aVApril 13, 2012
+p4308
+aVDecember 21, 2001
+p4309
+aVAugust 31, 2012
+p4310
+aVOctober 1, 2010
+p4311
+aVFebruary 15, 1985
+p4312
+aVJuly 7, 1989
+p4313
+aVOctober 19, 2012
+p4314
+aVMay 22, 2009
+p4315
+aVAugust 9, 1985
+p4316
+aVJanuary 21, 2011
+p4317
+aVApril 29, 2011
+p4318
+aVJuly 3, 1987
+p4319
+aVMarch 10, 2006
+p4320
+aVNovember 12, 1999
+p4321
+aVMarch 27, 1992
+p4322
+aVFebruary 13, 2009
+p4323
+aVDecember 18, 1987
+p4324
+aVAugust 4, 2006
+p4325
+aVDecember 20, 2002
+p4326
+aVMarch 20, 2009
+p4327
+aVJanuary 17, 2014
+p4328
+aVApril 20, 1990
+p4329
+aVFebruary 16, 1996
+p4330
+aVMarch 9, 2001
+p4331
+aVSeptember 25, 1992
+p4332
+aVN/A
+p4333
+aVAugust 31, 2007
+p4334
+aVApril 10, 1987
+p4335
+aVApril 24, 1998
+p4336
+aVJuly 5, 1991
+p4337
+aVJuly 10, 2009
+p4338
+aVMay 24, 1996
+p4339
+aVSeptember 22, 2000
+p4340
+aVJune 15, 2016
+p4341
+aVDecember 2, 1988
+p4342
+aVDecember 4, 2015
+p4343
+aVJune 8, 2001
+p4344
+aVDecember 25, 2013
+p4345
+aVSeptember 15, 2006
+p4346
+aVNovember 22, 1995
+p4347
+aVDecember 25, 1999
+p4348
+aVSeptember 5, 2008
+p4349
+aVDecember 22, 2000
+p4350
+aVJune 7, 2002
+p4351
+aVApril 6, 1990
+p4352
+aVJune 23, 1989
+p4353
+aVJuly 8, 1988
+p4354
+aVAugust 12, 2005
+p4355
+aVMay 20, 2016
+p4356
+aVJuly 11, 2008
+p4357
+aVOctober 24, 2003
+p4358
+aVSeptember 7, 2007
+p4359
+aVNovember 9, 1984
+p4360
+aVDecember 11, 1998
+p4361
+aVJuly 9, 1999
+p4362
+aVDecember 13, 1996
+p4363
+aVApril 1, 1994
+p4364
+aVApril 29, 1983
+p4365
+aVMay 19, 1989
+p4366
+aVJanuary 12, 1990
+p4367
+aVAugust 24, 1984
+p4368
+aVJune 15, 1990
+p4369
+aVAugust 28, 1981
+p4370
+aVMarch 4, 2011
+p4371
+aVOctober 23, 1998
+p4372
+aVJune 24, 1983
+p4373
+aVApril 9, 2004
+p4374
+aVMay 11, 2007
+p4375
+aVMarch 23, 2001
+p4376
+aVSeptember 18, 1998
+p4377
+aVMarch 25, 1983
+p4378
+aVJanuary 14, 2011
+p4379
+aVJuly 1, 1992
+p4380
+aVApril 10, 1992
+p4381
+aVAugust 22, 1997
+p4382
+aVOctober 29, 1999
+p4383
+aVTBD
+p4384
+aVDecember 16, 1983
+p4385
+aVFebruary 26, 1999
+p4386
+aVAugust 19, 1994
+p4387
+aVJune 22, 2007
+p4388
+aVApril 3, 2009
+p4389
+aVJuly 26, 1985
+p4390
+aVMarch 8, 1996
+p4391
+aVNovember 20, 1992
+p4392
+aVJuly 20, 2001
+p4393
+aVFebruary 6, 2009
+p4394
+aVSeptember 9, 2005
+p4395
+aVJuly 15, 1998
+p4396
+aVJanuary 12, 2001
+p4397
+aVApril 1, 2011
+p4398
+aVNovember 14, 1997
+p4399
+aVJuly 28, 2006
+p4400
+aVApril 7, 2006
+p4401
+aVDecember 23, 1997
+p4402
+aVSeptember 4, 1998
+p4403
+aVNovember 26, 2003
+p4404
+aVJune 26, 1987
+p4405
+aVDecember 15, 2000
+p4406
+aVAugust 26, 1994
+p4407
+aVDecember 6, 2002
+p4408
+aVMarch 17, 2006
+p4409
+aVApril 4, 2008
+p4410
+aVJuly 22, 1988
+p4411
+aVMay 9, 1986
+p4412
+aVJune 24, 2011
+p4413
+aVJanuary 15, 2010
+p4414
+aVDecember 10, 1999
+p4415
+aVApril 6, 1988
+p4416
+aVDecember 25, 2009
+p4417
+aVJune 4, 2010
+p4418
+aVOctober 23, 1998
+p4419
+aVOctober 20, 2000
+p4420
+aVApril 1, 2011
+p4421
+aVDecember 18, 1985
+p4422
+aVSeptember 27, 1991
+p4423
+aVJune 12, 1992
+p4424
+aVOctober 29, 1982
+p4425
+aVApril 5, 1996
+p4426
+aVMarch 31, 2006
+p4427
+aVJune 5, 2009
+p4428
+aVMarch 23, 1990
+p4429
+aVMarch 25, 1994
+p4430
+aVSeptember 27, 2002
+p4431
+aVMay 20, 2016
+p4432
+aVApril 4, 2007
+p4433
+aVAugust 7, 1987
+p4434
+aVAugust 15, 1980
+p4435
+aVOctober 19, 2007
+p4436
+aVOctober 11, 2002
+p4437
+aVJanuary 17, 2014
+p4438
+aVMay 28, 2004
+p4439
+aVJanuary 21, 1977
+p4440
+aVMarch 3, 1989
+p4441
+aVFebruary 9, 2007
+p4442
+aVJune 28, 1996
+p4443
+aVJuly 25, 2003
+p4444
+aVMay 11, 2012
+p4445
+aVMarch 20, 2009
+p4446
+aVAugust 1, 1979
+p4447
+aVJuly 11, 1980
+p4448
+aVOctober 2, 2009
+p4449
+aVJune 19, 2015
+p4450
+aVApril 6, 2012
+p4451
+aVJuly 21, 2006
+p4452
+aVMarch 28, 1997
+p4453
+aVFebruary 13, 1998
+p4454
+aVNovember 22, 1989
+p4455
+aVFebruary 14, 1997
+p4456
+aVNovember 7, 2008
+p4457
+aVJuly 23, 1993
+p4458
+aVMarch 30, 2007
+p4459
+aVJanuary 20, 2012
+p4460
+aVApril 14, 2000
+p4461
+aVAugust 6, 1999
+p4462
+aVJuly 1, 2005
+p4463
+aVJuly 25, 1980
+p4464
+aVMay 19, 1989
+p4465
+aVDecember 14, 1990
+p4466
+aVJuly 29, 2005
+p4467
+aVApril 27, 1990
+p4468
+aVJune 6, 2003
+p4469
+aVAugust 29, 2008
+p4470
+aVMarch 9, 1984
+p4471
+aVJune 1, 2007
+p4472
+aVJune 3, 1983
+p4473
+aVAugust 23, 1985
+p4474
+aVMay 27, 2005
+p4475
+aVJune 20, 1986
+p4476
+aVOctober 9, 1987
+p4477
+aVFebruary 12, 2016
+p4478
+aVJuly 26, 1996
+p4479
+aVDecember 13, 2002
+p4480
+aVJune 21, 2013
+p4481
+aVDecember 25, 2005
+p4482
+aVJune 28, 1991
+p4483
+aVMarch 3, 2000
+p4484
+aVOctober 17, 2008
+p4485
+aVAugust 23, 1996
+p4486
+aVMarch 4, 1983
+p4487
+aVApril 9, 1999
+p4488
+aVMay 10, 2002
+p4489
+aVFebruary 1, 2002
+p4490
+aVAugust 25, 2006
+p4491
+aVMay 7, 2004
+p4492
+aVJune 20, 1997
+p4493
+aVJuly 19, 2002
+p4494
+aVNovember 25, 1998
+p4495
+aVMarch 29, 1985
+p4496
+aVMarch 29, 1985
+p4497
+aVAugust 22, 1986
+p4498
+aVFebruary 17, 2012
+p4499
+aVMarch 25, 2016
+p4500
+aVSeptember 17, 2004
+p4501
+aVJune 29, 1984
+p4502
+aVJanuary 20, 2017
+p4503
+aVMarch 9, 2012
+p4504
+aVJuly 22, 1983
+p4505
+aVMarch 7, 2014
+p4506
+aVJune 28, 2002
+p4507
+aVNovember 1, 2002
+p4508
+aVDecember 16, 1988
+p4509
+aVMay 18, 1990
+p4510
+aVTBD
+p4511
+aVDecember 9, 1988
+p4512
+aVDecember 11, 1998
+p4513
+aVJanuary 26, 2018
+p4514
+aVFebruary 27, 2004
+p4515
+aVSeptember 28, 1984
+p4516
+aVSeptember 22, 2006
+p4517
+aVJuly 19, 2013
+p4518
+aVSeptember 26, 1997
+p4519
+aVSeptember 17, 2004
+p4520
+aVApril 23, 2004
+p4521
+aVMay 10, 1991
+p4522
+aVJune 17, 1988
+p4523
+aVAugust 18, 2006
+p4524
+aVDecember 20, 1991
+p4525
+aVFebruary 28, 1986
+p4526
+aVDecember 23, 1988
+p4527
+aVAugust 10, 2001
+p4528
+aVMarch 18, 1994
+p4529
+aVJuly 23, 1999
+p4530
+aVMarch 21, 2014
+p4531
+aVApril 21, 1995
+p4532
+aVMay 12, 1989
+p4533
+aVJune 20, 2008
+p4534
+aVJuly 19, 1991
+p4535
+aVJune 12, 1998
+p4536
+aVJuly 18, 2003
+p4537
+aVMarch 11, 2016
+p4538
+aVJuly 31, 1998
+p4539
+aVApril 17, 2015
+p4540
+aVNovember 11, 1988
+p4541
+aVJune 26, 1998
+p4542
+aVApril 16, 2010
+p4543
+aVJanuary 15, 1988
+p4544
+aVFebruary 6, 1998
+p4545
+aVApril 19, 1996
+p4546
+aVApril 29, 2005
+p4547
+aVJuly 7, 2000
+p4548
+aVAugust 14, 1992
+p4549
+aVMay 26, 2000
+p4550
+aVFebruary 20, 2015
+p4551
+aVDecember 12, 2003
+p4552
+aVAugust 5, 1983
+p4553
+aVAugust 24, 2001
+p4554
+aVMarch 22, 2013
+p4555
+aVOctober 6, 1995
+p4556
+aVFebruary 8, 1985
+p4557
+aVAugust 15, 1986
+p4558
+aVAugust 14, 1987
+p4559
+aVDecember 17, 1999
+p4560
+aVMarch 13, 2009
+p4561
+aVAugust 5, 2016
+p4562
+aVApril 9, 2004
+p4563
+aVMarch 31, 1999
+p4564
+aVJune 11, 2004
+p4565
+aVJune 13, 1986
+p4566
+aVJanuary 17, 2003
+p4567
+aVApril 17, 1998
+p4568
+aVJune 8, 1984
+p4569
+aVJune 12, 1998
+p4570
+aVAugust 27, 1982
+p4571
+aVJanuary 11, 2013
+p4572
+aVDecember 22, 1989
+p4573
+aVAugust 6, 2010
+p4574
+aVMay 30, 2014
+p4575
+aVJuly 3, 2002
+p4576
+aVJune 22, 1979
+p4577
+aVAugust 17, 1979
+p4578
+aVAugust 7, 1987
+p4579
+aVDecember 21, 2005
+p4580
+aVMarch 28, 1997
+p4581
+aVMay 31, 2013
+p4582
+aVSeptember 1, 2006
+p4583
+aVOctober 2, 2009
+p4584
+aVMarch 11, 1994
+p4585
+aVFebruary 6, 2004
+p4586
+aVNovember 23, 2005
+p4587
+aVOctober 19, 1994
+p4588
+aVJune 11, 2004
+p4589
+aVApril 20, 2001
+p4590
+aVMay 2, 2008
+p4591
+aVAugust 26, 2005
+p4592
+aVMarch 20, 2009
+p4593
+aVApril 30, 1993
+p4594
+aVJuly 30, 1993
+p4595
+aVMarch 21, 1986
+p4596
+aVMarch 19, 1982
+p4597
+aVAugust 2, 1985
+p4598
+aVApril 14, 2006
+p4599
+aVFebruary 7, 2003
+p4600
+aVJuly 13, 2001
+p4601
+aVSeptember 16, 2005
+p4602
+aVAugust 6, 1993
+p4603
+aVJuly 19, 1996
+p4604
+aVOctober 26, 2012
+p4605
+aVMarch 17, 1989
+p4606
+aVSeptember 30, 2011
+p4607
+aVApril 13, 2012
+p4608
+aVJuly 23, 1982
+p4609
+aVApril 2, 1999
+p4610
+aVDecember 11, 1987
+p4611
+aVAugust 22, 2008
+p4612
+aVJune 10, 1994
+p4613
+aVJune 17, 1988
+p4614
+aVOctober 3, 1980
+p4615
+aVDecember 18, 2013
+p4616
+aVFebruary 11, 2011
+p4617
+aVOctober 15, 2004
+p4618
+aVMarch 26, 1993
+p4619
+aVFebruary 20, 2015
+p4620
+aVMarch 13, 2015
+p4621
+aVDecember 16, 1983
+p4622
+aVMarch 26, 2010
+p4623
+aVApril 26, 2013
+p4624
+aVNovember 5, 2010
+p4625
+aVJanuary 27, 2016
+p4626
+aVOctober 25, 2002
+p4627
+aVJuly 14, 1989
+p4628
+aVNovember 30, 2001
+p4629
+aVDecember 10, 2004
+p4630
+aVMarch 16, 2007
+p4631
+aVJune 28, 1978
+p4632
+aVAugust 17, 2007
+p4633
+aVApril 10, 1998
+p4634
+aVJuly 20, 2001
+p4635
+aVMarch 9, 1994
+p4636
+aVNovember 6, 1992
+p4637
+aVDecember 18, 1998
+p4638
+aVJuly 15, 1988
+p4639
+aVAugust 16, 2002
+p4640
+aVJanuary 27, 1989
+p4641
+aVFebruary 12, 2016
+p4642
+aVApril 5, 2002
+p4643
+aVJune 8, 1990
+p4644
+aVJuly 22, 1988
+p4645
+aVAugust 18, 2010
+p4646
+aVFebruary 5, 2016
+p4647
+aVApril 6, 1990
+p4648
+aVNovember 12, 2004
+p4649
+aVAugust 10, 1984
+p4650
+aVOctober 6, 2004
+p4651
+aVFebruary 26, 2010
+p4652
+aVDecember 7, 2012
+p4653
+aVJune 27, 2003
+p4654
+aVJanuary 13, 2006
+p4655
+aVSeptember 17, 2010
+p4656
+aVMay 17, 1985
+p4657
+aVAugust 1, 1986
+p4658
+aVAugust 25, 1995
+p4659
+aVAugust 2, 1991
+p4660
+aVMarch 12, 2003
+p4661
+aVDecember 12, 2003
+p4662
+aVJanuary 7, 1994
+p4663
+aVJanuary 22, 1993
+p4664
+aVApril 6, 1984
+p4665
+aVMarch 7, 2014
+p4666
+aVJuly 27, 2012
+p4667
+aVAugust 1, 2003
+p4668
+aVMarch 1, 1985
+p4669
+aVFebruary 12, 1993
+p4670
+aVOctober 25, 1991
+p4671
+aVApril 29, 1994
+p4672
+aVMay 6, 1988
+p4673
+aVApril 16, 2003
+p4674
+aVMarch 12, 1993
+p4675
+aVSeptember 20, 1985
+p4676
+aVJuly 19, 1985
+p4677
+aVMarch 6, 2015
+p4678
+aVDecember 25, 1999
+p4679
+aVJanuary 25, 2013
+p4680
+aVJuly 24, 1992
+p4681
+aVJune 28, 2002
+p4682
+aVJuly 12, 2013
+p4683
+aVDecember 22, 2017
+p4684
+aVJune 2, 1989
+p4685
+aVJuly 1, 2011
+p4686
+aVJanuary 22, 2010
+p4687
+aVAugust 28, 2015
+p4688
+aV1 hrs. 45 min.
+p4689
+aV1 hrs. 52 min.
+p4690
+aV1 hrs. 43 min.
+p4691
+aV1 hrs. 47 min.
+p4692
+aV1 hrs. 33 min.
+p4693
+aV1 hrs. 28 min.
+p4694
+aV1 hrs. 59 min.
+p4695
+aV2 hrs. 27 min.
+p4696
+aV1 hrs. 46 min.
+p4697
+aV1 hrs. 50 min.
+p4698
+aV1 hrs. 43 min.
+p4699
+aV1 hrs. 59 min.
+p4700
+aV1 hrs. 37 min.
+p4701
+aV1 hrs. 35 min.
+p4702
+aV1 hrs. 35 min.
+p4703
+aV1 hrs. 30 min.
+p4704
+aV1 hrs. 27 min.
+p4705
+aV1 hrs. 49 min.
+p4706
+aV1 hrs. 49 min.
+p4707
+aV1 hrs. 23 min.
+p4708
+aV1 hrs. 33 min.
+p4709
+aV1 hrs. 30 min.
+p4710
+aV1 hrs. 25 min.
+p4711
+aV1 hrs. 32 min.
+p4712
+aV1 hrs. 45 min.
+p4713
+aV1 hrs. 35 min.
+p4714
+aV1 hrs. 22 min.
+p4715
+aV1 hrs. 42 min.
+p4716
+aV1 hrs. 46 min.
+p4717
+aV1 hrs. 25 min.
+p4718
+aV1 hrs. 35 min.
+p4719
+aV1 hrs. 50 min.
+p4720
+aV1 hrs. 30 min.
+p4721
+aV1 hrs. 31 min.
+p4722
+aV1 hrs. 35 min.
+p4723
+aV1 hrs. 31 min.
+p4724
+aV1 hrs. 28 min.
+p4725
+aV1 hrs. 30 min.
+p4726
+aV1 hrs. 31 min.
+p4727
+aV1 hrs. 47 min.
+p4728
+aV1 hrs. 26 min.
+p4729
+aV1 hrs. 33 min.
+p4730
+aV1 hrs. 36 min.
+p4731
+aV1 hrs. 32 min.
+p4732
+aV1 hrs. 33 min.
+p4733
+aV2 hrs. 24 min.
+p4734
+aV1 hrs. 46 min.
+p4735
+aV1 hrs. 38 min.
+p4736
+aV1 hrs. 37 min.
+p4737
+aV2 hrs. 0 min.
+p4738
+aV1 hrs. 49 min.
+p4739
+aV1 hrs. 44 min.
+p4740
+aV1 hrs. 32 min.
+p4741
+aV1 hrs. 40 min.
+p4742
+aV1 hrs. 54 min.
+p4743
+aV1 hrs. 44 min.
+p4744
+aV1 hrs. 30 min.
+p4745
+aV1 hrs. 36 min.
+p4746
+aV1 hrs. 30 min.
+p4747
+aV1 hrs. 59 min.
+p4748
+aV1 hrs. 27 min.
+p4749
+aV1 hrs. 38 min.
+p4750
+aV1 hrs. 35 min.
+p4751
+aV1 hrs. 33 min.
+p4752
+aV1 hrs. 34 min.
+p4753
+aV1 hrs. 40 min.
+p4754
+aV1 hrs. 43 min.
+p4755
+aV1 hrs. 56 min.
+p4756
+aV1 hrs. 43 min.
+p4757
+aV1 hrs. 35 min.
+p4758
+aV1 hrs. 34 min.
+p4759
+aV1 hrs. 30 min.
+p4760
+aV1 hrs. 53 min.
+p4761
+aV1 hrs. 30 min.
+p4762
+aV1 hrs. 40 min.
+p4763
+aV1 hrs. 27 min.
+p4764
+aV1 hrs. 54 min.
+p4765
+aV1 hrs. 28 min.
+p4766
+aV1 hrs. 39 min.
+p4767
+aV2 hrs. 42 min.
+p4768
+aV1 hrs. 40 min.
+p4769
+aV1 hrs. 41 min.
+p4770
+aV1 hrs. 26 min.
+p4771
+aV1 hrs. 33 min.
+p4772
+aV1 hrs. 46 min.
+p4773
+aV1 hrs. 42 min.
+p4774
+aV1 hrs. 36 min.
+p4775
+aV1 hrs. 13 min.
+p4776
+aV1 hrs. 30 min.
+p4777
+aV1 hrs. 35 min.
+p4778
+aV1 hrs. 37 min.
+p4779
+aV1 hrs. 52 min.
+p4780
+aV1 hrs. 21 min.
+p4781
+aV1 hrs. 41 min.
+p4782
+aV1 hrs. 44 min.
+p4783
+aV1 hrs. 26 min.
+p4784
+aV1 hrs. 30 min.
+p4785
+aV1 hrs. 37 min.
+p4786
+aV1 hrs. 55 min.
+p4787
+aV1 hrs. 46 min.
+p4788
+aV1 hrs. 39 min.
+p4789
+aV1 hrs. 36 min.
+p4790
+aV2 hrs. 0 min.
+p4791
+aV1 hrs. 57 min.
+p4792
+aV1 hrs. 43 min.
+p4793
+aV1 hrs. 48 min.
+p4794
+aV1 hrs. 43 min.
+p4795
+aV1 hrs. 26 min.
+p4796
+aV1 hrs. 28 min.
+p4797
+aV1 hrs. 37 min.
+p4798
+aV1 hrs. 39 min.
+p4799
+aV2 hrs. 2 min.
+p4800
+aV1 hrs. 44 min.
+p4801
+aV1 hrs. 50 min.
+p4802
+aV1 hrs. 35 min.
+p4803
+aV1 hrs. 31 min.
+p4804
+aV1 hrs. 35 min.
+p4805
+aV1 hrs. 47 min.
+p4806
+aV1 hrs. 43 min.
+p4807
+aV1 hrs. 42 min.
+p4808
+aV1 hrs. 47 min.
+p4809
+aV1 hrs. 48 min.
+p4810
+aV1 hrs. 46 min.
+p4811
+aV1 hrs. 36 min.
+p4812
+aV1 hrs. 43 min.
+p4813
+aV1 hrs. 44 min.
+p4814
+aV1 hrs. 55 min.
+p4815
+aV1 hrs. 26 min.
+p4816
+aV2 hrs. 15 min.
+p4817
+aV1 hrs. 35 min.
+p4818
+aV1 hrs. 29 min.
+p4819
+aV1 hrs. 44 min.
+p4820
+aV1 hrs. 35 min.
+p4821
+aV1 hrs. 37 min.
+p4822
+aV1 hrs. 44 min.
+p4823
+aV1 hrs. 54 min.
+p4824
+aV1 hrs. 34 min.
+p4825
+aV1 hrs. 37 min.
+p4826
+aV1 hrs. 46 min.
+p4827
+aV1 hrs. 24 min.
+p4828
+aV1 hrs. 25 min.
+p4829
+aV1 hrs. 34 min.
+p4830
+aV1 hrs. 32 min.
+p4831
+aV1 hrs. 38 min.
+p4832
+aV1 hrs. 47 min.
+p4833
+aV1 hrs. 50 min.
+p4834
+aV1 hrs. 36 min.
+p4835
+aV1 hrs. 31 min.
+p4836
+aV2 hrs. 0 min.
+p4837
+aV1 hrs. 40 min.
+p4838
+aV1 hrs. 25 min.
+p4839
+aV1 hrs. 40 min.
+p4840
+aV1 hrs. 44 min.
+p4841
+aV1 hrs. 54 min.
+p4842
+aV1 hrs. 30 min.
+p4843
+aV1 hrs. 48 min.
+p4844
+aV1 hrs. 33 min.
+p4845
+aV1 hrs. 38 min.
+p4846
+aV1 hrs. 36 min.
+p4847
+aV1 hrs. 57 min.
+p4848
+aV1 hrs. 48 min.
+p4849
+aV1 hrs. 28 min.
+p4850
+aV2 hrs. 10 min.
+p4851
+aV2 hrs. 2 min.
+p4852
+aV1 hrs. 27 min.
+p4853
+aV1 hrs. 36 min.
+p4854
+aV1 hrs. 44 min.
+p4855
+aV2 hrs. 8 min.
+p4856
+aV1 hrs. 34 min.
+p4857
+aV1 hrs. 47 min.
+p4858
+aV1 hrs. 40 min.
+p4859
+aV1 hrs. 40 min.
+p4860
+aV1 hrs. 40 min.
+p4861
+aV1 hrs. 50 min.
+p4862
+aV1 hrs. 42 min.
+p4863
+aV1 hrs. 48 min.
+p4864
+aV1 hrs. 45 min.
+p4865
+aV1 hrs. 45 min.
+p4866
+aV1 hrs. 33 min.
+p4867
+aV1 hrs. 29 min.
+p4868
+aV1 hrs. 35 min.
+p4869
+aV1 hrs. 45 min.
+p4870
+aV1 hrs. 30 min.
+p4871
+aV1 hrs. 44 min.
+p4872
+aV1 hrs. 56 min.
+p4873
+aV1 hrs. 25 min.
+p4874
+aV1 hrs. 42 min.
+p4875
+aV1 hrs. 32 min.
+p4876
+aV1 hrs. 41 min.
+p4877
+aV1 hrs. 52 min.
+p4878
+aV1 hrs. 40 min.
+p4879
+aV1 hrs. 34 min.
+p4880
+aV2 hrs. 7 min.
+p4881
+aV2 hrs. 3 min.
+p4882
+aV1 hrs. 45 min.
+p4883
+aV1 hrs. 21 min.
+p4884
+aV1 hrs. 36 min.
+p4885
+aV1 hrs. 50 min.
+p4886
+aV1 hrs. 28 min.
+p4887
+aV1 hrs. 39 min.
+p4888
+aV1 hrs. 58 min.
+p4889
+aV1 hrs. 24 min.
+p4890
+aV1 hrs. 37 min.
+p4891
+aV1 hrs. 44 min.
+p4892
+aV1 hrs. 34 min.
+p4893
+aV1 hrs. 33 min.
+p4894
+aV2 hrs. 27 min.
+p4895
+aV1 hrs. 49 min.
+p4896
+aV1 hrs. 45 min.
+p4897
+aV1 hrs. 25 min.
+p4898
+aV1 hrs. 50 min.
+p4899
+aV1 hrs. 34 min.
+p4900
+aV1 hrs. 28 min.
+p4901
+aV1 hrs. 34 min.
+p4902
+aV1 hrs. 51 min.
+p4903
+aV1 hrs. 38 min.
+p4904
+aV1 hrs. 31 min.
+p4905
+aV1 hrs. 51 min.
+p4906
+aV1 hrs. 41 min.
+p4907
+aV1 hrs. 41 min.
+p4908
+aV1 hrs. 32 min.
+p4909
+aV1 hrs. 29 min.
+p4910
+aV1 hrs. 42 min.
+p4911
+aV1 hrs. 35 min.
+p4912
+aV1 hrs. 43 min.
+p4913
+aV1 hrs. 26 min.
+p4914
+aV1 hrs. 33 min.
+p4915
+aV1 hrs. 50 min.
+p4916
+aV1 hrs. 42 min.
+p4917
+aV1 hrs. 28 min.
+p4918
+aV1 hrs. 30 min.
+p4919
+aV1 hrs. 30 min.
+p4920
+aV1 hrs. 43 min.
+p4921
+aV1 hrs. 41 min.
+p4922
+aV1 hrs. 32 min.
+p4923
+aV1 hrs. 58 min.
+p4924
+aV1 hrs. 33 min.
+p4925
+aV1 hrs. 33 min.
+p4926
+aV1 hrs. 32 min.
+p4927
+aV2 hrs. 1 min.
+p4928
+aV1 hrs. 34 min.
+p4929
+aV1 hrs. 29 min.
+p4930
+aV1 hrs. 42 min.
+p4931
+aV1 hrs. 46 min.
+p4932
+aV1 hrs. 25 min.
+p4933
+aV1 hrs. 42 min.
+p4934
+aV1 hrs. 50 min.
+p4935
+aV1 hrs. 42 min.
+p4936
+aV1 hrs. 42 min.
+p4937
+aV1 hrs. 35 min.
+p4938
+aNaV1 hrs. 57 min.
+p4939
+aV1 hrs. 34 min.
+p4940
+aV1 hrs. 30 min.
+p4941
+aV2 hrs. 7 min.
+p4942
+aV1 hrs. 36 min.
+p4943
+aV1 hrs. 42 min.
+p4944
+aV1 hrs. 46 min.
+p4945
+aV1 hrs. 30 min.
+p4946
+aV1 hrs. 35 min.
+p4947
+aV1 hrs. 46 min.
+p4948
+aV1 hrs. 36 min.
+p4949
+aV1 hrs. 38 min.
+p4950
+aV1 hrs. 35 min.
+p4951
+aV1 hrs. 46 min.
+p4952
+aV2 hrs. 15 min.
+p4953
+aV1 hrs. 49 min.
+p4954
+aV1 hrs. 34 min.
+p4955
+aV1 hrs. 26 min.
+p4956
+aV1 hrs. 29 min.
+p4957
+aV1 hrs. 33 min.
+p4958
+aV1 hrs. 39 min.
+p4959
+aV1 hrs. 47 min.
+p4960
+aV1 hrs. 48 min.
+p4961
+aV1 hrs. 34 min.
+p4962
+aV1 hrs. 37 min.
+p4963
+aV1 hrs. 38 min.
+p4964
+aV1 hrs. 22 min.
+p4965
+aV1 hrs. 42 min.
+p4966
+aV1 hrs. 29 min.
+p4967
+aV1 hrs. 42 min.
+p4968
+aV1 hrs. 30 min.
+p4969
+aV1 hrs. 26 min.
+p4970
+aV1 hrs. 32 min.
+p4971
+aV1 hrs. 31 min.
+p4972
+aV1 hrs. 26 min.
+p4973
+aV1 hrs. 46 min.
+p4974
+aV1 hrs. 40 min.
+p4975
+aV1 hrs. 28 min.
+p4976
+aV1 hrs. 28 min.
+p4977
+aV1 hrs. 33 min.
+p4978
+aV1 hrs. 38 min.
+p4979
+aV2 hrs. 2 min.
+p4980
+aV1 hrs. 29 min.
+p4981
+aV1 hrs. 27 min.
+p4982
+aV1 hrs. 36 min.
+p4983
+aV1 hrs. 44 min.
+p4984
+aV1 hrs. 55 min.
+p4985
+aV1 hrs. 28 min.
+p4986
+aV1 hrs. 34 min.
+p4987
+aV1 hrs. 39 min.
+p4988
+aVN/A
+p4989
+aV1 hrs. 40 min.
+p4990
+aV1 hrs. 41 min.
+p4991
+aV1 hrs. 34 min.
+p4992
+aV2 hrs. 4 min.
+p4993
+aV1 hrs. 27 min.
+p4994
+aV1 hrs. 24 min.
+p4995
+aV1 hrs. 57 min.
+p4996
+aV1 hrs. 25 min.
+p4997
+aV1 hrs. 34 min.
+p4998
+aV1 hrs. 30 min.
+p4999
+aV1 hrs. 36 min.
+p5000
+aV1 hrs. 33 min.
+p5001
+aV1 hrs. 52 min.
+p5002
+aV2 hrs. 5 min.
+p5003
+aV1 hrs. 51 min.
+p5004
+aV1 hrs. 24 min.
+p5005
+aV1 hrs. 32 min.
+p5006
+aV1 hrs. 55 min.
+p5007
+aV1 hrs. 37 min.
+p5008
+aV1 hrs. 40 min.
+p5009
+aV1 hrs. 51 min.
+p5010
+aV1 hrs. 31 min.
+p5011
+aV1 hrs. 14 min.
+p5012
+aV1 hrs. 35 min.
+p5013
+aV1 hrs. 47 min.
+p5014
+aV2 hrs. 4 min.
+p5015
+aV1 hrs. 30 min.
+p5016
+aV1 hrs. 45 min.
+p5017
+aV1 hrs. 36 min.
+p5018
+aV1 hrs. 46 min.
+p5019
+aV1 hrs. 37 min.
+p5020
+aV1 hrs. 32 min.
+p5021
+aV1 hrs. 37 min.
+p5022
+aV1 hrs. 32 min.
+p5023
+aV1 hrs. 58 min.
+p5024
+aV1 hrs. 43 min.
+p5025
+aV1 hrs. 50 min.
+p5026
+aV1 hrs. 26 min.
+p5027
+aV1 hrs. 50 min.
+p5028
+aV1 hrs. 31 min.
+p5029
+aV1 hrs. 45 min.
+p5030
+aV1 hrs. 28 min.
+p5031
+aV1 hrs. 29 min.
+p5032
+aV1 hrs. 32 min.
+p5033
+aV1 hrs. 50 min.
+p5034
+aV1 hrs. 28 min.
+p5035
+aV1 hrs. 37 min.
+p5036
+aV1 hrs. 46 min.
+p5037
+aV1 hrs. 57 min.
+p5038
+aV1 hrs. 28 min.
+p5039
+aV1 hrs. 39 min.
+p5040
+aV1 hrs. 38 min.
+p5041
+aV1 hrs. 38 min.
+p5042
+aV2 hrs. 8 min.
+p5043
+aV1 hrs. 42 min.
+p5044
+aV1 hrs. 27 min.
+p5045
+aV1 hrs. 44 min.
+p5046
+aV1 hrs. 30 min.
+p5047
+aV2 hrs. 9 min.
+p5048
+aV2 hrs. 3 min.
+p5049
+aV1 hrs. 31 min.
+p5050
+aV1 hrs. 38 min.
+p5051
+aV1 hrs. 30 min.
+p5052
+aV1 hrs. 37 min.
+p5053
+aV1 hrs. 43 min.
+p5054
+aNaV1 hrs. 40 min.
+p5055
+aV1 hrs. 26 min.
+p5056
+aV2 hrs. 1 min.
+p5057
+aV1 hrs. 53 min.
+p5058
+aV1 hrs. 31 min.
+p5059
+aV1 hrs. 40 min.
+p5060
+aV1 hrs. 39 min.
+p5061
+aV1 hrs. 36 min.
+p5062
+aV1 hrs. 45 min.
+p5063
+aV1 hrs. 36 min.
+p5064
+aV1 hrs. 34 min.
+p5065
+aV1 hrs. 32 min.
+p5066
+aV1 hrs. 45 min.
+p5067
+aV1 hrs. 47 min.
+p5068
+aV1 hrs. 41 min.
+p5069
+aV1 hrs. 33 min.
+p5070
+aV1 hrs. 28 min.
+p5071
+aV1 hrs. 37 min.
+p5072
+aV1 hrs. 30 min.
+p5073
+aV1 hrs. 38 min.
+p5074
+aV1 hrs. 39 min.
+p5075
+aV1 hrs. 38 min.
+p5076
+aV1 hrs. 40 min.
+p5077
+aV1 hrs. 34 min.
+p5078
+aV1 hrs. 40 min.
+p5079
+aV2 hrs. 0 min.
+p5080
+aV1 hrs. 40 min.
+p5081
+aV1 hrs. 40 min.
+p5082
+aV1 hrs. 50 min.
+p5083
+aV1 hrs. 49 min.
+p5084
+aV1 hrs. 39 min.
+p5085
+aV1 hrs. 53 min.
+p5086
+aV1 hrs. 54 min.
+p5087
+aV1 hrs. 28 min.
+p5088
+aV2 hrs. 15 min.
+p5089
+aV1 hrs. 22 min.
+p5090
+aVN/A
+p5091
+aV1 hrs. 43 min.
+p5092
+aV1 hrs. 46 min.
+p5093
+aV1 hrs. 42 min.
+p5094
+aV1 hrs. 44 min.
+p5095
+aV1 hrs. 34 min.
+p5096
+aV1 hrs. 35 min.
+p5097
+aV1 hrs. 28 min.
+p5098
+aV1 hrs. 47 min.
+p5099
+aV1 hrs. 33 min.
+p5100
+aV1 hrs. 30 min.
+p5101
+aV1 hrs. 35 min.
+p5102
+aV1 hrs. 54 min.
+p5103
+aV1 hrs. 45 min.
+p5104
+aV1 hrs. 35 min.
+p5105
+aV1 hrs. 39 min.
+p5106
+aV1 hrs. 41 min.
+p5107
+aV1 hrs. 30 min.
+p5108
+aV1 hrs. 38 min.
+p5109
+aV1 hrs. 36 min.
+p5110
+aV1 hrs. 22 min.
+p5111
+aV1 hrs. 42 min.
+p5112
+aV1 hrs. 28 min.
+p5113
+aV1 hrs. 28 min.
+p5114
+aV1 hrs. 46 min.
+p5115
+aV2 hrs. 2 min.
+p5116
+aV1 hrs. 33 min.
+p5117
+aV1 hrs. 41 min.
+p5118
+aV1 hrs. 49 min.
+p5119
+aV2 hrs. 2 min.
+p5120
+aV1 hrs. 35 min.
+p5121
+aV1 hrs. 24 min.
+p5122
+aV1 hrs. 29 min.
+p5123
+aV1 hrs. 35 min.
+p5124
+aV1 hrs. 55 min.
+p5125
+aV1 hrs. 50 min.
+p5126
+aV1 hrs. 25 min.
+p5127
+aV1 hrs. 41 min.
+p5128
+aV1 hrs. 48 min.
+p5129
+aV1 hrs. 27 min.
+p5130
+aV1 hrs. 38 min.
+p5131
+aV1 hrs. 55 min.
+p5132
+aV1 hrs. 35 min.
+p5133
+aV1 hrs. 43 min.
+p5134
+aV1 hrs. 26 min.
+p5135
+aV1 hrs. 55 min.
+p5136
+aV1 hrs. 26 min.
+p5137
+aV1 hrs. 36 min.
+p5138
+aV1 hrs. 37 min.
+p5139
+aV1 hrs. 50 min.
+p5140
+aV1 hrs. 32 min.
+p5141
+aV1 hrs. 27 min.
+p5142
+aV1 hrs. 52 min.
+p5143
+aV1 hrs. 21 min.
+p5144
+aV1 hrs. 49 min.
+p5145
+aV1 hrs. 43 min.
+p5146
+aV1 hrs. 40 min.
+p5147
+aV1 hrs. 34 min.
+p5148
+aV1 hrs. 37 min.
+p5149
+aV1 hrs. 36 min.
+p5150
+aV2 hrs. 16 min.
+p5151
+aV1 hrs. 40 min.
+p5152
+aV1 hrs. 34 min.
+p5153
+aV1 hrs. 23 min.
+p5154
+aV1 hrs. 46 min.
+p5155
+aV1 hrs. 27 min.
+p5156
+aV1 hrs. 52 min.
+p5157
+aV1 hrs. 49 min.
+p5158
+aV1 hrs. 49 min.
+p5159
+aV1 hrs. 48 min.
+p5160
+aV1 hrs. 20 min.
+p5161
+aV1 hrs. 30 min.
+p5162
+aV1 hrs. 45 min.
+p5163
+aV1 hrs. 28 min.
+p5164
+aV1 hrs. 56 min.
+p5165
+aV1 hrs. 38 min.
+p5166
+aV1 hrs. 35 min.
+p5167
+aV1 hrs. 51 min.
+p5168
+aV1 hrs. 30 min.
+p5169
+aV1 hrs. 39 min.
+p5170
+aV1 hrs. 44 min.
+p5171
+aV1 hrs. 38 min.
+p5172
+aV1 hrs. 36 min.
+p5173
+aV1 hrs. 31 min.
+p5174
+aV1 hrs. 38 min.
+p5175
+aV1 hrs. 37 min.
+p5176
+aV1 hrs. 37 min.
+p5177
+aV1 hrs. 51 min.
+p5178
+aV1 hrs. 29 min.
+p5179
+aV1 hrs. 35 min.
+p5180
+aV1 hrs. 44 min.
+p5181
+aV1 hrs. 32 min.
+p5182
+aV1 hrs. 35 min.
+p5183
+aV1 hrs. 40 min.
+p5184
+aV1 hrs. 44 min.
+p5185
+aV1 hrs. 31 min.
+p5186
+aV1 hrs. 26 min.
+p5187
+aV1 hrs. 32 min.
+p5188
+aV1 hrs. 51 min.
+p5189
+aV1 hrs. 43 min.
+p5190
+aV1 hrs. 40 min.
+p5191
+aV2 hrs. 5 min.
+p5192
+aV1 hrs. 51 min.
+p5193
+aV1 hrs. 39 min.
+p5194
+aV1 hrs. 32 min.
+p5195
+aV1 hrs. 30 min.
+p5196
+aVN/A
+p5197
+aV1 hrs. 47 min.
+p5198
+aV1 hrs. 39 min.
+p5199
+aV1 hrs. 25 min.
+p5200
+aV1 hrs. 38 min.
+p5201
+aV1 hrs. 23 min.
+p5202
+aV1 hrs. 53 min.
+p5203
+aVN/A
+p5204
+aV1 hrs. 41 min.
+p5205
+aV1 hrs. 31 min.
+p5206
+aV1 hrs. 41 min.
+p5207
+aV1 hrs. 47 min.
+p5208
+aV1 hrs. 34 min.
+p5209
+aV1 hrs. 39 min.
+p5210
+aV1 hrs. 30 min.
+p5211
+aV1 hrs. 56 min.
+p5212
+aV1 hrs. 26 min.
+p5213
+aV1 hrs. 38 min.
+p5214
+aV1 hrs. 48 min.
+p5215
+aV1 hrs. 49 min.
+p5216
+aV1 hrs. 36 min.
+p5217
+aV1 hrs. 35 min.
+p5218
+aV1 hrs. 37 min.
+p5219
+aV1 hrs. 44 min.
+p5220
+aV1 hrs. 44 min.
+p5221
+aV1 hrs. 56 min.
+p5222
+aV1 hrs. 40 min.
+p5223
+aV1 hrs. 34 min.
+p5224
+aV1 hrs. 33 min.
+p5225
+aV1 hrs. 24 min.
+p5226
+aV1 hrs. 31 min.
+p5227
+aV1 hrs. 24 min.
+p5228
+aV1 hrs. 31 min.
+p5229
+aV1 hrs. 42 min.
+p5230
+aV1 hrs. 47 min.
+p5231
+aV1 hrs. 32 min.
+p5232
+aV1 hrs. 33 min.
+p5233
+aV3 hrs. 20 min.
+p5234
+aV2 hrs. 0 min.
+p5235
+aV1 hrs. 40 min.
+p5236
+aV1 hrs. 53 min.
+p5237
+aVN/A
+p5238
+aV1 hrs. 45 min.
+p5239
+aV1 hrs. 35 min.
+p5240
+aV1 hrs. 50 min.
+p5241
+aV1 hrs. 47 min.
+p5242
+aV2 hrs. 1 min.
+p5243
+aV1 hrs. 38 min.
+p5244
+aV2 hrs. 10 min.
+p5245
+aV1 hrs. 52 min.
+p5246
+aV1 hrs. 52 min.
+p5247
+aV1 hrs. 25 min.
+p5248
+aV1 hrs. 56 min.
+p5249
+aV1 hrs. 40 min.
+p5250
+aV1 hrs. 50 min.
+p5251
+aV1 hrs. 40 min.
+p5252
+aV1 hrs. 29 min.
+p5253
+aV1 hrs. 32 min.
+p5254
+aV1 hrs. 26 min.
+p5255
+aV1 hrs. 52 min.
+p5256
+aVN/A
+p5257
+aV1 hrs. 31 min.
+p5258
+aV1 hrs. 51 min.
+p5259
+aV1 hrs. 39 min.
+p5260
+aV1 hrs. 30 min.
+p5261
+aV1 hrs. 42 min.
+p5262
+aV1 hrs. 25 min.
+p5263
+aV1 hrs. 40 min.
+p5264
+aV1 hrs. 42 min.
+p5265
+aV1 hrs. 24 min.
+p5266
+aV1 hrs. 38 min.
+p5267
+aV1 hrs. 42 min.
+p5268
+aV1 hrs. 53 min.
+p5269
+aV1 hrs. 26 min.
+p5270
+aV1 hrs. 50 min.
+p5271
+aV1 hrs. 42 min.
+p5272
+aV1 hrs. 36 min.
+p5273
+aV2 hrs. 6 min.
+p5274
+aV1 hrs. 57 min.
+p5275
+aV1 hrs. 21 min.
+p5276
+aV1 hrs. 41 min.
+p5277
+aV1 hrs. 53 min.
+p5278
+aV1 hrs. 23 min.
+p5279
+aV1 hrs. 56 min.
+p5280
+aV1 hrs. 30 min.
+p5281
+aV1 hrs. 30 min.
+p5282
+aV1 hrs. 22 min.
+p5283
+aV1 hrs. 36 min.
+p5284
+aV1 hrs. 30 min.
+p5285
+aV1 hrs. 35 min.
+p5286
+aV1 hrs. 46 min.
+p5287
+aV1 hrs. 45 min.
+p5288
+aV1 hrs. 35 min.
+p5289
+aV1 hrs. 48 min.
+p5290
+aV1 hrs. 28 min.
+p5291
+aV1 hrs. 37 min.
+p5292
+aV1 hrs. 47 min.
+p5293
+aV1 hrs. 27 min.
+p5294
+aV1 hrs. 54 min.
+p5295
+aV1 hrs. 34 min.
+p5296
+aV1 hrs. 38 min.
+p5297
+aV1 hrs. 39 min.
+p5298
+aV1 hrs. 30 min.
+p5299
+aV1 hrs. 50 min.
+p5300
+aV1 hrs. 37 min.
+p5301
+aV1 hrs. 42 min.
+p5302
+aV1 hrs. 48 min.
+p5303
+aV1 hrs. 57 min.
+p5304
+aV2 hrs. 4 min.
+p5305
+aV1 hrs. 35 min.
+p5306
+aV1 hrs. 53 min.
+p5307
+aVN/A
+p5308
+aV1 hrs. 47 min.
+p5309
+aV1 hrs. 41 min.
+p5310
+aV1 hrs. 36 min.
+p5311
+aV1 hrs. 27 min.
+p5312
+aV1 hrs. 28 min.
+p5313
+aV1 hrs. 34 min.
+p5314
+aV1 hrs. 35 min.
+p5315
+aV2 hrs. 0 min.
+p5316
+aV1 hrs. 51 min.
+p5317
+aV1 hrs. 32 min.
+p5318
+aV1 hrs. 24 min.
+p5319
+aV1 hrs. 59 min.
+p5320
+aV1 hrs. 32 min.
+p5321
+aV1 hrs. 25 min.
+p5322
+aV1 hrs. 30 min.
+p5323
+aV1 hrs. 27 min.
+p5324
+aV1 hrs. 30 min.
+p5325
+aV2 hrs. 19 min.
+p5326
+aV1 hrs. 31 min.
+p5327
+aV1 hrs. 33 min.
+p5328
+aV1 hrs. 36 min.
+p5329
+aV2 hrs. 7 min.
+p5330
+aV1 hrs. 23 min.
+p5331
+aV1 hrs. 40 min.
+p5332
+aV1 hrs. 45 min.
+p5333
+aV1 hrs. 54 min.
+p5334
+aV1 hrs. 39 min.
+p5335
+aV1 hrs. 39 min.
+p5336
+aV1 hrs. 29 min.
+p5337
+aV1 hrs. 32 min.
+p5338
+aV1 hrs. 28 min.
+p5339
+aV1 hrs. 38 min.
+p5340
+aV1 hrs. 58 min.
+p5341
+aV1 hrs. 49 min.
+p5342
+aV2 hrs. 4 min.
+p5343
+aV1 hrs. 33 min.
+p5344
+aV1 hrs. 30 min.
+p5345
+aV2 hrs. 22 min.
+p5346
+aV1 hrs. 48 min.
+p5347
+aV1 hrs. 42 min.
+p5348
+aV1 hrs. 24 min.
+p5349
+aV1 hrs. 32 min.
+p5350
+aV1 hrs. 36 min.
+p5351
+aV1 hrs. 33 min.
+p5352
+aV1 hrs. 59 min.
+p5353
+aV1 hrs. 47 min.
+p5354
+aV1 hrs. 42 min.
+p5355
+aV1 hrs. 31 min.
+p5356
+aV1 hrs. 32 min.
+p5357
+aV1 hrs. 56 min.
+p5358
+aV1 hrs. 41 min.
+p5359
+aV1 hrs. 24 min.
+p5360
+aV1 hrs. 50 min.
+p5361
+aV1 hrs. 33 min.
+p5362
+aV1 hrs. 33 min.
+p5363
+aV1 hrs. 35 min.
+p5364
+aV1 hrs. 28 min.
+p5365
+aV1 hrs. 50 min.
+p5366
+aV1 hrs. 43 min.
+p5367
+aV1 hrs. 38 min.
+p5368
+aV1 hrs. 44 min.
+p5369
+aV2 hrs. 5 min.
+p5370
+aV1 hrs. 58 min.
+p5371
+aV1 hrs. 36 min.
+p5372
+aV1 hrs. 45 min.
+p5373
+aV1 hrs. 55 min.
+p5374
+aV1 hrs. 38 min.
+p5375
+aV1 hrs. 37 min.
+p5376
+aV1 hrs. 18 min.
+p5377
+aV1 hrs. 50 min.
+p5378
+aV1 hrs. 48 min.
+p5379
+aV1 hrs. 29 min.
+p5380
+aV1 hrs. 35 min.
+p5381
+aV1 hrs. 26 min.
+p5382
+aV1 hrs. 33 min.
+p5383
+aVN/A
+p5384
+aV1 hrs. 44 min.
+p5385
+aV2 hrs. 2 min.
+p5386
+aV1 hrs. 43 min.
+p5387
+aV1 hrs. 39 min.
+p5388
+aV1 hrs. 26 min.
+p5389
+aV1 hrs. 36 min.
+p5390
+aV1 hrs. 38 min.
+p5391
+aV1 hrs. 40 min.
+p5392
+aV1 hrs. 30 min.
+p5393
+aV1 hrs. 34 min.
+p5394
+aV1 hrs. 51 min.
+p5395
+aV2 hrs. 9 min.
+p5396
+aV1 hrs. 30 min.
+p5397
+aV1 hrs. 31 min.
+p5398
+aV1 hrs. 49 min.
+p5399
+aV1 hrs. 56 min.
+p5400
+aV1 hrs. 30 min.
+p5401
+aV1 hrs. 50 min.
+p5402
+aV1 hrs. 53 min.
+p5403
+aV1 hrs. 45 min.
+p5404
+aV1 hrs. 47 min.
+p5405
+aV1 hrs. 36 min.
+p5406
+aV1 hrs. 25 min.
+p5407
+aV1 hrs. 47 min.
+p5408
+aV1 hrs. 49 min.
+p5409
+aV1 hrs. 29 min.
+p5410
+aV1 hrs. 28 min.
+p5411
+aV1 hrs. 47 min.
+p5412
+aV1 hrs. 40 min.
+p5413
+aV1 hrs. 26 min.
+p5414
+aV1 hrs. 50 min.
+p5415
+aV1 hrs. 27 min.
+p5416
+aV1 hrs. 45 min.
+p5417
+aV1 hrs. 10 min.
+p5418
+aV1 hrs. 30 min.
+p5419
+aV1 hrs. 37 min.
+p5420
+aV1 hrs. 43 min.
+p5421
+aV1 hrs. 28 min.
+p5422
+aV1 hrs. 37 min.
+p5423
+aV1 hrs. 34 min.
+p5424
+aV1 hrs. 39 min.
+p5425
+aV1 hrs. 48 min.
+p5426
+aV1 hrs. 57 min.
+p5427
+aV1 hrs. 31 min.
+p5428
+aV1 hrs. 38 min.
+p5429
+aV1 hrs. 40 min.
+p5430
+aV1 hrs. 31 min.
+p5431
+aV1 hrs. 45 min.
+p5432
+aV1 hrs. 50 min.
+p5433
+aV1 hrs. 50 min.
+p5434
+aV1 hrs. 35 min.
+p5435
+aV1 hrs. 45 min.
+p5436
+aV2 hrs. 3 min.
+p5437
+aVN/A
+p5438
+aV1 hrs. 35 min.
+p5439
+aV1 hrs. 36 min.
+p5440
+aV1 hrs. 35 min.
+p5441
+aV1 hrs. 56 min.
+p5442
+aV1 hrs. 24 min.
+p5443
+aV1 hrs. 44 min.
+p5444
+aV1 hrs. 37 min.
+p5445
+aV1 hrs. 44 min.
+p5446
+aV1 hrs. 46 min.
+p5447
+aV1 hrs. 30 min.
+p5448
+aV1 hrs. 45 min.
+p5449
+aV1 hrs. 33 min.
+p5450
+aV1 hrs. 54 min.
+p5451
+aV1 hrs. 44 min.
+p5452
+aV1 hrs. 22 min.
+p5453
+aV1 hrs. 18 min.
+p5454
+aV1 hrs. 25 min.
+p5455
+aV1 hrs. 41 min.
+p5456
+aV1 hrs. 39 min.
+p5457
+aV1 hrs. 50 min.
+p5458
+aV1 hrs. 38 min.
+p5459
+aV1 hrs. 41 min.
+p5460
+aV1 hrs. 45 min.
+p5461
+aV1 hrs. 23 min.
+p5462
+aV1 hrs. 50 min.
+p5463
+aV1 hrs. 34 min.
+p5464
+aV1 hrs. 35 min.
+p5465
+aV1 hrs. 25 min.
+p5466
+aV1 hrs. 57 min.
+p5467
+aV1 hrs. 29 min.
+p5468
+aV2 hrs. 9 min.
+p5469
+aV1 hrs. 30 min.
+p5470
+aV1 hrs. 30 min.
+p5471
+aV1 hrs. 44 min.
+p5472
+aV1 hrs. 38 min.
+p5473
+aV1 hrs. 50 min.
+p5474
+aV1 hrs. 33 min.
+p5475
+aV1 hrs. 40 min.
+p5476
+aV1 hrs. 39 min.
+p5477
+aV1 hrs. 44 min.
+p5478
+aV1 hrs. 57 min.
+p5479
+aV1 hrs. 36 min.
+p5480
+aV1 hrs. 33 min.
+p5481
+aV1 hrs. 28 min.
+p5482
+aV1 hrs. 22 min.
+p5483
+aV2 hrs. 11 min.
+p5484
+aV1 hrs. 30 min.
+p5485
+aV1 hrs. 27 min.
+p5486
+aV1 hrs. 49 min.
+p5487
+aV1 hrs. 37 min.
+p5488
+aV1 hrs. 26 min.
+p5489
+aV1 hrs. 36 min.
+p5490
+aV1 hrs. 30 min.
+p5491
+aV1 hrs. 40 min.
+p5492
+aV1 hrs. 46 min.
+p5493
+aV1 hrs. 42 min.
+p5494
+aV1 hrs. 30 min.
+p5495
+aV1 hrs. 20 min.
+p5496
+aV1 hrs. 44 min.
+p5497
+aV1 hrs. 47 min.
+p5498
+aV1 hrs. 53 min.
+p5499
+aV1 hrs. 28 min.
+p5500
+aV1 hrs. 52 min.
+p5501
+aV1 hrs. 33 min.
+p5502
+aV1 hrs. 32 min.
+p5503
+aV1 hrs. 30 min.
+p5504
+aV1 hrs. 49 min.
+p5505
+aV1 hrs. 26 min.
+p5506
+aV1 hrs. 24 min.
+p5507
+aV1 hrs. 51 min.
+p5508
+aV1 hrs. 58 min.
+p5509
+aV1 hrs. 30 min.
+p5510
+aV1 hrs. 30 min.
+p5511
+aV1 hrs. 32 min.
+p5512
+aV1 hrs. 33 min.
+p5513
+aV1 hrs. 27 min.
+p5514
+aV1 hrs. 41 min.
+p5515
+aV1 hrs. 25 min.
+p5516
+aV1 hrs. 30 min.
+p5517
+aV1 hrs. 43 min.
+p5518
+aV1 hrs. 33 min.
+p5519
+aV1 hrs. 23 min.
+p5520
+aV1 hrs. 34 min.
+p5521
+aV1 hrs. 34 min.
+p5522
+aV1 hrs. 23 min.
+p5523
+aV1 hrs. 56 min.
+p5524
+aV1 hrs. 36 min.
+p5525
+aV1 hrs. 35 min.
+p5526
+aV1 hrs. 40 min.
+p5527
+aV1 hrs. 56 min.
+p5528
+aV1 hrs. 30 min.
+p5529
+aV1 hrs. 35 min.
+p5530
+aV1 hrs. 29 min.
+p5531
+aV1 hrs. 35 min.
+p5532
+aV1 hrs. 38 min.
+p5533
+aV1 hrs. 30 min.
+p5534
+aV1 hrs. 28 min.
+p5535
+aV1 hrs. 34 min.
+p5536
+aV1 hrs. 55 min.
+p5537
+aV1 hrs. 48 min.
+p5538
+aV1 hrs. 34 min.
+p5539
+aV2 hrs. 0 min.
+p5540
+aV1 hrs. 50 min.
+p5541
+aV1 hrs. 25 min.
+p5542
+aV1 hrs. 40 min.
+p5543
+aV1 hrs. 41 min.
+p5544
+aV1 hrs. 37 min.
+p5545
+aV1 hrs. 28 min.
+p5546
+aV1 hrs. 40 min.
+p5547
+aV1 hrs. 29 min.
+p5548
+aV1 hrs. 36 min.
+p5549
+aV1 hrs. 42 min.
+p5550
+aV1 hrs. 20 min.
+p5551
+aV1 hrs. 36 min.
+p5552
+aV2 hrs. 4 min.
+p5553
+aV2 hrs. 4 min.
+p5554
+aV1 hrs. 37 min.
+p5555
+aV1 hrs. 41 min.
+p5556
+aV1 hrs. 54 min.
+p5557
+aV1 hrs. 36 min.
+p5558
+aV1 hrs. 42 min.
+p5559
+aV1 hrs. 37 min.
+p5560
+aV1 hrs. 39 min.
+p5561
+aV1 hrs. 59 min.
+p5562
+aV1 hrs. 48 min.
+p5563
+aV1 hrs. 35 min.
+p5564
+aV1 hrs. 21 min.
+p5565
+aV1 hrs. 46 min.
+p5566
+aV1 hrs. 25 min.
+p5567
+aV1 hrs. 35 min.
+p5568
+aV2 hrs. 7 min.
+p5569
+aV1 hrs. 20 min.
+p5570
+aV1 hrs. 48 min.
+p5571
+aV1 hrs. 37 min.
+p5572
+aV1 hrs. 48 min.
+p5573
+aV1 hrs. 43 min.
+p5574
+aV1 hrs. 37 min.
+p5575
+aV1 hrs. 50 min.
+p5576
+aV1 hrs. 35 min.
+p5577
+aV1 hrs. 45 min.
+p5578
+aV1 hrs. 52 min.
+p5579
+aV1 hrs. 32 min.
+p5580
+aV1 hrs. 25 min.
+p5581
+aV1 hrs. 51 min.
+p5582
+aV1 hrs. 30 min.
+p5583
+aV1 hrs. 44 min.
+p5584
+aV1 hrs. 52 min.
+p5585
+aV2 hrs. 8 min.
+p5586
+aV1 hrs. 47 min.
+p5587
+aV1 hrs. 58 min.
+p5588
+aV1 hrs. 35 min.
+p5589
+aV1 hrs. 30 min.
+p5590
+aV1 hrs. 42 min.
+p5591
+aV1 hrs. 42 min.
+p5592
+aV1 hrs. 35 min.
+p5593
+aV1 hrs. 40 min.
+p5594
+aV1 hrs. 34 min.
+p5595
+aV1 hrs. 19 min.
+p5596
+aV1 hrs. 24 min.
+p5597
+aV1 hrs. 32 min.
+p5598
+aV1 hrs. 29 min.
+p5599
+aV1 hrs. 30 min.
+p5600
+aV1 hrs. 32 min.
+p5601
+aV2 hrs. 2 min.
+p5602
+aV2 hrs. 5 min.
+p5603
+aV1 hrs. 39 min.
+p5604
+aV1 hrs. 28 min.
+p5605
+aV1 hrs. 53 min.
+p5606
+aV1 hrs. 41 min.
+p5607
+aVN/A
+p5608
+aV1 hrs. 46 min.
+p5609
+aV1 hrs. 49 min.
+p5610
+aV1 hrs. 42 min.
+p5611
+aV1 hrs. 34 min.
+p5612
+aVStick It
+p5613
+aVLife as We Know It
+p5614
+aVWhile You Were Sleeping
+p5615
+aVCreator
+p5616
+aV21 and Over
+p5617
+aVFeast
+p5618
+aVMystery, Alaska
+p5619
+aVSex and the City 2
+p5620
+aVBarbershop 2: Back in Business
+p5621
+aVThe Frighteners
+p5622
+aVKick-Ass 2
+p5623
+aVAnchorman 2: The Legend Continues
+p5624
+aVBetter Off Dead
+p5625
+aVNight of the Comet
+p5626
+aVMy Super Ex-Girlfriend
+p5627
+aVDracula: Dead and Loving It
+p5628
+aVOrange County
+p5629
+aVArachnophobia
+p5630
+aVDeath to Smoochy
+p5631
+aV30 Minutes or Less
+p5632
+aVSorority Boys
+p5633
+aVTenacious D in: The Pick of Destiny
+p5634
+aVMy Boyfriend's Back
+p5635
+aVIdle Hands
+p5636
+aVDate with an Angel
+p5637
+aVDirty Love
+p5638
+aVBig Top Pee-Wee
+p5639
+aVFerris Bueller's Day Off
+p5640
+aVThink Like a Man Too
+p5641
+aVBulletproof
+p5642
+aVThey're Watching
+p5643
+aVBreakfast of Champions
+p5644
+aVPolice Academy 5: Assignment: Miami Beach
+p5645
+aVFido
+p5646
+aVTeaching Mrs. Tingle
+p5647
+aVJuwanna Mann
+p5648
+aVHouse II
+p5649
+aVFired Up
+p5650
+aVThe Big Hit
+p5651
+aVFolks!
+p5652
+aVRe-Animator
+p5653
+aVSerial Mom
+p5654
+aVDowntown
+p5655
+aVAirheads
+p5656
+aVAll of Me
+p5657
+aVTrue Lies
+p5658
+aVAdventureland
+p5659
+aVBrooklyn Brothers Beat the Best
+p5660
+aVPolice Academy
+p5661
+aVFriends with Benefits
+p5662
+aVNational Lampoon's Animal House
+p5663
+aVThe Wedding Planner
+p5664
+aVErnest Goes to Camp
+p5665
+aVVery Bad Things
+p5666
+aVDream a Little Dream
+p5667
+aVShe's Out of My League
+p5668
+aVTop Secret!
+p5669
+aVNeighbors
+p5670
+aVThe Waterboy
+p5671
+aVBirdman
+p5672
+aVBad Santa 2
+p5673
+aVRevenge of the Nerds II: Nerds in Paradise
+p5674
+aVDrowning Mona
+p5675
+aVThe Last American Virgin
+p5676
+aVBest Defense
+p5677
+aVLicense to Wed
+p5678
+aVBoo! A Madea Halloween
+p5679
+aVBarton Fink
+p5680
+aVClub Dread
+p5681
+aVTomcats
+p5682
+aVFraternity Vacation
+p5683
+aVAlong Came Polly
+p5684
+aVCars 2
+p5685
+aVRid of Me
+p5686
+aVDead Snow 2: Red vs. Dead
+p5687
+aVDr. Dolittle 2
+p5688
+aVThe Secret Life of Walter Mitty
+p5689
+aVPolice Academy 4: Citizens on Patrol
+p5690
+aVMemoirs of an Invisible Man
+p5691
+aVThe 'Burbs
+p5692
+aV18 Again
+p5693
+aVGroundhog Day
+p5694
+aVLiar Liar
+p5695
+aVRuthless People
+p5696
+aVFright Night
+p5697
+aVJennifer's Body
+p5698
+aV50 First Dates
+p5699
+aVDracula: Pages from a Virgin's Diary
+p5700
+aVSemi-Pro
+p5701
+aVAustin Powers: The Spy Who Shagged Me
+p5702
+aVMen in Black
+p5703
+aVMuppets Most Wanted
+p5704
+aVZombieland
+p5705
+aVFifty/Fifty
+p5706
+aVBig
+p5707
+aVSon of the Mask
+p5708
+aVDead Snow
+p5709
+aVBridget Jones's Diary
+p5710
+aVHero at Large
+p5711
+aVFather of the Bride Part II
+p5712
+aVMaking Mr. Right
+p5713
+aVPassed Away
+p5714
+aVSpy
+p5715
+aVThe Heat
+p5716
+aVGoosebumps
+p5717
+aVHorrible Bosses 2
+p5718
+aVDeath Becomes Her
+p5719
+aVFilth to Ashes, Flesh to Dust
+p5720
+aVThe Hammer
+p5721
+aVP.S.
+p5722
+aVWhat Happens in Vegas
+p5723
+aVSlap Shot
+p5724
+aVMaking the Grade
+p5725
+aVDumb and Dumber To
+p5726
+aVTransylmania
+p5727
+aVTomboy
+p5728
+aVLegally Blonde 2: Red, White and Blonde
+p5729
+aVGhostbusters
+p5730
+aVThe Perfect Score
+p5731
+aVChill Factor
+p5732
+aVMiss Congeniality 2: Armed and Fabulous
+p5733
+aVSemi-Tough
+p5734
+aVFright Night
+p5735
+aVThe Hangover
+p5736
+aVTo Die For
+p5737
+aVHeaven Help Us
+p5738
+aVThe Incredibles
+p5739
+aVFreaked
+p5740
+aVTin Cup
+p5741
+aVAll About the Benjamins
+p5742
+aVLarry the Cable Guy: Health Inspector
+p5743
+aVWhat a Girl Wants
+p5744
+aVShe's All That
+p5745
+aVBurn After Reading
+p5746
+aVWholly Moses
+p5747
+aVShanghai Knights
+p5748
+aVLoose Cannons
+p5749
+aVDodgeBall: A True Underdog Story
+p5750
+aVThe Break-Up
+p5751
+aVPolice Academy 6: City Under Siege
+p5752
+aVAmazon Women on the Moon
+p5753
+aVDead Man on Campus
+p5754
+aVBubba Ho-Tep
+p5755
+aVAn American Werewolf in Paris
+p5756
+aVWild Wild West
+p5757
+aVAmerican Graffiti
+p5758
+aVThe Cable Guy
+p5759
+aVIce Pirates
+p5760
+aVThe Love Witch
+p5761
+aVCheaper by the Dozen 2
+p5762
+aVSafety Not Guaranteed
+p5763
+aVAbout Last Night
+p5764
+aVZookeeper
+p5765
+aVReturn of the Living Dead
+p5766
+aVDeath at a Funeral
+p5767
+aVEternal Sunshine of the Spotless Mind
+p5768
+aVOnce Bitten
+p5769
+aVHarley Davidson and the Marlboro Man
+p5770
+aVThe Ugly Truth
+p5771
+aVThe Big Lebowski
+p5772
+aVGhostbusters
+p5773
+aVA Shock to the System
+p5774
+aVKnight & Day
+p5775
+aVThink Like a Man
+p5776
+aVDown to Earth
+p5777
+aVGrandma's Boy
+p5778
+aVLet's Be Cops
+p5779
+aVThe Parent Trap
+p5780
+aVWhatever It Takes
+p5781
+aV27 Dresses
+p5782
+aVKillers
+p5783
+aVThe Invention of Lying
+p5784
+aVPaul
+p5785
+aVLes Boys
+p5786
+aV17 Again
+p5787
+aVThe Proposal
+p5788
+aVPrelude to a Kiss
+p5789
+aVSleepless in Seattle
+p5790
+aVScouts Guide to the Zombie Apocalypse
+p5791
+aVRepossessed
+p5792
+aVBedtime Stories
+p5793
+aVNo Reservations
+p5794
+aVRush Hour 3
+p5795
+aVThree Men and a Little Lady
+p5796
+aVThe 40-Year-Old Virgin
+p5797
+aVSuperhero Movie
+p5798
+aVVampire in Brooklyn
+p5799
+aVNational Lampoon's Van Wilder
+p5800
+aVNumber One with a Bullet
+p5801
+aVJawbreaker
+p5802
+aVSeems Like Old Times
+p5803
+aVThreesome
+p5804
+aVSabrina
+p5805
+aVThe Producers
+p5806
+aVBringing Down the House
+p5807
+aVGuidance
+p5808
+aVI Spy
+p5809
+aVTalladega Nights: The Ballad of Ricky Bobby
+p5810
+aVTeeth
+p5811
+aVMean Machine
+p5812
+aVLethal Weapon 3
+p5813
+aVCode Name: The Cleaner
+p5814
+aVFailure to Launch
+p5815
+aVThe Rundown
+p5816
+aVAustin Powers in Goldmember
+p5817
+aVJackass Presents: Bad Grandpa
+p5818
+aVBad Boys II
+p5819
+aVMr. Baseball
+p5820
+aVStranger Than Fiction
+p5821
+aVReturn to Nuke 'Em High Volume 1
+p5822
+aVLethal Weapon
+p5823
+aVCan't Buy Me Love
+p5824
+aVScary Movie
+p5825
+aVRoad Trip
+p5826
+aVShort Circuit 2
+p5827
+aVNext Friday
+p5828
+aVNational Lampoon's Senior Trip
+p5829
+aVBandslam
+p5830
+aVThe Details
+p5831
+aVThe Change-Up
+p5832
+aVEurotrip
+p5833
+aVNot Another Teen Movie
+p5834
+aVThe Rocker
+p5835
+aVDetroit Rock City
+p5836
+aVThe Hitchhiker's Guide to the Galaxy
+p5837
+aVEvil Bong 3-D
+p5838
+aVNothing But Trouble
+p5839
+aVJunior
+p5840
+aVHarold and Kumar Escape from Guantanamo Bay
+p5841
+aVProject X
+p5842
+aVYouth in Revolt
+p5843
+aVEvan Almighty
+p5844
+aVSoul Men
+p5845
+aVThe Scout
+p5846
+aVFast Times at Ridgemont High
+p5847
+aVThe Witches of Eastwick
+p5848
+aVFlubber
+p5849
+aVSixteen Candles
+p5850
+aVColdblooded
+p5851
+aVKate and Leopold
+p5852
+aVWayne's World 2
+p5853
+aVPrivate School
+p5854
+aVMen with Brooms
+p5855
+aVReal Genius
+p5856
+aVEvil Dead 2
+p5857
+aVThe Freshman
+p5858
+aVFool's Gold
+p5859
+aVMoonstruck
+p5860
+aVSunshine Cleaning
+p5861
+aVDazed and Confused
+p5862
+aVBox Office Mojo - Movie Index, A-Z
+p5863
+aVValentine's Day
+p5864
+aVAddams Family Values
+p5865
+aVMannequin
+p5866
+aVLethal Weapon 4
+p5867
+aVKicking and Screaming
+p5868
+aVCitizen Ruth
+p5869
+aVSnakes on a Plane
+p5870
+aVHolla II
+p5871
+aVTeen Wolf Too
+p5872
+aVMIB 3
+p5873
+aVOn the Other Side of the Tracks
+p5874
+aVCool Runnings
+p5875
+aVMy Big Fat Greek Wedding
+p5876
+aVTed
+p5877
+aVSense and Sensibility
+p5878
+aVMcHale's Navy
+p5879
+aVThe Nude Bomb
+p5880
+aVCritters
+p5881
+aVLadybugs
+p5882
+aVIron Sky
+p5883
+aVThe Tuxedo
+p5884
+aVThe Cowboy Way
+p5885
+aVBig Hero 6
+p5886
+aVLove at First Bite
+p5887
+aVNothing to Lose
+p5888
+aVCheaper by the Dozen
+p5889
+aVLoaded Weapon 1
+p5890
+aVNo Small Affair
+p5891
+aVSightseers
+p5892
+aVGhostbusters II
+p5893
+aVBean
+p5894
+aVSomething Special
+p5895
+aVPenguins of Madagascar
+p5896
+aVThe Heavenly Kid
+p5897
+aVBuffy the Vampire Slayer
+p5898
+aVThe Ghastly Love of Johnny X
+p5899
+aVZoolander 2
+p5900
+aVLittle Shop of Horrors
+p5901
+aVHardbodies
+p5902
+aVBelieve Me
+p5903
+aVOh, God!
+p5904
+aVRunning Scared
+p5905
+aVBride of Chucky
+p5906
+aVSeed of Chucky
+p5907
+aVR.I.P.D.
+p5908
+aVSummer Catch
+p5909
+aVThe Heartbreak Kid
+p5910
+aVJohnny English
+p5911
+aVVamp
+p5912
+aVHigh School
+p5913
+aVUsed Guys  - Box Office Mojo
+p5914
+aVWhat Women Want
+p5915
+aVWe're No Angels
+p5916
+aVHome Run Showdown
+p5917
+aVNotting Hill
+p5918
+aVCritters 2: The Main Course
+p5919
+aVHaunted Honeymoon
+p5920
+aVNew Year's Eve
+p5921
+aVThe Evil Dead
+p5922
+aVRaising Arizona
+p5923
+aVRush Hour 2
+p5924
+aVUnfaithfully Yours
+p5925
+aVJoy of Sex
+p5926
+aV22 Jump Street
+p5927
+aVBridesmaids
+p5928
+aVBad News Bears
+p5929
+aVAirplane II: The Sequel
+p5930
+aVErnest Scared Stupid
+p5931
+aVThe Jewel of the Nile
+p5932
+aVWitless Protection
+p5933
+aVJust One of the Guys
+p5934
+aVRhinestone
+p5935
+aVGoon
+p5936
+aVMystery Science Theater 3000
+p5937
+aVPsycho Beach Party
+p5938
+aVGrosse Pointe Blank
+p5939
+aVThe Preacher's Wife
+p5940
+aVBill & Ted's Excellent Adventure
+p5941
+aVLucky Numbers
+p5942
+aVAlmost an Angel
+p5943
+aVDragnet
+p5944
+aVArthur
+p5945
+aVThe Pink Panther
+p5946
+aVMean Girls
+p5947
+aVMonster Beach Party
+p5948
+aVThe Replacements
+p5949
+aVTank Girl
+p5950
+aVCrocodile Dundee II
+p5951
+aVStudent Bodies
+p5952
+aVArthur
+p5953
+aVPledge This!  - Box Office Mojo
+p5954
+aVForces of Nature
+p5955
+aVMacGruber
+p5956
+aVHoney, I Blew Up the Kid
+p5957
+aVPorky's Revenge
+p5958
+aVNurse Betty
+p5959
+aVEncino Man
+p5960
+aVDuplex
+p5961
+aVReady to Rumble
+p5962
+aVBlended
+p5963
+aVTeenage Mutant Ninja Turtles II
+p5964
+aVLarry Crowne
+p5965
+aVGo
+p5966
+aVThe Toxic Avenger Part III: The Last Temptation of Toxie
+p5967
+aVLove Actually
+p5968
+aVHeathers
+p5969
+aVA Haunted House 2
+p5970
+aVMe Myself I
+p5971
+aVUndercover Blues
+p5972
+aVHe's Just Not That Into You
+p5973
+aVBad Boys
+p5974
+aVAngus
+p5975
+aVSophomore
+p5976
+aVBalls of Fury
+p5977
+aVHalf Baked
+p5978
+aVPeggy Sue Got Married
+p5979
+aVUnable to Process
+p5980
+aVHorrible Bosses
+p5981
+aVKaboom
+p5982
+aVThe Rookie
+p5983
+aVShallow Hal
+p5984
+aVLife After Beth
+p5985
+aVOne Chance
+p5986
+aVCity Heat
+p5987
+aVPretty in Pink
+p5988
+aVThe Last Boy Scout
+p5989
+aVMusic and Lyrics
+p5990
+aVGeneral Education
+p5991
+aVThe Glimmer Man
+p5992
+aVElection
+p5993
+aVMy Stepmother is an Alien
+p5994
+aVRide Along 2
+p5995
+aVAn American Werewolf in London
+p5996
+aVFear of a Black Hat
+p5997
+aVFreaky Friday
+p5998
+aVBewitched
+p5999
+aVJosie and the Pussycats
+p6000
+aVEnvy
+p6001
+aVCompany Business
+p6002
+aVSchool for Scoundrels
+p6003
+aV40 Days and 40 Nights
+p6004
+aVEddie
+p6005
+aVHot Fuzz
+p6006
+aVAustin Powers: International Man of Mystery
+p6007
+aVGrind
+p6008
+aVMr. Destiny
+p6009
+aVDouble Team
+p6010
+aVAddicted to Love
+p6011
+aVWedding Crashers
+p6012
+aVThe American President
+p6013
+aVMidnight in Paris
+p6014
+aVSex and the City
+p6015
+aVThis Is Spinal Tap
+p6016
+aVFrequently Asked Questions About Time Travel  - Box Office Mojo
+p6017
+aVProm
+p6018
+aVThe Nutty Professor II: The Klumps
+p6019
+aVThe Hangover Part II
+p6020
+aVBernie
+p6021
+aVTrippin'
+p6022
+aVIt's a Boy Girl Thing
+p6023
+aVUndercover Brother
+p6024
+aVCentral Intelligence
+p6025
+aVWho's Your Caddy?
+p6026
+aVBetween Us
+p6027
+aVJust Married
+p6028
+aVMeet the Fockers
+p6029
+aVPineapple Express
+p6030
+aVTremors
+p6031
+aVEight Legged Freaks
+p6032
+aVKeeping Up with the Joneses
+p6033
+aVMr. Bean's Holiday
+p6034
+aVThe In-Laws
+p6035
+aVOutside Providence
+p6036
+aVLake Placid
+p6037
+aVBoys and Girls
+p6038
+aVHarold and Kumar Go to White Castle
+p6039
+aVHerbie Rides Again
+p6040
+aVObserve and Report
+p6041
+aVSilver Linings Playbook
+p6042
+aVStand Up Guys
+p6043
+aVGrumpier Old Men
+p6044
+aVThe World's End
+p6045
+aVLes Boys 2
+p6046
+aVShowtime
+p6047
+aVGhost Dad
+p6048
+aVAdventures of Power
+p6049
+aVPunch-Drunk Love
+p6050
+aVTed 2
+p6051
+aVThe Brother From Another Planet
+p6052
+aVDoin' Time on Planet Earth
+p6053
+aVThe Hot Chick
+p6054
+aVThe Bronze
+p6055
+aVPaul Blart: Mall Cop
+p6056
+aVFever Pitch
+p6057
+aVPitch Perfect 2
+p6058
+aVThe Great Muppet Caper
+p6059
+aVNine Months
+p6060
+aVKnights of Badassdom
+p6061
+aVHitch
+p6062
+aVMy Name Is Bruce
+p6063
+aV48 HRS.
+p6064
+aVDorm Daze
+p6065
+aVSchool of Rock
+p6066
+aVIn the Army Now
+p6067
+aVBeethoven's 2nd
+p6068
+aVPitch Perfect
+p6069
+aVArmy of Darkness
+p6070
+aV21 Jump Street
+p6071
+aVTyler Perry's Madea Goes to Jail
+p6072
+aVSecret Admirer
+p6073
+aVRocket Man
+p6074
+aVStarsky and Hutch
+p6075
+aVAfter Hours
+p6076
+aVThe Holiday
+p6077
+aVJumpin' Jack Flash
+p6078
+aVAce Ventura: When Nature Calls
+p6079
+aVCollege Road Trip
+p6080
+aVMichael
+p6081
+aVBordello of Blood
+p6082
+aVMidnight Madness
+p6083
+aVAnother Stakeout
+p6084
+aV2 Guns
+p6085
+aVJust My Luck
+p6086
+aVMy Favorite Martian
+p6087
+aVRevenge of the Nerds
+p6088
+aVCemetary Man
+p6089
+aVAttack the Block
+p6090
+aVRunaway Bride
+p6091
+aVFled
+p6092
+aVThe Toxic Avenger Part II
+p6093
+aVDefending Your Life
+p6094
+aVRobot & Frank
+p6095
+aVBig Momma's House 2
+p6096
+aVSoul Man
+p6097
+aVDespicable Me 2
+p6098
+aVWalk Hard: The Dewey Cox Story
+p6099
+aVChurch Ball
+p6100
+aVBring It On
+p6101
+aVClueless
+p6102
+aVThe Cutting Edge
+p6103
+aVThe Hard Way
+p6104
+aVIf Looks Could Kill
+p6105
+aVWhere the Boys Are
+p6106
+aVMoon Over Parador
+p6107
+aVLove Potion No. 9
+p6108
+aVNational Lampoon's Van Wilder: The Rise of Taj
+p6109
+aVThe To-Do List
+p6110
+aVTower Heist
+p6111
+aVThe Great White Hype
+p6112
+aVHot Shots! Part Deux
+p6113
+aVBurke and Hare
+p6114
+aVHollywood Homicide
+p6115
+aVBeverly Hills Cop II
+p6116
+aVThe Sitter
+p6117
+aVTrainwreck
+p6118
+aVForgetting Sarah Marshall
+p6119
+aVErnest Rides Again
+p6120
+aVSurviving Christmas
+p6121
+aVSerendipity
+p6122
+aVDetention of the Dead
+p6123
+aVWildcats
+p6124
+aVShaun of the Dead
+p6125
+aVScary Movie 5
+p6126
+aVClass Act
+p6127
+aVScary Movie 2
+p6128
+aVDark Shadows
+p6129
+aVSo Undercover  - Box Office Mojo
+p6130
+aVJohnny English Reborn
+p6131
+aVOld School
+p6132
+aVBruce Almighty
+p6133
+aVCrazy, Stupid, Love.
+p6134
+aVJackass 3-D
+p6135
+aVVice Versa
+p6136
+aVSydney White
+p6137
+aVThe War of the Roses
+p6138
+aVReal Men
+p6139
+aVMajor Payne
+p6140
+aVOne Fine Day
+p6141
+aVThe Butcher Boy
+p6142
+aVBarely Lethal
+p6143
+aVDef by Temptation
+p6144
+aVClick
+p6145
+aVThe Ladykillers
+p6146
+aVBe Cool
+p6147
+aVComing to America
+p6148
+aVNacho Libre
+p6149
+aVCampus Man
+p6150
+aVSenseless
+p6151
+aVBaghead
+p6152
+aVSlums of Beverly Hills
+p6153
+aVSugar & Spice
+p6154
+aVDrive Me Crazy
+p6155
+aVSpies Like Us
+p6156
+aVMajor League
+p6157
+aVThe Three Stooges
+p6158
+aVHow High
+p6159
+aVJoker
+p6160
+aVThe Social Network
+p6161
+aVThe Breakfast Club
+p6162
+aVLethal Weapon 2
+p6163
+aVThe First Time
+p6164
+aVNight at the Museum: Battle of the Smithsonian
+p6165
+aVMy Science Project
+p6166
+aVNo Strings Attached
+p6167
+aVDylan Dog: Dead of Night
+p6168
+aVInnerspace
+p6169
+aVThe Shaggy Dog
+p6170
+aVDogma
+p6171
+aVWhite Men Can't Jump
+p6172
+aVConfessions of a Shopaholic
+p6173
+aVLeonard Part 6
+p6174
+aVBon Cop, Bad Cop
+p6175
+aVTwo Weeks Notice
+p6176
+aVI Love You, Man
+p6177
+aVRide Along
+p6178
+aVMartians Go Home
+p6179
+aVHappy Gilmore
+p6180
+aVGet Over It
+p6181
+aVInnocent Blood
+p6182
+aVRevenge of the Nerds
+p6183
+aVFreshman Orientation
+p6184
+aVThe Secret of My Success
+p6185
+aVSliding Doors
+p6186
+aVProblem Child 2
+p6187
+aVI Love You Beth Cooper
+p6188
+aVSpy Hard
+p6189
+aVThe Specials
+p6190
+aVRange 15
+p6191
+aVThe Naked Gun: From the Files of Police Squad!
+p6192
+aVKrampus
+p6193
+aVEvolution
+p6194
+aVGrudge Match
+p6195
+aVArtie Lange's Beer League
+p6196
+aVMoney Train
+p6197
+aVGalaxy Quest
+p6198
+aVPing Pong Playa
+p6199
+aVThe Family Man
+p6200
+aVBad Company
+p6201
+aVErnest Goes to Jail
+p6202
+aVHoney, I Shrunk the Kids
+p6203
+aVArthur 2: On the Rocks
+p6204
+aVDeuce Bigalow: European Gigolo
+p6205
+aVThe Nice Guys
+p6206
+aVMeet Dave
+p6207
+aVScary Movie 3
+p6208
+aVHatchet
+p6209
+aVOh, God! You Devil!
+p6210
+aVRushmore
+p6211
+aVAmerican Pie
+p6212
+aVMars Attacks!
+p6213
+aVMajor League II
+p6214
+aVValley Girl
+p6215
+aVFright Night II
+p6216
+aVSki Patrol
+p6217
+aVOxford Blues
+p6218
+aVGremlins 2: The New Batch
+p6219
+aVPrivate Lessons
+p6220
+aVTake Me Home Tonight
+p6221
+aVOrgazmo
+p6222
+aVPorky's II: The Next Day
+p6223
+aVThe Whole Ten Yards
+p6224
+aVDelta Farce
+p6225
+aVSay It Isn't So
+p6226
+aVRush Hour
+p6227
+aVSpring Break
+p6228
+aVThe Green Hornet
+p6229
+aVBoomerang
+p6230
+aVThe Player
+p6231
+aVMoney Talks
+p6232
+aVBeing John Malkovich
+p6233
+aVGambit
+p6234
+aVTo Be or Not to Be
+p6235
+aV200 Cigarettes
+p6236
+aVBlankman
+p6237
+aVBlack Sheep
+p6238
+aVAlien Trespass
+p6239
+aVEuropean Vacation
+p6240
+aVFargo
+p6241
+aVHome Alone 2: Lost in New York
+p6242
+aVGhost World
+p6243
+aVThe Pink Panther 2
+p6244
+aVThe Man
+p6245
+aVThere's Something About Mary
+p6246
+aVDouble Take
+p6247
+aVRubber
+p6248
+aVThe Man Who Knew Too Little
+p6249
+aVJohn Tucker Must Die
+p6250
+aVThe Benchwarmers
+p6251
+aVAs Good as It Gets
+p6252
+aVKnock Off
+p6253
+aVBad Santa
+p6254
+aVSpaceballs
+p6255
+aVWhat Women Want
+p6256
+aVPolice Academy 7: Mission to Moscow
+p6257
+aVAnalyze That
+p6258
+aVShe's the Man
+p6259
+aVLeatherheads
+p6260
+aVCaddyshack II
+p6261
+aVShort Circuit
+p6262
+aVBad Teacher
+p6263
+aVThe Spy Next Door
+p6264
+aVDeuce Bigalow: Male Gigolo
+p6265
+aVConsuming Passions
+p6266
+aVIt's Complicated
+p6267
+aVGet Him to the Greek
+p6268
+aVPleasantville
+p6269
+aVBedazzled
+p6270
+aVSuper
+p6271
+aVBrazil
+p6272
+aVNecessary Roughness
+p6273
+aVHousesitter
+p6274
+aVNational Lampoon's Class Reunion
+p6275
+aVThe Last Supper
+p6276
+aVSlither
+p6277
+aVLand of the Lost
+p6278
+aVPretty Woman
+p6279
+aVD2: The Mighty Ducks
+p6280
+aVSweet Home Alabama
+p6281
+aVNeighbors 2: Sorority Rising
+p6282
+aVAre We Done Yet?
+p6283
+aVStakeout
+p6284
+aVSmokey and the Bandit II
+p6285
+aVThe Comebacks
+p6286
+aVThe Rules of Attraction
+p6287
+aVG.B.F.
+p6288
+aVSaved!
+p6289
+aVFreaky Friday
+p6290
+aVOut Cold
+p6291
+aVNorbit
+p6292
+aVThe Nutty Professor
+p6293
+aVBuffalo Soldiers
+p6294
+aVGod Bless America
+p6295
+aVDuplicity
+p6296
+aVNorth Dallas Forty
+p6297
+aVMy Bodyguard
+p6298
+aVA Serious Man
+p6299
+aVDope
+p6300
+aVDamsels in Distress
+p6301
+aVClerks II
+p6302
+aVLove and Other Catastrophes
+p6303
+aVThe Wedding Singer
+p6304
+aVBack to the Future Part II
+p6305
+aVThat Darn Cat
+p6306
+aVRole Models
+p6307
+aVConeheads
+p6308
+aVBlades of Glory
+p6309
+aVBuzzkill
+p6310
+aVAmerican Psycho
+p6311
+aVMystery Men
+p6312
+aVRebound
+p6313
+aVCaddyshack
+p6314
+aVHow I Got Into College
+p6315
+aVLook Who's Talking Too
+p6316
+aVMust Love Dogs
+p6317
+aVSpaced Invaders
+p6318
+aVGarmento
+p6319
+aVCollege
+p6320
+aVSplash
+p6321
+aVKnocked Up
+p6322
+aVThe Man with Two Brains
+p6323
+aVTeen Wolf
+p6324
+aVThe Longest Yard
+p6325
+aVLegal Eagles
+p6326
+aVThree O' Clock High
+p6327
+aVHow to Be Single
+p6328
+aVKingpin
+p6329
+aVMaid in Manhattan
+p6330
+aVMonsters University
+p6331
+aVRumor Has It
+p6332
+aVThe Naked Gun 2 1/2: The Smell of Fear
+p6333
+aVWhat Planet Are You From?
+p6334
+aVSex Drive
+p6335
+aVA Very Brady Sequel
+p6336
+aVJoysticks
+p6337
+aVNever Been Kissed
+p6338
+aVThe New Guy
+p6339
+aVSlackers
+p6340
+aVBeerfest
+p6341
+aVOff the Lip
+p6342
+aVMy Best Friend's Wedding
+p6343
+aVStuart Little 2
+p6344
+aVBabe: Pig in the City
+p6345
+aVPolice Academy 2: Their First Assignment
+p6346
+aVThe Slugger's Wife
+p6347
+aVNight of the Creeps
+p6348
+aVThis Means War
+p6349
+aVMy Big Fat Greek Wedding 2
+p6350
+aVWimbledon
+p6351
+aVCannonball Run II
+p6352
+aVSplit
+p6353
+aVA Thousand Words
+p6354
+aVClass
+p6355
+aVThe Grand Budapest Hotel
+p6356
+aVMr. Deeds
+p6357
+aVThe Santa Clause 2
+p6358
+aVDirty Rotten Scoundrels
+p6359
+aVBird on a Wire
+p6360
+aVThe Outskirts  - Box Office Mojo
+p6361
+aVTwins
+p6362
+aVShakespeare in Love
+p6363
+aVGoosebumps 2
+p6364
+aVDecoys
+p6365
+aVThe Wild Life
+p6366
+aVJackass: Number Two
+p6367
+aVRed 2
+p6368
+aVTrojan War
+p6369
+aVMr. 3000
+p6370
+aV13 Going on 30
+p6371
+aVSwitch
+p6372
+aVRed Heat
+p6373
+aVAccepted
+p6374
+aVFather of the Bride
+p6375
+aVHouse
+p6376
+aVWorking Girl
+p6377
+aVAmerican Pie 2
+p6378
+aVThe Naked Gun 33 1/3: The Final Insult
+p6379
+aVInspector Gadget
+p6380
+aVCheap Thrills
+p6381
+aVSwimming with Sharks
+p6382
+aVEarth Girls Are Easy
+p6383
+aVGet Smart
+p6384
+aVBill and Ted's Bogus Journey
+p6385
+aVCan't Hardly Wait
+p6386
+aVGarage Days
+p6387
+aVThe Brothers Grimsby
+p6388
+aVBASEketball
+p6389
+aVPaul Blart: Mall Cop 2
+p6390
+aVErnest Saves Christmas
+p6391
+aVDoctor Dolittle
+p6392
+aVKick-Ass
+p6393
+aVReturn of the Living Dead 2
+p6394
+aVBlues Brothers 2000
+p6395
+aVCeltic Pride
+p6396
+aVDeath of a Dynasty
+p6397
+aVDisney's The Kid
+p6398
+aVDiggstown
+p6399
+aVShanghai Noon
+p6400
+aVHot Tub Time Machine 2
+p6401
+aVLove Don't Cost a Thing
+p6402
+aVRisky Business
+p6403
+aVJay and Silent Bob Strike Back
+p6404
+aVAdmission
+p6405
+aVKicking and Screaming
+p6406
+aVMischief
+p6407
+aVArmed and Dangerous
+p6408
+aVThe Monster Squad
+p6409
+aVBicentennial Man
+p6410
+aVMiss March
+p6411
+aVNine Lives
+p6412
+aVThe Girl Next Door
+p6413
+aV10 Things I Hate About You
+p6414
+aVNapoleon Dynamite
+p6415
+aVBack to School
+p6416
+aVNational Security
+p6417
+aVMajor League: Back to the Minors
+p6418
+aVGremlins
+p6419
+aVSix Days, Seven Nights
+p6420
+aVHomework
+p6421
+aVA Haunted House
+p6422
+aVTango & Cash
+p6423
+aVThe Other Guys
+p6424
+aVThe Grand Seduction
+p6425
+aVMen in Black II
+p6426
+aVThe Main Event
+p6427
+aVMonty Python's Life of Brian
+p6428
+aVBack to the Beach
+p6429
+aVFun with Dick and Jane
+p6430
+aVThe 6th Man
+p6431
+aVThe History of Future Folk
+p6432
+aVIdiocracy
+p6433
+aVWhip It
+p6434
+aVFour Weddings and a Funeral
+p6435
+aVThe Lost Skeleton of Cadavra
+p6436
+aVYours, Mine and Ours
+p6437
+aVClerks
+p6438
+aVThe Stepford Wives
+p6439
+aVFreddy Got Fingered
+p6440
+aVMade of Honor
+p6441
+aVDirty Deeds
+p6442
+aVSuper Capers
+p6443
+aVThe Pickle
+p6444
+aVSo I Married an Axe Murderer
+p6445
+aVPolice Academy 3: Back in Training
+p6446
+aVPorky's
+p6447
+aVWeird Science
+p6448
+aVScary Movie 4
+p6449
+aVHow to Lose a Guy in 10 Days
+p6450
+aVLegally Blonde
+p6451
+aVJust Like Heaven
+p6452
+aVThe Meteor Man
+p6453
+aVMultiplicity
+p6454
+aVFun Size
+p6455
+aVFletch Lives
+p6456
+aVTucker & Dale Vs. Evil
+p6457
+aVThe Cabin in the Woods
+p6458
+aVZapped!
+p6459
+aVThe Out-of-Towners
+p6460
+aVThrow Momma From the Train
+p6461
+aVThe House Bunny
+p6462
+aVCity Slickers II: The Legend of Curly's Gold
+p6463
+aVBull Durham
+p6464
+aVOh, God! Book II
+p6465
+aVHer
+p6466
+aVJust Go With It
+p6467
+aVEulogy
+p6468
+aVBorn Yesterday
+p6469
+aVThe DUFF
+p6470
+aVHome Sweet Hell
+p6471
+aVTwo of a Kind
+p6472
+aVHot Tub Time Machine
+p6473
+aVThe Big Wedding
+p6474
+aVMegamind
+p6475
+aVLazer Team
+p6476
+aVJackass: The Movie
+p6477
+aVWhen Harry Met Sally...
+p6478
+aVLes Boys III
+p6479
+aVOcean's Twelve
+p6480
+aVBehind the Mask: The Rise of Leslie Vernon
+p6481
+aVHeaven Can Wait
+p6482
+aVSuperbad
+p6483
+aVThe Odd Couple II
+p6484
+aVAmerica's Sweethearts
+p6485
+aVThe Ref
+p6486
+aVFlirting
+p6487
+aVYou've Got Mail
+p6488
+aVA Fish Called Wanda
+p6489
+aVThe Adventures of Pluto Nash
+p6490
+aVParents
+p6491
+aVDeadpool
+p6492
+aVBig Trouble
+p6493
+aVAnother 48 HRS.
+p6494
+aVMidnight Run
+p6495
+aVVampires Suck
+p6496
+aVPride and Prejudice and Zombies
+p6497
+aVI Love You to Death
+p6498
+aVBridget Jones: The Edge of Reason
+p6499
+aVThe Adventures of Buckaroo Banzai
+p6500
+aVTaxi
+p6501
+aVCop Out
+p6502
+aVPlaying for Keeps
+p6503
+aVCharlie's Angels: Full Throttle
+p6504
+aVLast Holiday
+p6505
+aVEasy A
+p6506
+aVHot Moves
+p6507
+aVHoward the Duck
+p6508
+aVDr. Jekyll and Ms. Hyde
+p6509
+aVDoc Hollywood
+p6510
+aVBend It Like Beckham
+p6511
+aVSomething's Gotta Give
+p6512
+aVThe Air Up There
+p6513
+aVAspen Extreme
+p6514
+aVUp the Creek
+p6515
+aVA Farewell to Fools
+p6516
+aVThe Watch
+p6517
+aVAmerican Wedding
+p6518
+aVThe Sure Thing
+p6519
+aVDead Alive
+p6520
+aVHouse Party 2
+p6521
+aVPCU
+p6522
+aVDead Heat
+p6523
+aVA Mighty Wind
+p6524
+aVCB4
+p6525
+aVMorons from Outer Space
+p6526
+aVThe Man with One Red Shoe
+p6527
+aVThe Second Best Exotic Marigold Hotel
+p6528
+aVPlay It to the Bone
+p6529
+aVJohn Dies at the End
+p6530
+aVMom and Dad Save the World
+p6531
+aVPumpkin
+p6532
+aVGrown Ups 2
+p6533
+aVPitch Perfect 3
+p6534
+aVRenegades
+p6535
+aVMonte Carlo
+p6536
+aVTooth Fairy
+p6537
+aVTurbo Kid
+p6538
+atp6539
+ba(lp6540
+g15
+(g16
+(dp6541
+g18
+g19
+(g20
+(I0
+tp6542
+g22
+tp6543
+Rp6544
+(I1
+(I1
+tp6545
+g29
+I00
+(lp6546
+g35
+atp6547
+bsg42
+Nstp6548
+Rp6549
+ag15
+(g16
+(dp6550
+g18
+g19
+(g20
+(I0
+tp6551
+g22
+tp6552
+Rp6553
+(I1
+(I7
+tp6554
+g29
+I00
+(lp6555
+g33
+ag34
+ag36
+ag37
+ag38
+ag39
+ag40
+atp6556
+bsg42
+Nstp6557
+Rp6558
+a(dp6559
+S'0.14.1'
+p6560
+(dp6561
+S'axes'
+p6562
+g14
+sS'blocks'
+p6563
+(lp6564
+(dp6565
+S'mgr_locs'
+p6566
+c__builtin__
+slice
+p6567
+(I2
+I3
+I1
+tp6568
+Rp6569
+sS'values'
+p6570
+g55
+sa(dp6571
+g6566
+g19
+(g20
+(I0
+tp6572
+g22
+tp6573
+Rp6574
+(I1
+(I7
+tp6575
+g26
+(S'i8'
+p6576
+I0
+I1
+tp6577
+Rp6578
+(I3
+S'<'
+p6579
+NNNI-1
+I-1
+I0
+tp6580
+bI00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00'
+p6581
+tp6582
+bsg6570
+g66
+sasstp6583
+bsb.
