@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Prediction Wizard</title>
+    <link rel="stylesheet" href="static/d3.slider.css" />
+    <style>
+     body {
+       font-family: Verdana,Arial,sans-serif;
+     }
+     h2 {
+       font-size: 1.2em;
+       margin: 60px 0 5px 0;
+       color: gray
+     }
+     .space {
+       margin-bottom: 20 px;
+     }
+     .wrapper {
+       width: 800px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 0px;
+     }
+     #bar_chart {
+       margin-bottom: 0 px;
+     }
+     .bar {
+       fill: #FF75A3;
+     }
+     span {
+       color: steelblue;
+     }
+    </style>
+  </head>
+
+  <body>
+
+
+
+
+<!--     <div class="container">
+      <h2>Cuisine</h2>
+      <form role="form" method='POST' action='/'>
+        <div class="form-group">
+          <input type="text" name="url" class="form-control" id="url-box" placeholder="Enter a cuisine..." style="max-width: 300px;" autofocus required>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div> -->
+
+    <div id="body" class="wrapper">
+
+      <h2 class="feature">You should try: <span id="cuisine">French</span></h2>
+      <div id="body"></div>
+
+
+    </div>
+
+
+    <!-- Import the libraries: jQuery, d3, d3.slider -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+
+    <script>
+    // <script type="text/javascript">
+
+    // var dispatch = d3.dispatch("load", "statechange");
+
+  
+
+
+
+          .attr("id", "chancebar")
+          .attr("class", "bar")
+          .attr("width", chance_scale(current_cuisine))
+          .attr("height", 50);
+     bar.append("text")
+        .attr("id", "percent_text")
+        .attr("dy", ".75em")
+        .attr("y", 15)
+        .attr("x", chance_scale(current_cuisine))
+        .attr("text-anchor", "middle")
+        .attr("fill", "white")
+        .attr("font-size", 20)
+        .text( current_cuisine.toFixed(1) + "%");
+
+
+     <!-- FUNCTION TO GET CHANCE FROM YOUR PREDICTOR WITH AJAX AND CHANGE BAR  HEIGHT -->
+     function getAndDrawChance(cuisine){
+       year = year - 1900;
+       $.ajax({
+         type: "POST",
+         contentType: "application/json; charset=utf-8",
+         url: "/score",
+         dataType: "json",
+         async: true,
+         data: "{\"example\": ["+cuisine+"]}",
+         success: function (data) {
+           var chance = data["example"];
+           d3.select("#chancebar")
+             .attr("width", chance_scale(chance));
+           d3.select("#percent_text")
+             .attr("x", chance_scale(chance-5))
+             .text(chance.toFixed(1) + "%");
+         },
+         error: function (result) {
+         }
+       })
+     }
+     
+       
+      selection.
+        .append("text")
+        .attr("contentEditable", true)
+        .text(function(d) { return d.text })
+        .on("keyup", function(d) { d.text = d3.select(this).text(); });
+
+      // d3.select('#reivew_counts_slider')
+      // .call(
+      //   d3.slider()
+      //     .value(current_review_counts)
+      //     .min(0)
+      //     .max(1000)
+      //     .step(1)
+      //     .axis(true)
+      //     .on("slide", function(evt,value) {
+      //       d3.select('#review_counts').text(value);
+      //       current_review_counts = value;
+      //       getAndDrawChance(review_counts, yelp_stars, price_range, GoodForGroups, TakeOut, GoodForKids, Attire, Reservations, OutdoorSeating)
+      //     }
+      //     )
+      // );
+
+          d3.select("#cuisine_words")
+          .call(
+            d3.words()
+            .value(current_cuisine)
+            .axis(true)
+            on('text', function(evt, value)) {
+              d3.select('#cuisine').text(value);
+              current_cuisine = value;
+              getAndDrawChance(cuisine)
+            }
+            )
+       ;
+     
+    
+    </script>
+  </body>
