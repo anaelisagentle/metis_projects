@@ -1,1 +1,1 @@
-# metis_projects
+# Metis Projects
